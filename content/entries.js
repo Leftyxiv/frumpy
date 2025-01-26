@@ -1,7 +1,31 @@
+const ANTI_IMMIGRATION = 'anti-immigration';
+const AWFUL_NOMINATIONS = 'awful-nominations';
+const CORRUPTION = 'corruption';
+const CRYPTO = 'crypto';
+const FASCISM = 'fascism';
+const FOREVER_GRIFTING = 'forever-grifting';
+const FULL_STUPID = 'full-stupid';
+const HEALTHCARE = 'healthcare';
+const IMPERIALISM = 'imperialism';
+const KILLING_DEMOCRACY = 'killing-democracy';
+const LAWLESSNESS = 'lawlessness';
+const LEOPARDS_ATE_MY_FACE = 'leopards-ate-my-face';
+const LOSSES = 'losses';
+const MONEY = 'money';
+const NATIONAL_SECURITY = 'national-security';
+const NAZI = 'nazi';
+const NOT_AWFUL = 'not-awful';
+const PERVERTS = 'perverts';
+const PRO_LIFE = 'pro-life';
+const RACISM = 'racism';
+const RETRIBUTION = 'retribution';
+const TRADE_WAR = 'trade-war';
+const UNCONSTITUTIONAL = 'unconstitutional';
+
 const entries = [
   {
     id: '76',
-    categories: ['full-stupid'],
+    categories: [MONEY, FULL_STUPID],
     color: 'blue',
     faicon: 'flag-usa',
     datetime: '2025-01-26 08:32',
