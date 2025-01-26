@@ -1,0 +1,79 @@
+/* src/components/CustomCard.css */
+
+.custom-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.custom-card .cardimg {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+.custom-card-title {
+  font-size: 1.8em;
+  color: #007acc;
+  margin-bottom: 10px;
+}
+
+.custom-card-subtitle {
+  font-size: 1.2em;
+  color: #555555;
+  margin-bottom: 15px;
+}
+
+.custom-card-media img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.custom-card-caption {
+  font-size: 0.9em;
+  color: #7e7e7e;
+  margin-bottom: 15px;
+}
+
+.custom-card-text {
+  font-size: 1em;
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.custom-card-links a {
+  color: #38b0ff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.custom-card-links a:hover {
+  text-decoration: underline;
+}
+
+.custom-card-tags span {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #333333;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+  font-size: 0.85em;
+}
+
+.vertical-timeline-element-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-timeline-element-icon i {
+  font-size: 1.5em; /* Adjust size as needed */
+  /* Optional: Add additional styles if necessary */
+}

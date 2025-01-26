@@ -9,27 +9,28 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `The Trump Presidency is Going Great`,
+    description: `A super fancy timeline chronicling the corruption and absolute insanity of the Trump administration`,
+    author: `@manny`,
+    siteUrl: `https://thetrumppresidencyisgoinggreat.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/images/`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `The trump presidency is going great`,
+        short_name: `timelineofchaos`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
