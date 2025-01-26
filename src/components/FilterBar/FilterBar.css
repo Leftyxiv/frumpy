@@ -1,0 +1,15 @@
+.filter-dropdown {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.filter-dropdown label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter-dropdown select {
+  padding: 5px 10px;
+  font-size: 1rem;
+}
