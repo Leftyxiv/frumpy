@@ -1,0 +1,84 @@
+/* Container styles for the header */
+.timeline-header {
+  width: 100%;
+  background-color: 222222;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Bar Styling */
+.header-top-bar {
+  background-color: 222222;
+  padding: 10px 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Middle Section Styling */
+.header-middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header-logo img {
+  max-width: 50%;
+}
+
+.header-main-content {
+  flex: 1;
+  margin-left: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-main-content h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #e9ecef;
+}
+
+.header-main-content p {
+  margin: 0;
+  color: #e9ecef;
+}
+
+.header-extra-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Bottom Bar Styling */
+.header-bottom-bar {
+  background-color: #e9ecef;
+  padding: 10px 20px;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-container label {
+  font-size: 0.9em;
+  color: #fff;
+}

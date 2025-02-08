@@ -1,4 +1,5 @@
 const ANTI_IMMIGRATION = 'anti-immigration';
+const ANTI_SCIENCE = 'anti-science';
 const AWFUL_NOMINATIONS = 'awful-nominations';
 const CORRUPTION = 'corruption';
 const CRYPTO = 'crypto';
@@ -21,12 +22,1665 @@ const RACISM = 'racism';
 const RETRIBUTION = 'retribution';
 const TRADE_WAR = 'trade-war';
 const UNCONSTITUTIONAL = 'unconstitutional';
+const TRUMPS_AMERICA = 'trumps-america';
 
 const entries = [
   {
-    id: '76',
+    id: '150',
+    sort_id: '150',
+    categories: [UNCONSTITUTIONAL, MONEY],
+    faicon: 'fire',
+    datetime: '2025-02-04 08:22',
+    title: 'state department engages in more illegal activity',
+    image: {
+      link: 'https://www.nytimes.com/2025/02/03/us/politics/democracy-human-rights-fired.html',
+      src: 'https://cdn-images-1.medium.com/max/853/0*-qQg8SP9kOzrUQul.',
+      alt: 'department of state',
+      caption: 'department of state building',
+    },
+    body:  "Marco Rubio has unilaterally declared himself head of USAID, Musk’s Department of Government Efficiency (DOGE) is running wild, and agency employees have been locked out of their own offices. The administration’s plan? Dismantle America’s largest humanitarian aid organization, strip it of funding, and hand its functions over to the State Department—because nothing screams ‘efficiency’ like replacing disaster relief with whatever Elon comes up with between Twitter rants. Meanwhile, DOGE’s crack team of 19-to-24-year-old ‘engineers’ have somehow been granted access to sensitive government databases, raising just a few tiny concerns about security, oversight, and Musk using federal resources to benefit his own businesses. But sure, this is all about ‘saving taxpayer money,’ not a hostile takeover of the U.S. government by a tech bro and his favorite sycophants.",
+    links: [
+      {
+        href: 'https://www.nytimes.com/2025/02/03/us/politics/democracy-human-rights-fired.html',
+        linkText: "State Dept. Fires About 60 Contractors Working on Democracy and Human Rights",
+      },
+    ],
+  },
+  {
+    id: '149',
+    sort_id: '149',
+    categories: [LAWLESSNESS],
+    faicon: 'poo',
+    datetime: '2025-02-04 08:18',
+    title: 'cuban elf siezes control of usaid',
+    image: {
+      link: 'https://www.theguardian.com/us-news/2025/feb/03/usaid-closed-trump-musk',
+      src: 'https://i.guim.co.uk/img/media/5e8492a38a265852d2e94b42188916166016753a/0_180_8234_4944/master/8234.jpg?width=1900&dpr=1&s=none&crop=none',
+      alt: 'rubio',
+      caption: 'after getting demeaned and made fun of, rubio gets ready to take the cum load of his orange handler',
+    },
+    body:  "Marco Rubio has unilaterally declared himself head of USAID, Musk’s Department of Government Efficiency (DOGE) is running wild, and agency employees have been locked out of their own offices. The administration’s plan? Dismantle America’s largest humanitarian aid organization, strip it of funding, and hand its functions over to the State Department—because nothing screams ‘efficiency’ like replacing disaster relief with whatever Elon comes up with between Twitter rants. Meanwhile, DOGE’s crack team of 19-to-24-year-old ‘engineers’ have somehow been granted access to sensitive government databases, raising just a few tiny concerns about security, oversight, and Musk using federal resources to benefit his own businesses. But sure, this is all about ‘saving taxpayer money,’ not a hostile takeover of the U.S. government by a tech bro and his favorite sycophants.",
+    links: [
+      {
+        href: 'https://www.theguardian.com/us-news/2025/feb/03/usaid-closed-trump-musk',
+        linkText: "Marco Rubio declares himself head of USAid as workers locked out of office",
+      },
+    ],
+  },
+  {
+    id: '148',
+    sort_id: '148',
+    categories: [TRADE_WAR],
+    faicon: 'money-bill-trend-up',
+    datetime: '2025-02-04 08:13',
+    title: 'worlds dumbest trade war gets a 30 day reprieve',
+    image: {
+      link: 'https://www.thetimes.com/us/american-politics/article/trump-tariffs-announcement-pause-mexico-canada-latest-news-63w3xcwvg',
+      src: 'https://www.thetimes.com/imageserver/image/%2F5c22a475-7830-4b7e-9bff-efc2fd4639f6.jpg?crop=7908%2C4448%2C0%2C231&resize=1500',
+      alt: 'frump',
+      caption: 'high res cameras are not this guys friend, holy shit',
+    },
+    body:  "Trumpty dumpty is celebrating a ‘huge win’ after backing off his tariff threats in exchange for... concessions Mexico and Canada had already promised last year. Mexico is sending troops to its border (again), and Canada is appointing a ‘fentanyl czar’—a move that was already in progress. In other words, he created a crisis, let it simmer, then accepted pre-existing agreements while pretending it’s a massive victory. Classic Art of the Deal: break something, duct tape it back together, and declare yourself a genius.",
+    links: [
+      {
+        href: 'https://www.thetimes.com/us/american-politics/article/trump-tariffs-announcement-pause-mexico-canada-latest-news-63w3xcwvg',
+        linkText: "Trudeau announces tariff deal with Trump — as it happened",
+      },
+      {
+        href: 'https://www.investors.com/news/economy/trump-tariffs-mexico-reprieve-canada-china-sp-500/',
+        linkText: "Trump Tariffs: Big Launch Date Delayed After S&P 500 Falls On High-Risk Plan; China Tariffs Still On",
+      },
+      {
+        href: 'https://apnews.com/article/trump-tariffs-canada-mexico-china-sheinbaum-trudeau-017efa8c3343b8d2a9444f7e65356ae9',
+        linkText: "Trump agrees to pause tariffs on Canada and Mexico after they pledge to boost border enforcement",
+      },
+    ],
+  },
+  {
+    id: '147',
+    sort_id: '147',
+    categories: [TRUMPS_AMERICA, ANTI_SCIENCE],
+    faicon: 'book',
+    datetime: '2025-02-04 08:04',
+    title: 'mr "i love the poorly educated" is trying to make all americans poorly educated',
+    image: {
+      link: 'https://www.wsj.com/politics/policy/education-department-trump-executive-order-eeaf1cb6',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Seal_of_the_United_States_Department_of_Education.svg/1200px-Seal_of_the_United_States_Department_of_Education.svg.png',
+      alt: 'department of education',
+      caption: 'department of education',
+    },
+    body:  "stable genius's war on education continues, with a new executive order aimed at gutting the Department of Education because, apparently, an informed public is just too dangerous. The plan? Strip away anything not explicitly mandated by law—because who needs pesky things like civil rights enforcement, student loan oversight, or, you know, actual education policy? After all, if kids stop learning history, they might not notice when it's repeating itself.",
+    links: [
+      {
+        href: 'https://www.wsj.com/politics/policy/education-department-trump-executive-order-eeaf1cb6',
+        linkText: "Trump Advisers Weigh Plan to Dismantle Education Department",
+      },
+    ],
+  },
+  {
+    id: '146',
+    sort_id: '146',
+    categories: [NOT_AWFUL],
+    faicon: 'canadian-maple-leaf',
+    datetime: '2025-02-04 08:01',
+    title: 'throwback - canadians house stranded americans on 9-11',
+    image: {
+      link: 'https://www.usatoday.com/story/news/nation/2017/09/08/gander-newfoundland-september-11-terror-attacks-kindess-come-from-away/631329001/',
+      src: 'https://www.usatoday.com/gcdn/-mm-/82fab2b6f5cac63b3edae6c7bce2b02ad9269e68/c=0-308-2999-2002/local/-/media/2017/09/06/USATODAY/USATODAY/636403066051202164-Claude-Elliott-.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp',
+      alt: 'claude elliot - mayor of gander',
+      caption: 'claude elliot - mayor of gander',
+    },
+    body:  "When 38 planes were forced to land in Gander, Newfoundland, on 9/11, the tiny town of 10,000 nearly doubled in size overnight. But instead of panic, the 'plane people' were met with open arms, hot meals, and a level of kindness that still baffles Newfoundlanders who insist they just did 'the right thing.' In a world increasingly defined by division and fear, Gander remains proof that decency isn’t complicated—you just treat people like people. Meanwhile, America, once a beacon for refugees and strangers, seems to have lost the plot. Maybe we should take notes from a town that never needed a lesson in basic humanity.",
+    links: [
+      {
+        href: 'https://www.usatoday.com/story/news/nation/2017/09/08/gander-newfoundland-september-11-terror-attacks-kindess-come-from-away/631329001/',
+        linkText: "Trump says Americans could feel ‘some pain’ as his new tariffs begin to set off a trade war",
+      },
+    ],
+  },
+  {
+    id: '145',
+    sort_id: '145',
+    categories: [TRADE_WAR, MONEY],
+    faicon: 'money-bill-wave',
+    datetime: '2025-02-04 07:57',
+    title: 'prices are gonna skyrocket - americans should just get over it says billionaire class',
+    image: {
+      link: 'https://www.pbs.org/newshour/politics/trump-says-americans-could-feel-some-pain-as-his-new-tariffs-begin-to-set-off-a-trade-war',
+      src: 'https://d3i6fh83elv35t.cloudfront.net/static/2025/02/2025-01-31T211323Z_640077057_RC29LCA2X64B_RTRMADP_3_USA-TRUMP-1-1200x799.jpg',
+      alt: 'old man realizing he just got beat up by canadians',
+      caption: 'old man realizing he just got beat up by canadians',
+    },
+    body:  "donny depends is launching yet another trade war, slapping tariffs on Mexico, Canada, and China because... reasons. He even admitted Americans will 'feel some pain'—which is MAGA-speak for 'get ready for skyrocketing prices and economic turmoil.' Canada and Mexico are already preparing to fire back with their own tariffs, markets are tanking, and economists are warning this could shave 1.5% off U.S. growth and push our neighbors into recession. But hey, nothing says ‘America First’ like making everything more expensive while pretending it’s someone else’s fault.",
+    links: [
+      {
+        href: 'https://www.pbs.org/newshour/politics/trump-says-americans-could-feel-some-pain-as-his-new-tariffs-begin-to-set-off-a-trade-war',
+        linkText: "Trump says Americans could feel ‘some pain’ as his new tariffs begin to set off a trade war",
+      },
+    ],
+  },
+  {
+    id: '144',
+    sort_id: '144',
+    categories: [ANTI_IMMIGRATION],
+    faicon: 'dungeon',
+    datetime: '2025-02-04 07:54',
+    title: 'gross incompetence - ice has to release migrants they arrest because they cant house them',
+    image: {
+      link: 'https://www.nbcnews.com/politics/national-security/people-caught-trump-immigration-crackdown-released-us-rcna186360',
+      src: 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/rockcms/2025-01/250127-ICE-agents-Chicago-aa-255-a84a69.jpg',
+      alt: 'ice agents on their way to give blowjobs to glory holes',
+      caption: 'ice agents on their way to give blowjobs to glory holes',
+    },
+    body:  "pompous pumpkin's grand mass deportation scheme is already collapsing under the weight of reality. After loudly bragging about ICE rounding up over 8,000 immigrants, the administration has quietly started releasing many of them back into the U.S. because—surprise!—there’s nowhere to put them. Turns out, detention facilities are full, courts won’t allow indefinite detention, and some countries won’t even take their own people back. So much for ‘ending catch and release.’ Instead, ICE is slapping ankle monitors on people and calling it a day, while pompous pumpkin pretends his crackdown isn’t unraveling in real time.",
+    links: [
+      {
+        href: 'https://www.nbcnews.com/politics/national-security/people-caught-trump-immigration-crackdown-released-us-rcna186360',
+        linkText: "Some migrants arrested in Trump's immigration crackdown have been released back into the U.S.",
+      },
+    ],
+  },
+  {
+    id: '143',
+    sort_id: '143',
+    categories: [TRADE_WAR],
+    faicon: 'money-bill-trend-up',
+    datetime: '2025-02-04 07:48',
+    title: 'tyrant tiny hands backs off tariff bluff',
+    image: {
+      link: 'https://www.cbc.ca/amp/1.7448763',
+      src: 'https://i.cbc.ca/1.7449638.1738629733!/cumulusImage/httpImage/image.jpg_gen/derivatives/16x9_620/ford-tariffs.jpg',
+      alt: 'Ontario Progressive Conservative Leader Doug Ford holds a news conference in Etobicoke on Feb. 3, 2025. Later Ford said, with the U.S. pausing tariffs, Ontario will also pause its retaliatory measures. (Evan Mitsui/CBC)',
+      caption: 'Ontario Progressive Conservative Leader Doug Ford holds a news conference in Etobicoke on Feb. 3, 2025. Later Ford said, with the U.S. pausing tariffs, Ontario will also pause its retaliatory measures. (Evan Mitsui/CBC)',
+    },
+    body:  "reality show reject's trade war strikes again—this time, threatening to kneecap Ontario’s economy over... what, exactly? No one really knows, but reality show reject was ready to slap tariffs on Canadian imports until Trudeau promised to beef up border security, which was already funded by the Canadians in December of last year. In response, Ontario geared up for an economic fistfight, planning to ban U.S. companies from contracts and strip liquor shelves of American booze. But just hours before the tariffs kicked in, reality show reject hit pause, proving once again that his trade policy is less '4D chess' and more 'tantrum diplomacy.' Meanwhile, businesses brace for impact because, let’s be real—this isn’t over.",
+    links: [
+      {
+        href: 'https://www.cbc.ca/amp/1.7448763',
+        linkText: "Ford pauses retaliatory measures to U.S. tariffs after Trump delays them by 30 days",
+      },
+    ],
+  },
+  {
+    id: '142',
+    sort_id: '142',
+    categories: [LAWLESSNESS, MONEY, HEALTHCARE],
+    faicon: 'parachute-box',
+    datetime: '2025-02-04 07:42',
+    title: 'president vagina neck usurps congress and shuts down federal agency',
+    image: {
+      link: 'https://www.cnn.com/2025/02/03/politics/usaid-washington-workers/index.html',
+      src: 'https://media.cnn.com/api/v1/images/stellar/prod/signal-2025-02-03-211739-002.jpeg?q=w_1110,c_fill/f_webp',
+      alt: 'USAID logos and photos showing the humanitarian work the agency does around the globe were removed from its offices, multiple sources familiar with the situation told CNN. Obtained by CNN',
+      caption: 'USAID logos and photos showing the humanitarian work the agency does around the globe were removed from its offices, multiple sources familiar with the situation told CNN. Obtained by CNN',
+    },
+    body:  "hair furher and his billionaire sidekick apartheid clyde have decided that foreign aid is just too generous for their taste, so USAID is getting the axe. In a move straight out of a banana republic, Marco Rubio has handed control of the agency to a hair furher crony accused of gutting it from the inside, while Musk bragged that hair furher gave him the green light to shut it down completely. The administration claims it’s about ‘efficiency,’ but experts warn the abrupt dismantling of USAID will lead to humanitarian disasters. Meanwhile, staff are being purged, offices stripped of logos, and foreign aid programs thrown into chaos—because nothing says 'America First' like turning your back on the world.",
+    links: [
+      {
+        href: 'https://www.cnn.com/2025/02/03/politics/usaid-washington-workers/index.html',
+        linkText: "Rubio says he’s acting director of USAID as humanitarian agency is taken over by the State Department",
+      },
+    ],
+  },
+  {
+    id: '141',
+    sort_id: '141',
+    categories: [TRUMPS_AMERICA],
+    faicon: 'prescription-bottle-medical',
+    datetime: '2025-02-04 07:34',
+    title: '22 year old dies of preventable asthma attack after getting f*cked by united healthcare',
+    image: {
+      link: 'https://www.huffpost.com/entry/cole-schmidtknecht-lawsuit-inhaler-walgreens-optumrx_n_679a92aae4b09f65216c9280',
+      src: 'https://img.huffingtonpost.com/asset/679aa301160000150063679b.jpg?cache=1l7Wt2ljgV&ops=scalefit_720_noupscale&format=webp',
+      alt: 'cole schmidtknecht',
+      caption: 'cole schmidtknecht - photo courtesy of family',
+    },
+    body:  "In the land of the free market, 22-year-old Cole Schmidtknecht faced a choice: pay $539 for his asthma inhaler or cover his rent. After his insurance provider, OptumRx, reclassified his medication without notice, the inhaler's price skyrocketed from $66 to over $500, leaving Cole unable to afford it. Days later, he suffered a fatal asthma attack. Now, his family is suing OptumRx and Walgreens for failing to inform him of the change, denying him the chance to seek alternatives. Because in America, life-saving medication is a luxury item.",
+    links: [
+      {
+        href: 'https://www.huffpost.com/entry/cole-schmidtknecht-lawsuit-inhaler-walgreens-optumrx_n_679a92aae4b09f65216c9280',
+        linkText: "22-Year-Old With Chronic Asthma Died After Inhaler Price Went From $66 to $539: Lawsuit",
+      },
+    ],
+  },
+  {
+    id: '140',
+    sort_id: '140',
+    categories: [TRUMPS_AMERICA],
+    faicon: 'gun',
+    datetime: '2025-02-04 07:25',
+    title: 'newsworthy: georgia sheriff cracks down on school violence threats',
+    image: {
+      link: 'https://www.washingtonpost.com/investigations/2025/02/03/children-joked-about-school-shootings-then-sheriff-sent-them-jail/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/T2ANXYOTHJHFDHNIESUPXMBR4U.jpg&w=1440&impolicy=high_res',
+      alt: 'image of text threats',
+      caption: '(Illustration by Josh Chen/The Washington Post; Octavio Jones for The Washington Post)',
+    },
+    body:  "Welcome to America, where school shootings are so routine that cops now have a zero-tolerance policy for bad jokes, but not for the guns that make the threats real. In Florida, kids as young as 11 are getting perp-walked, shackled, and smeared online for posting dumb, edgy comments, while law enforcement pats itself on the back for ‘deterrence.’ (no, I do not condone threats of violence!) Never mind that experts say this public humiliation doesn’t actually stop threats—it just turns dumb kids into criminals. But hey, why bother fixing the root causes of school violence when you can just arrest children and call it a win? hint: ITS THE GUNS DO SOMETHING ABOUT THE GUNS",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/investigations/2025/02/03/children-joked-about-school-shootings-then-sheriff-sent-them-jail/',
+        linkText: "Children joked about school shootings. Then the sheriff sent them to jail.",
+      },
+    ],
+  },
+  {
+    id: '139',
+    sort_id: '139',
+    categories: [ANTI_SCIENCE],
+    faicon: 'flask',
+    datetime: '2025-02-04 07:21',
+    title: 'cancer for you! cancer for them! cancer for everyone!',
+    image: {
+      link: 'https://www.propublica.org/article/epa-scientists-faced-retaliation-after-finding-harm-from-chemicals',
+      src: 'https://img.assets-d.propublica.org/v5/images/20240803-Ackerman-EPA-Whistleblower-040-1_2024-09-17-150756_qqyq.jpg?crop=focalpoint&fit=crop&fm=webp&fp-x=0.5283&fp-y=0.4438&h=1333&q=75&w=2000&s=bc67d666ebf4301b533d2d02ea165427',
+      alt: 'martin phillips',
+      caption: 'Martin Phillips is one of three scientists who faced retaliation by supervisors at the Environmental Protection Agency, an inspector general’s investigation found. Credit:Jenn Ackerman, special to ProPublica',
+    },
+    body:  "Turns out, under genghis cant's EPA, 'science' was just a fancy word for 'whatever industry wants.' Whistleblowers at the agency say they were pressured to make dangerous chemicals look safer, had their reports altered to erase pesky things like 'cancer' and 'miscarriages,' and then got retaliated against when they refused to play along. The EPA's inspector general confirmed that three scientists were punished for daring to do their jobs, while genghis cant's buddies were busy fast-tracking toxic sludge into the market. And if genghis cant gets another term? His Project 2025 plan would make firing scientists even easier—because nothing says 'drain the swamp' like replacing experts with corporate yes-men",
+    links: [
+      {
+        href: 'https://www.propublica.org/article/epa-scientists-faced-retaliation-after-finding-harm-from-chemicals',
+        linkText: "EPA Scientists Said They Were Pressured to Downplay Harms From Chemicals. A Watchdog Found They Were Retaliated Against.",
+      },
+    ],
+  },
+  {
+    id: '138',
+    sort_id: '138',
+    categories: [LEOPARDS_ATE_MY_FACE, ANTI_IMMIGRATION, RACISM],
+    faicon: 'shield',
+    datetime: '2025-02-04 07:11',
+    title: 'venezuelans overwhelmingly support diaper donny, now he says get the f*ck out',
+    image: {
+      link: 'https://www.reuters.com/world/americas/trump-administration-moves-terminate-some-venezuelan-deportation-protections-2025-02-03/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SFWFZQZOEER7PTDMK5I57QVI3I.JPG&w=916',
+      alt: 'kristi noem',
+      caption: 'puppy killer and cosplay barbie',
+    },
+    body:  "In a stunning display of compassion, the diaper don's administration has decided to end Temporary Protected Status (TPS) for 348,000 Venezuelans, because apparently, escaping a collapsing dictatorship just isn’t a good enough reason to stay in the land of the free. Homeland Security Secretary Kristi Noem—who's never met a hardline immigration stance she didn’t love—claims Venezuela is now totally fine, so these immigrants can pack their bags and enjoy a one-way ticket back to economic collapse and authoritarian rule. Never mind that Venezuela is still plagued by political repression, a collapsing economy, and one of the worst humanitarian crises in the world—Trump and his team have elections to win, and nothing gets the base fired up quite like mass deportations. Immigration advocates are calling the move cruel and reckless, while businesses that rely on Venezuelan labor are preparing for workforce shortages. But hey, at least Trump gets another campaign rally talking point. Priorities, right? It's even more egregious because the Venezuelan community were some of frumpys biggest supporters because they align on their hatred towards the maduro regime, but now all of their friends and family get to go home and experience the misery",
+    links: [
+      {
+        href: 'https://www.reuters.com/world/americas/trump-administration-moves-terminate-some-venezuelan-deportation-protections-2025-02-03/',
+        linkText: "Trump administration moves to end deportation protections for 348,000 Venezuelans",
+      },
+      {
+        href: 'https://www.washingtonpost.com/immigration/2025/02/02/venezuela-tps-immigration-trump-noem/',
+        linkText: "DHS to end temporary protection for approximately 350,000 Venezuelans",
+      },
+    ],
+  },
+  {
+    id: '137',
+    sort_id: '137',
+    categories: [RETRIBUTION, LAWLESSNESS],
+    faicon: 'scissors',
+    datetime: '2025-02-04 07:03',
+    title: 'an actual witch hunt, asshole edition',
+    image: {
+      link: 'https://www.washingtonpost.com/national-security/2025/02/02/fbi-firings-jan-6-trump-cases/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XD7XTRUTBEL7VTEW2DTGNOF5UA.JPG&w=916',
+      alt: 'j edgar hoover fbi buiding',
+      caption: 'j edgar hoover fbi buiding, the new home of political corruption',
+    },
+    body:  "velveeta voldemort’s Justice Department is going full McCarthy mode, launching a questionnaire to identify and potentially purge any FBI personnel who worked on Jan. 6 cases. Agents and staffers are being ordered to disclose whether they arrested rioters, interviewed witnesses, or conducted surveillance—a thinly veiled loyalty test that conveniently targets those who investigated velveeta voldemort and his allies. Meanwhile, mass firings have already begun, with top officials at the Washington field office forced into early retirement and federal prosecutors dismissed en masse. The move has sparked panic within the FBI, with the agency scrambling to reassure employees that the acting director hasn’t been fired (yet). Legal experts warn that these purges violate due process, but velveeta voldemort’s people don’t seem concerned. Even Kash Patel, velveeta voldemort’s FBI director nominee, swore under oath there would be no political retribution—while the administration is very publicly making lists of people to target. Stripping the nation’s top law enforcement agency of its most experienced investigators doesn’t just weaken federal cases—it actively undermines national security, counterterrorism, and organized crime efforts. But hey, when you’re trying to rewrite history and erase accountability, kneecapping the FBI seems like a small price to pay.",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/national-security/2025/02/02/fbi-firings-jan-6-trump-cases/',
+        linkText: "As DOJ probes FBI’s Jan. 6 work and weighs firings, agents told to detail roles",
+      },
+    ],
+  },
+  {
+    id: '136',
+    sort_id: '136',
+    categories: [LAWLESSNESS],
+    faicon: 'handcuffs',
+    datetime: '2025-02-02 16:16',
+    title: 'some pardoned j6ers are f*cking awful people',
+    image: {
+      link: 'https://www.npr.org/2025/01/30/nx-s1-5276336/donald-trump-jan-6-rape-assault-pardons-rioters',
+      src: 'https://npr.brightspotcdn.com/dims3/default/strip/false/crop/2619x1745+381+0/resize/1100/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffc%2F6d%2Fc1c3bc9049ef84a4d314101a7412%2Fap21043619075375.jpg',
+      alt: 'a bunch of gullible morons trying to overthrow democracy',
+      caption: 'a bunch of gullible morons trying to overthrow democracy',
+    },
+    body:  " In his first act as president, Trump granted blanket clemency to every single Jan. 6 rioter—including those convicted of violently attacking police officers. But the real kicker? Some of those \“patriots\” he just freed weren’t exactly first-time offenders. Among them are individuals with long rap sheets for rape, child sexual abuse, domestic violence, drug trafficking, and even manslaughter. Take Matthew Huttle, who had a history of child abuse and DUI arrests—pardoned by Trump, then shot and killed in an altercation with law enforcement just days later. Or Theodore Middendorf, convicted of sexually assaulting a 7-year-old, who was set to be sentenced for smashing Capitol windows before Trump made his case disappear. Or Peter Schwartz, a man with 38 prior convictions, including domestic assault and threatening police—who got 14 years for attacking officers with pepper spray on Jan. 6, but is now a free man thanks to Trump. Trump admitted that actually reviewing these cases would have been \"too cumbersome,\" so instead of considering, you know, basic public safety, he just pardoned everyone. Some of these guys still have pending cases for child pornography, illegal firearms, and violent crimes—but hey, as long as they were rioting for Trump, they apparently deserved a free pass. Meanwhile, the same party that screams \“Back the Blue\” just cheered as their leader pardoned criminals who literally beat cops with flagpoles. You can’t make this up.",
+    links: [
+      {
+        href: 'https://www.npr.org/2025/01/30/nx-s1-5276336/donald-trump-jan-6-rape-assault-pardons-rioters',
+        linkText: "Criminal records of Jan. 6 rioters pardoned by Trump include rape, domestic violence",
+      },
+    ],
+  },
+  {
+    id: '135',
+    sort_id: '135',
+    categories: [KILLING_DEMOCRACY],
+    faicon: 'computer',
+    datetime: '2025-02-02 16:12',
+    title: 'musk lets inexperienced morons into government systems',
+    image: {
+      link: 'https://apple.news/AilDRXLpARIO4L1EHi9vnLA',
+      src: 'https://media.wired.com/photos/679d0c5342d9dede15f552a9/master/w_1920,c_limit/musk-teens-pol-%202195703755.jpg',
+      alt: 'elon musk seeing himself on ketamine',
+      caption: 'elon musk seeing himself on ketamine',
+    },
+    body:  "Elon Musk's recent initiative to overhaul federal government infrastructure heavily relies on a group of young engineers, aged between 19 and 24, many of whom have prior associations with his companies. These individuals, despite their limited experience in government operations, have been appointed to pivotal roles within the Department of Government Efficiency (DOGE). Their rapid ascent and the significant responsibilities entrusted to them have raised concerns about the potential risks of entrusting critical governmental functions to such an inexperienced cohort.",
+    links: [
+      {
+        href: 'https://apple.news/AilDRXLpARIO4L1EHi9vnLA',
+        linkText: "The Young, Inexperienced Engineers Aiding Elon Musk's Government Takeover",
+      },
+    ],
+  },
+  {
+    id: '134',
+    sort_id: '134',
     categories: [MONEY, FULL_STUPID],
-    color: 'blue',
+    faicon: 'money-bill-one',
+    datetime: '2025-02-02 16:07',
+    title: 'billionaire tells regular americans \'you\'re gonna feel some pain\'',
+    image: {
+      link: 'https://apple.news/AilDRXLpARIO4L1EHi9vnLA',
+      src: 'https://i.insider.com/5ba04788672e161581318b8e?width=1200&format=jpeg',
+      alt: 'frumpy realizing in real time hes an idiot',
+      caption: 'frumpy realizing in real time hes an idiot',
+    },
+    body:  "On February 2, 2025, President Donald Trump acknowledged that Americans might experience some discomfort due to the newly imposed tariffs on imports from Mexico, Canada, and China. He emphasized that this period could usher in a \"golden age of America,\" while conceding, \"Will there be some pain? Yes, maybe (and maybe not!).\"  The administration has enacted a 25% tariff on goods from Mexico and Canada, and a 10% tariff on Chinese imports, aiming to address issues related to fentanyl trafficking and illegal immigration. These measures are anticipated to prompt retaliatory actions from the affected nations and may lead to significant economic disruptions. Economists and industry experts warn that these tariffs could result in higher consumer prices, particularly in sectors like food and automotive. For instance, U.S. consumers may face increased costs for meat, vegetables, and fruits due to the tariffs on Canadian and Mexican imports. Additionally, automakers such as General Motors and Volkswagen are expressing concerns over potential negative impacts on the automotive industry, given their reliance on vehicles produced in Mexico and Canada. In response, both Mexico and Canada have announced plans to implement retaliatory tariffs on U.S. goods, signaling a potential escalation into a broader trade conflict. ",
+    links: [
+      {
+        href: 'https://apple.news/AilDRXLpARIO4L1EHi9vnLA',
+        linkText: "Trump says Americans could feel 'pain' in trade war with Mexico, Canada, China",
+      },
+      {
+        href: 'https://www.reuters.com/business/autos-transportation/gm-other-us-automakers-would-take-big-hit-trump-tariffs-2024-11-26/',
+        linkText: "GM and other US automakers would take big hit from Trump tariffs",
+      },
+      {
+        href: 'https://www.reuters.com/business/autos-transportation/volkswagen-counts-talks-avoid-trade-conflict-after-trump-tariffs-2025-02-02/',
+        linkText: "Volkswagen counts on talks to avoid trade conflict after Trump tariffs",
+      },
+    ],
+  },
+  {
+    id: '133',
+    sort_id: '133',
+    categories: [MONEY, NATIONAL_SECURITY],
+    faicon: 'money-bill-one',
+    datetime: '2025-02-02 15:58',
+    title: 'elmo mucks eyes worlds biggest food delivery program for the chopping block',
+    image: {
+      link: 'https://www.washingtonpost.com/politics/2025/02/02/usaid-trump-musk/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HPDA7YFBV5QINSMXXZ4JH2VJYI_size-normalized.jpg&w=916',
+      alt: 'usaid warehouse',
+      caption: 'usaid warehouse',
+    },
+    body:  "The fascist fuckheads administration, with Elon Musk pulling the strings, has booted two top security officials at USAID after they dared to stop Musk’s self-appointed \“Department of Government Efficiency\” (DOGE) from waltzing into restricted areas without proper clearance. Apparently, telling unqualified Musk lackeys that they can’t barge into a classified intelligence facility is now a fireable offense. Musk’s goon squad showed up at USAID demanding access to every door and floor, despite most of them lacking security clearance. When they were (rightfully) denied, they threatened to call federal marshals because nothing says \"government efficiency\" like storming a humanitarian aid agency. By Sunday, Musk had taken to X to declare USAID \“evil\” and \“a criminal organization,\” because naturally, helping prevent famine and disease in 100+ countries is now radical leftism. This power grab is just the latest in Musk’s rapid transformation from tech mogul to wrestling power away from tangerine tiny hands to become the enforcer-in-chief. In just weeks, he’s stacked key agencies with his own loyalists, gained access to Treasury systems controlling trillions of dollars, and now seems intent on dismantling USAID entirely. But sure, let’s pretend this is all about \"efficiency\" and not an authoritarian-style takeover of the federal government.",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/politics/2025/02/02/usaid-trump-musk/',
+        linkText: "USAID security officials on leave after refusing access to Musk allies",
+      },
+    ],
+  },
+  {
+    id: '133',
+    sort_id: '133',
+    categories: [MONEY, FULL_STUPID],
+    faicon: 'money-bill-one',
+    datetime: '2025-02-02 15:58',
+    title: 'gop looks to squeeze workers to pay for tax cuts for the wealthy',
+    image: {
+      link: 'https://www.cnbc.com/2025/02/02/to-help-pay-for-trump-tax-cuts-new-taxes-on-work-perks-are-gop-target.html',
+      src: 'https://image.cnbcfm.com/api/v1/image/108092422-17378989082025-01-25t203950z_316702521_rc22hcaaxyiu_rtrmadp_0_usa-trump.jpeg?v=1737898973&w=1480&h=833&ffmt=webp&vtcrop=y',
+      alt: 'frumpy',
+      caption: 'angry old man lying to people',
+    },
+    body:  "nothing says \“pro-worker\” like making employees pay taxes on their office StairMaster, House Republicans are now considering taxing employer-provided benefits—like transit passes, free parking, on-site gyms, and even meals—to help pay for Trump’s proposed $10 trillion in tax cuts. That’s right, while slashing taxes for the wealthy, they’re looking at squeezing regular workers by treating their job perks as taxable income. Under current law, benefits like employer-covered commuting costs (up to $315/month), free meals, and gym access are not taxed. But if these changes go through, employees could start seeing deductions for things like parking at work or grabbing a snack from the company cafeteria. Companies will then face a choice: eat the tax hit themselves or start axing benefits altogether—neither of which is great for morale. This couldn’t come at a worse time, as more businesses are already forcing workers back to the office. Imagine being dragged back into the daily commute only to find that your free parking is now a taxable expense and your \"perks\" cost more than they’re worth. Even worse? The expected revenue from this tax grab isn’t even that significant—only $157 billion over a decade—compared to the multi-trillion-dollar hole they’re trying to fill. But hey, when you need to make room for another round of tax cuts for the ultra-wealthy, might as well nickel-and-dime the workers, right?",
+    links: [
+      {
+        href: 'https://www.cnbc.com/2025/02/02/to-help-pay-for-trump-tax-cuts-new-taxes-on-work-perks-are-gop-target.html',
+        linkText: "To help pay for Trump tax cuts, new taxes on worker benefits become GOP target",
+      },
+    ],
+  },
+  {
+    id: '132',
+    sort_id: '132',
+    categories: [UNCONSTITUTIONAL, NATIONAL_SECURITY, MONEY, FULL_STUPID],
+    faicon: 'skull-crossbones',
+    datetime: '2025-02-02 15:49',
+    title: 'panama prepares for american invasion and mass casualty event',
+    image: {
+      link: 'https://www.politico.com/news/2025/02/01/panama-trump-confrontation-war-00201759',
+      src: 'https://www.politico.com/dims4/default/2ee459b/2147483647/strip/true/crop/2880x1920+0+0/resize/770x513!/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F22%2Faf%2Fab813d2a405c8a82230e87d4f404%2Fpanama-new-president-migration-29935.jpg',
+      alt: 'jose raul molino',
+      caption: 'jose raul molino, the new president of panama',
+    },
+    body:  "Trump’s latest foreign policy masterpiece? Strong-arming Panama over the canal with the grace of a mobster demanding “insurance” money. Marco Rubio’s visit to Panama this weekend is supposed to \“negotiate\” America’s return to dominance in the region, but Panamanian officials are preparing for the worst—including, apparently, the possibility of an invasion. Yes, really. Former Panamanian President Ernesto Pérez Balladares warned that if Trump goes full imperialist, it could lead to mass casualties and international condemnation. But Trump’s team, being the savvy dealmakers they are, has a different strategy: Make Panama an offer they can’t refuse. U.S. officials have reportedly told Panama to start handing out freebies, like letting U.S. Navy ships use the canal toll-free, before Trump gets \“creative\” with his demands. Panama’s response? A mix of disbelief and irritation. They’ve fact-checked Trump’s wild claims about China’s military presence in the canal, pointed out that transit fees are legally set, and even took the issue to the United Nations. Trump’s envoy, however, was unimpressed, reportedly responding with, \“Do you think that we give a shit?\” (Diplomacy at its finest.) Meanwhile, in a nod to Trump’s love of strong-arming allies, Panama has hinted that if things escalate, they might just stop controlling the flow of South American migrants heading north—a move that would flood the U.S.-Mexico border with even more asylum seekers. Of course, this entire mess is fueled by Trump’s paranoia over China. While Panama maintains that Beijing has zero control over the canal, Trump is convinced otherwise and wants to \“take it back.\” The canal was handed over to Panama in 1999, and while America still has defense obligations, the idea of a U.S. takeover is about as well-received in Panama as a root canal without anesthesia. But Trump, ever the real estate guy, seems to think everything’s up for negotiation—even sovereign territory. So, will this turn into a military crisis or just another round of loud, empty threats? If history is any guide, it’ll probably be both.",
+    links: [
+      {
+        href: 'https://www.politico.com/news/2025/02/01/panama-trump-confrontation-war-00201759',
+        linkText: "‘There will be many casualties’: Panama girds for war as Rubio opens talks",
+      },
+    ],
+  },
+  {
+    id: '131',
+    sort_id: '131',
+    categories: [NATIONAL_SECURITY, MONEY, FULL_STUPID],
+    faicon: 'cloud-rain',
+    datetime: '2025-02-02 15:43',
+    title: 'paper skinned whiny b*tch billionaire Takes Over Government HR, Channels Twitter Layoff Energy',
+    image: {
+      link: 'https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-white-house-federal-workers-b2689291.html',
+      src: 'https://static.independent.co.uk/2025/01/30/13/54/SEI237836387.jpg?quality=75&width=640&auto=webp',
+      alt: 'elon musk',
+      caption: 'nazi sympathizer just looking stupid',
+    },
+    body:  "Elon Musk has apparently decided that running Twitter into the ground wasn’t enough—now he’s applying the same chaos to the federal workforce. A new report details how Musk and his allies have \“taken control\” of the Office of Personnel Management, skipping key officials to blast out a mass email offering buyouts to 2.3 million federal employees. The email, titled \“Fork in the Road,\” mirrors the one Musk sent before gutting Twitter, which should be a comforting sign for government workers everywhere. Normally, the OPM—an independent, nonpartisan agency—would be involved in something this massive, but not under Musk’s watch. Instead, his handpicked allies, including ex-SpaceX and Twitter cronies, are now running the show. Musk’s takeover of the federal workforce is just another step in his growing influence over Trump’s administration, where he’s already been handed control of the newly created Department of Government Efficiency (DOGE, because of course). Originally meant to be an advisory role, Musk has turned it into his own personal demolition project, reshaping the federal government in Trump’s image. Meanwhile, government employees are understandably wary of the buyout offer, given Musk’s stellar track record of not paying severance and getting sued by former employees. The proposal promises salaries through September 30 with no requirement to return to work—but much like Musk’s promises at Twitter, no one’s really sure if it will hold up. In the end, it looks like Musk is just doing what he does best: gutting institutions, dodging accountability, and making sure the people actually doing the work are the ones who suffer.",
+    links: [
+      {
+        href: 'https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-white-house-federal-workers-b2689291.html',
+        linkText: "Musk and allies have reportedly seized key HR office - and skipped past officials to send mass resignation email",
+      },
+    ],
+  },
+  {
+    id: '130',
+    sort_id: '130',
+    categories: [UNCONSTITUTIONAL, TRADE_WAR, MONEY, FULL_STUPID],
+    faicon: 'money-bill-wave',
+    datetime: '2025-02-02 15:26',
+    title: 'glazed ham face cant withhold appropriated funds to blue states, judge rules',
+    image: {
+      link: 'https://www.dailykos.com/stories/2025/1/31/2300524/-Judge-says-Trump-can-t-withhold-money-from-Blue-states',
+      src: 'https://s.france24.com/media/display/800d15cc-a630-11ef-acbd-005056bf30b7/w:1280/p:16x9/Part-GTY-2182894075-1-1-3.jpg',
+      alt: 'frumpy',
+      caption: 'senile old man in clown paint pretending to jerk off two guys at one time',
+    },
+    body:  "The New York Times is reporting that a judge in Rhode Island has required the Glazed Ham's administration to continue to pay appropriated money to the 22 states that joined in the law suit.  Mostly these were blue states, except for some swing states that went for the orange glazed ham.  Interestingly enough, I didn’t see Pennsylvania in the list of states.  At any rate, it looks like the red states can get the full \“benefit\” of dickheads policies, while the blue and purple states may be protected from some of them.  The basis of the judge’s order was a 1975 unanimous Supreme Court decision holding that the president had no authority to impound appropriated funds.  Of course, as the NYT noted, the current Supreme Court has shown a willingness to overturn its own precedent.",
+    links: [
+      {
+        href: 'https://www.dailykos.com/stories/2025/1/31/2300524/-Judge-says-Trump-can-t-withhold-money-from-Blue-states',
+        linkText: "Judge says Trump can't withhold money from Blue states",
+      },
+    ],
+  },
+  {
+    id: '129',
+    sort_id: '129',
+    categories: [FULL_STUPID],
+    faicon: 'poo',
+    datetime: '2025-02-02 15:26',
+    title: 'federal government purge: fire them now and figure it out later',
+    image: {
+      link: 'https://www.washingtonpost.com/education/2025/02/01/trump-dei-energy-education-departments/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RS5WNMUMVC7H7GRCU2MUH73IXY_size-normalized.jpg&w=916',
+      alt: 'frumpy',
+      caption: 'why does it look like hes melting?',
+    },
+    body:  "Fanta fascist's administration is on a rampage, gutting anything remotely related to diversity, equity, and inclusion—and if that means firing people who once attended a diversity training or gasp acknowledged that inclusion exists, so be it. At least 50 Education Department employees have been placed on leave, most of whom weren’t even working on DEI initiatives, but apparently, once you so much as say the word \"diversity,\" you’re on the chopping block. Meanwhile, over at the FBI, they’re literally painting over murals with words like \"Integrity\" and \"Compassion\" because those are just too woke for 2025. The Energy Department? Firing people who help Indigenous tribes maintain federal treaties—because who needs those, right? Oh, and in a move so petty it would make a cartoon villain blush, the Pentagon has banned recognizing cultural celebrations like Black History Month and Pride. But don’t worry, fanta fascist assures us that DEI \"would have ruined our country\"—because clearly, it’s diversity that’s the real threat, not, you know, economic instability or global conflict.",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/education/2025/02/01/trump-dei-energy-education-departments/',
+        linkText: "Trump’s DEI purge targets federal workers who did not work in DEI",
+      },
+    ],
+  },
+  {
+    id: '128',
+    sort_id: '128',
+    categories: [LOSSES, MONEY],
+    faicon: 'skull-crossbones',
+    datetime: '2025-02-02 15:20',
+    title: 'egomaniacal billionaire fires agency head tasked with protecting american consumers',
+    image: {
+      link: 'https://www.npr.org/2025/02/01/nx-s1-5254186/cfpb-consumer-financial-protection-cfpb-trump-chopra',
+      src: 'https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5851x3900+0+0/resize/1100/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F09%2Ff5%2F288e4cda49dd88444aa0fa4e815a%2Frohit-chopra.jpg',
+      alt: 'rohit chopra',
+      caption: 'rohit chopra, warrior of the people',
+    },
+    body:  "Rohit Chopra, the head of the Consumer Financial Protection Bureau, has been fired—because why have a watchdog protecting consumers when you can let banks run wild instead? Chopra, who made a career out of holding Wall Street accountable for fraud and junk fees, had the nerve to take on big banks and shady lenders, so naturally, Donnie Tic Tac showed him the door. The CFPB, which was literally created to prevent another 2008-style financial meltdown, has been a thorn in the side of predatory financial institutions—something Republicans and their donors have been desperate to change. Now, with Chopra out, the industry is licking its chops, hoping Donnie Tic Tac's pick will gut consumer protections and roll back those pesky rules on overdraft fees and credit card penalties. But don’t worry, they assure us it’s all in the name of \“reform.\” This agency came after a for-profit school that was issuing predatory loans and saved me, its too bad its gone cuz this shit was awesome",
+    links: [
+      {
+        href: 'https://www.npr.org/2025/02/01/nx-s1-5254186/cfpb-consumer-financial-protection-cfpb-trump-chopra',
+        linkText: "Trump fires chief of the federal consumer watchdog agency",
+      },
+      {
+        href: 'https://www.washingtonpost.com/business/2025/02/01/cfpb-chopra-removed/',
+        linkText: "Trump removes Rohit Chopra as director of CFPB",
+      },
+    ],
+  },
+  {
+    id: '127',
+    sort_id: '127',
+    categories: [TRADE_WAR, MONEY],
+    faicon: 'money-bill-wave',
+    datetime: '2025-02-02 15:17',
+    title: 'the tangerines tariff tantrum; who wants affordable goods anyway',
+    image: {
+      link: 'https://www.cnn.com/2025/02/01/politics/mexico-canada-china-tariffs-trump/index.html',
+      src: 'https://media.cnn.com/api/v1/images/stellar/prod/2025-01-31t231357z-867027352-rc29lca7a6p2-rtrmadp-3-usa-trump.JPG?c=16x9&q=h_144,w_256,c_fill',
+      alt: 'dementia donnie',
+      caption: 'dementia donnie soiling his depends',
+    },
+    body:  "Trump has decided to slap massive tariffs on Mexico, Canada, and China, claiming it will stop drugs and illegal immigration—because, as we all know, raising the price of avocados will definitely outsmart the cartels. In reality, this move is like setting your house on fire to keep the burglars out: American consumers are about to get torched with higher prices on everything from cars to sneakers to groceries. Mexico and Canada wasted no time hitting back with their own tariffs, and China is taking it to the WTO, so congratulations, we’re now in a full-blown trade war. But don’t worry, Trump assures us that tariffs will make America “very rich and very strong”—just ignore the fact that businesses, economists, and, well, anyone who understands supply chains are collectively screaming into the void. And to really twist the knife, he’s closing the de minimis loophole, meaning even small businesses and bargain hunters using Shein and Temu are out of luck. But hey, if you love paying more for food, gas, and literally everything else while pretending it’s “winning,” this one’s for you.",
+    links: [
+      {
+        href: 'https://www.cnn.com/2025/02/01/politics/mexico-canada-china-tariffs-trump/index.html',
+        linkText: "Trump announces significant new tariffs on Mexico, Canada and China, sparking retaliatory actions",
+      },
+    ],
+  },
+  {
+    id: '126',
+    sort_id: '126',
+    categories: [KILLING_DEMOCRACY, RETRIBUTION],
+    faicon: 'bell',
+    datetime: '2025-02-02 15:05',
+    title: 'federal officials: we knew it was going to be bad but...',
+    image: {
+      link: 'https://www.theguardian.com/us-news/2025/jan/31/trump-federal-workers-deep-state',
+      src: 'https://i.guim.co.uk/img/media/eae73f9acb7b1ee102c19d30091d28972e8d94fb/0_0_5910_3940/master/5910.jpg?width=1900&dpr=1&s=none&crop=none',
+      alt: 'king bitch boy',
+      caption: 'agent orange getting mad at the scale for being honest',
+    },
+    body:  "president 'grab em by the p*ssy' return to the White House has turned into a full-blown purge, leaving federal workers shell-shocked as he makes good on his campaign promise of \“retribution.\” Sure, his high-profile enemies expected some payback—but it turns out the real bloodbath is happening behind the scenes, with career officials, watchdogs, and justice department lawyers getting axed, reassigned, or strong-armed into submission. From canceling Secret Service protection for officials on actual Iranian hit lists to gutting agencies investigating him, Trump’s administration is making one thing clear: loyalty isn’t just expected—it’s required. The latest executive order, laughably titled Ending the Weaponization of the Federal Government, is basically a hit list for his perceived enemies, all wrapped up in legalese. Federal employees are now being warned of \“adverse consequences\” if they don’t snitch on colleagues who resist his DEI purge. Meanwhile, those unwilling to play along with his immigration crackdowns or selective law enforcement agenda are being shuffled into irrelevant roles—or just fired outright. It’s a purge so blatant that even Nixon’s enemies list is starting to look subtle. But hey, at least one Trump critic put it best: trying to punish special prosecutor Jack Smith is like a fart in a hurricane—loud, ridiculous, and ultimately pointless.",
+    links: [
+      {
+        href: 'https://www.theguardian.com/us-news/2025/jan/31/trump-federal-workers-deep-state',
+        linkText: "Trump’s revenge agenda has shocked officials who ‘didn’t think it was going to be this bad’, insiders say",
+      },
+    ],
+  },
+  {
+    id: '125',
+    sort_id: '125',
+    categories: [TRADE_WAR, FULL_STUPID, MONEY],
+    faicon: 'money-bill-wave',
+    datetime: '2025-02-02 14:57',
+    title: 'hedge funds are better on a stock market crash',
+    image: {
+      link: 'https://www.dailymail.co.uk/news/article-14348965/Hedge-funds-massive-bet-stock-market-crash-raises-alarm.html',
+      src: 'https://i.dailymail.co.uk/1s/2025/02/01/07/94747573-14348965-Hedge_funds_are_making_a_multi_billion_dollar_gamble_against_the-a-55_1738393240777.jpg',
+      alt: 'king bitch boy',
+      caption: 'president triple chin pointing at the stock market hes tanking',
+    },
+    body:  "After cheering cheeto kings return like frat bros at a kegger, hedge funds are now placing multi-billion-dollar bets against the U.S. economy, because nothing says \"confidence\" like expecting a financial meltdown. Goldman Sachs data shows a tsunami of short positions, signaling that Wall Street’s elite believe a Trump-led market wipeout is imminent. This reversal is as subtle as a brick to the face: Just months ago, these same fund managers were all-in on \"Trump trades,\" drooling over tax cuts and deregulation. Now? They’re bracing for impact, hoping to cash in while 401(k)s and pensions get steamrolled. And let’s not forget the elephant—or rather, the dragon—in the room: China’s AI powerhouse DeepSeek just sent U.S. tech stocks into a $600 billion freefall, exposing America’s not-so-invincible grip on the industry. Even Trump's most loyal Wall Street backers are sounding the alarm, warning that his policies could detonate a speculative bubble. So, as everyday investors anxiously refresh their portfolios, billionaire hedge fund managers are playing both sides—because whether the economy soars or burns, they always find a way to profit. And if Trump ever realizes his biggest financial supporters are now betting on his failure? Well, expect some all-caps rage tweets and a fresh round of finger-pointing.",
+    links: [
+      {
+        href: 'https://www.dailymail.co.uk/news/article-14348965/Hedge-funds-massive-bet-stock-market-crash-raises-alarm.html',
+        linkText: "Hedge funds massive bet on stock market crash raises alarm for 401k's",
+      },
+    ],
+  },
+  {
+    id: '124',
+    sort_id: '124',
+    categories: [NATIONAL_SECURITY, CORRUPTION, KILLING_DEMOCRACY],
+    faicon: 'computer',
+    datetime: '2025-02-02 14:51',
+    title: 'narcissist billionaire and his lackeys sieze control of government systems',
+    image: {
+      link: 'https://www.wired.com/story/elon-musk-lackeys-general-services-administration/',
+      src: 'https://media.wired.com/photos/679d04c96b104aa08c5a624f/master/w_1920,c_limit/musk-gsa-pol-1500080015%20.jpg',
+      alt: 'gsa building',
+      caption: 'gsa building',
+    },
+    body:  "Elon Musk’s fan club has infiltrated the General Services Administration, because apparently, running Twitter into the ground wasn’t enough. Armed with White House security credentials, these ex-interns and loyal Musk minions are now tinkering with federal infrastructure—because who wouldn’t trust them with government operations? Their grand plan? Slashing budgets, shrinking real estate, and sprinkling in some AI, because nothing says \"efficient governance\" like trusting the guy who broke Twitter to streamline the feds. Meanwhile, actual GSA employees are left wondering if they now work for the U.S. government or just another Musk side project.",
+    links: [
+      {
+        href: 'https://www.wired.com/story/elon-musk-lackeys-general-services-administration/',
+        linkText: "Elon Musk’s Friends Have Infiltrated Another Government Agency",
+      },
+    ],
+  },
+  {
+    id: '123',
+    sort_id: '123',
+    categories: ['corruption', 'lawlessness', 'fascism'],
+    faicon: 'poo',
+    datetime: '2025-01-31 20:02',
+    title: 'the purge has begun, making us safer by removing career  prosecutors',
+    image: {
+      link: 'https://www.washingtonpost.com/dc-md-va/2025/01/31/jan6-prosecutors-fired-dc-martin/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/C73VANCQP4I6XIPV7WXSRT6KSA.jpg&w=916',
+      alt: 'j6',
+      caption: 'big grindr meetup',
+    },
+    body:  "Ed Martin, the administration’s handpicked D.C. U.S. Attorney, just axed 30 prosecutors who worked on Jan. 6 cases, calling their hiring a \“subversive\” act. His next move? Investigating the investigators and making sure the DOJ bends to the whims of President Ferrethead. Martin, a “Stop the Steal” organizer and MAGA firebrand, has wasted no time gutting the Capitol riot prosecution team, replacing leadership, and demanding loyalty from subordinates—or else. His office is also probing Chuck Schumer for a years-old speech the big guy didn’t like, because apparently, that’s the real threat to democracy. Veteran prosecutors warn this is a full-scale politicization of justice, but the regime’s loyalists are celebrating. One of their legal enforcers, Mike Davis, gleefully declared Jan. 6 prosecutors should \“live in fear.\” Mission accomplished. Martin’s history? Fired for scandal in Missouri, embraced by the MAGA machine, and now in charge of 360 prosecutors with a mandate to punish the enemies of the regime. D.C.’s top law enforcement office isn’t about law anymore—it’s about obedience.",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/dc-md-va/2025/01/31/jan6-prosecutors-fired-dc-martin/',
+        linkText: "Interim U.S. Attorney fires more than two dozen Jan. 6 prosecutors in D.C.",
+      },
+    ],
+  },
+  {
+    id: '122',
+    sort_id: '122',
+    categories: ['corruption', 'lawlessness'],
+    faicon: 'poo',
+    datetime: '2025-01-31 19:56',
+    title: 'felon in chief moves to drop fraud case against TN rep',
+    image: {
+      link: 'https://www.newschannel5.com/news/newschannel-5-investigates/career-prosecutors-withdraw-from-federal-criminal-investigation-of-gop-congressman-andy-ogles',
+      src: 'https://ewscripps.brightspotcdn.com/dims4/default/82bef9a/2147483647/strip/true/crop/885x498+0+9/resize/1280x720!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F34%2Ffe%2F7bc953f148579027a2aada2af806%2Fandy-ogles-ap-photo.jpg',
+      alt: 'andy ogles',
+      caption: 'real life despicable me minion andy ogles',
+    },
+    body:  "In a totally normal and not at all suspicious move, federal prosecutors in Nashville have been pulled from the criminal case against Tennessee Rep. Andy Ogles, a MAGA loyalist under FBI investigation for allegedly faking a $320,000 personal loan to his 2022 campaign. The case is now being fully handled by the DOJ in D.C., a convenient shift right after the administration forced out the longtime head of the DOJ’s public corruption unit. Meanwhile, Ogles has been busy trying to ingratiate himself with the regime, introducing nonsense resolutions to let the big guy run for a third term and even pushing for a U.S. takeover of Greenland. For context, New York’s George Santos got indicted for basically the same thing and ended up resigning in disgrace. But Ogles? He might be off the hook—especially since the administration just dropped another GOP fraud case in Nebraska and is busy purging anyone who prosecuted the wrong people. At this rate, expect a new wave of pardons, dropped cases, and reassignments—because justice is for enemies, not allies.",
+    links: [
+      {
+        href: 'https://www.newschannel5.com/news/newschannel-5-investigates/career-prosecutors-withdraw-from-federal-criminal-investigation-of-gop-congressman-andy-ogles',
+        linkText: "Career prosecutors withdraw from federal criminal investigation of GOP Congressman Andy Ogles",
+      },
+    ],
+  },
+  {
+    id: '121',
+    sort_id: '121',
+    categories: ['money'],
+    faicon: 'gun',
+    datetime: '2025-01-31 19:44',
+    title: 'they urge flight controllers to leave after right after the first plane crash on american soil in for-f*cking-ever',
+    image: {
+      link: 'https://www.thedailybeast.com/trump-admin-emails-air-traffic-controllers-quit-your-jobs/',
+      src: 'https://www.thedailybeast.com/resizer/v2/2T6KZJFHFBEGHI7KMEO5PMUO7U.jpg?smart=true&auth=8ed02e23ee5ce2ccfb5cff94aa8a43cd7eea684d5bb686566cb7e2cf56fe01a9&width=1600&height=899',
+      alt: 'lumpy',
+      caption: 'stump fingers pointing out which of the happy meals he wants',
+    },
+    body:  "Less than 24 hours after a deadly plane crash in D.C., the administration decided it was the perfect time to email air traffic controllers—not to offer support, but to encourage them to quit their jobs en masse. The email, sent late Thursday night, urged controllers to take a government buyout, find a job in the private sector, or go on vacation \“while still on the government payroll\”—which, hilariously, violates federal rules against second incomes. This push for mass resignations comes in the middle of a nationwide air traffic controller shortage—a crisis that likely played a role in the Army helicopter collision that killed 67 people. When questioned, the administration blamed Obama, Biden, and, presumably, the deep state, while also falsely claiming the FAA was prioritizing \“woke hiring\” over safety. Meanwhile, actual aviation experts and union leaders are warning that gutting the agency even further could lead to more disasters in the skies. But hey, at least those former air traffic controllers can use their buyout money to take a long vacation… assuming their flights don’t get canceled due to, you know, no air traffic controllers.",
+    links: [
+      {
+        href: 'https://www.thedailybeast.com/trump-admin-emails-air-traffic-controllers-quit-your-jobs/',
+        linkText: "Trump Admin Emails Air Traffic Controllers: Quit Your Jobs",
+      },
+    ],
+  },
+  {
+    id: '120',
+    sort_id: '120',
+    categories: ['lawlessness', 'full-stupid'],
+    faicon: 'axe',
+    datetime: '2025-01-31 19:37',
+    title: 'hes gonna make the nation safer, by firing the federal police force?',
+    image: {
+      link: 'https://www.cnn.com/2025/01/31/politics/fbi-agents-who-investigated-january-6-fired/index.html',
+      src: 'https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-1090630542.jpg',
+      alt: 'j edgar hoover fbi building',
+      caption: 'the newest target of the cranky crybaby',
+    },
+    body:  "the worlds only part orange orangutan human's revenge tour is in full swing, and the FBI is next on the chopping block. Dozens of career agents, prosecutors, and senior officials who worked on frumpys-related cases—including the Capitol riot investigations and his classified documents scandal—are reportedly being targeted for forced resignations or terminations as soon as this week. the interim Justice Department leadership is wasting no time purging the ranks of anyone deemed \“untrustworthy\”—i.e., anyone who actually followed the law when investigating him. Even prosecutors working Jan. 6 cases who were set to become permanent hires under the Biden administration were suddenly fired en masse because their existence “hindered” the administrations agenda. Meanwhile, Kash Patel, the controversial FBI director nominee, is playing dumb in the Senate, claiming he knows nothing about any mass firings—while his boss actively guts the agency. The FBI Agents Association is already warning that the move will cripple national security, but dumbshit and his loyalists are more focused on settling scores than fighting crime. With the DOJ already under siege, cheeto jesus is making it clear: law enforcement exists to serve him, or it doesn’t exist at all”",
+    links: [
+      {
+        href: 'https://www.cnn.com/2025/01/31/politics/fbi-agents-who-investigated-january-6-fired/index.html',
+        linkText: "FBI agents who worked on January 6 and Trump investigations are expected to be fired Friday",
+      },
+    ],
+  },
+  {
+    id: '118',
+    sort_id: '118',
+    categories: ['money', 'full-stupid', 'lawlessness'],
+    faicon: 'skull-crossbones',
+    datetime: '2025-01-31 19:26',
+    title: 'the foreign aid freeze is killing children',
+    image: {
+      link: 'https://www.propublica.org/article/trump-state-department-usaid-humanitarian-aid-freeze-ukraine-gaza-sudan',
+      src: 'https://img.assets-d.propublica.org/v5/images/h_21.00346244_maxWidth_3000_maxHeight_3000_ppi_72_quality_95_embedColorProfile_true.jpg',
+      alt: 'children playing',
+      caption: 'Children playing with kites on the Sudan-Chad border, where hundreds of thousands of refugees have fled the war in Sudan. Staffers at a half dozen U.S.-funded medical facilities in Sudan who treat children defied President Donald Trump’s orders to stop their work. Credit:Sven Torfinn/Panos Pictures/Redux',
+    },
+    body:  "In the twilight zones latest \"America First\" stunt, U.S.-funded medical facilities in Sudan faced a horrific choice: obey bronzin' betty' stop-work order or let up to 100 malnourished babies and toddlers die. They chose to keep working—until they run out of supplies. Despite announcing waivers for \“lifesaving\” aid, the administration hasn’t actually lifted the stop-work orders. Aid groups are now trapped in a bureaucratic nightmare, unable to access funds for IV bags, HIV medications, warzone evacuations, and even electricity for hospitals. Meanwhile, the administrations State Department is too busy making up nonsense about condoms funding terrorism. The fallout? HIV treatment halted for 20 million people, medical teams abandoning refugee camps, Ebola outbreaks left unchecked, and Ukraine’s civilian aid cut off—all while humanitarian officials are fired for simply trying to help. As one USAID veteran put it: “Like a Russian nesting doll of f*ck-ups. It’s just astonishing.”",
+    links: [
+      {
+        href: 'https://www.propublica.org/article/trump-state-department-usaid-humanitarian-aid-freeze-ukraine-gaza-sudan',
+        linkText: "Senior U.S. official to exit after rift with Musk allies over payment system",
+      },
+    ],
+  },
+  {
+    id: '117',
+    sort_id: '117',
+    categories: ['fascism', 'money'],
+    faicon: 'money-bill-wave',
+    datetime: '2025-01-31 19:14',
+    title: 'the worlds richest man, and petty little b*tch wants the government’s checkbook, and treasury’s top career official just walked out',
+    image: {
+      link: 'https://www.washingtonpost.com/business/2025/01/31/elon-musk-treasury-department-payment-systems/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LAPAD3TLTCWBD5W3XZOULK435M_size-normalized.jpg&w=916',
+      alt: 'David A. Lebryk',
+      caption: 'David A. Lebryk, seen in 2023, had served in nonpolitical roles over several decades at the Treasury Department. (Bill O\'Leary/The Washington Post)',
+    },
+    body:  "David A. Lebryk, the highest-ranking career official at the U.S. Treasury Department, just retired abruptly after a reported clash with elmos \“Department of Government Efficiency\” (DOGE) - stupid fucking name by the way - over access to the federal payment system—aka the infrastructure that handles $6 trillion in transactions for Social Security, Medicare, tax refunds, and government contracts. elmo surrogates have apparently been pushing for direct access to the system since the election, and with fascist freddy's executive order mandating \“full access\” for DOGE, that push just got a lot more aggressive. Why exactly they want their hands on the nation’s financial arteries? Unclear. But given elmos history of playing fast and loose with power, legal experts are sounding the alarm. As one former Treasury official put it: “This is a mechanical job… it’s never been used to execute a partisan agenda.” Until now. With Musk’s growing influence over the administration—and his newfound obsession with slashing government spending—this fight over who controls America’s money is just getting started. We are so cooked",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/business/2025/01/31/elon-musk-treasury-department-payment-systems/',
+        linkText: "Senior U.S. official to exit after rift with Musk allies over payment system",
+      },
+    ],
+  },
+  {
+    id: '116',
+    sort_id: '116',
+    categories: ['full-stupid'],
+    faicon: 'poo',
+    datetime: '2025-01-31 19:08',
+    title: 'now he wants to deport us citizens',
+    image: {
+      link: 'https://www.nbcnews.com/news/amp/rcna189522',
+      src: 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-2000w,f_auto,q_auto:best/rockcms/2025-01/250127-doral-florida-donald-trump-ac-934p-095fe4.jpg',
+      alt: 'the grossest man alive',
+      caption: 'im so sick of this face lol',
+    },
+    body:  " \"America First\"—except when it comes to our own citizens— cheeto facepaint has proposed shipping repeat offenders to foreign prisons. Because nothing says justice like outsourcing, right? This idea raises a host of questions, like which countries are lining up to become America's penal colonies, and how this aligns with international law. Critics argue it's a blatant attempt to sidestep domestic prison reform, while supporters hail it as a bold strategy to reduce crime. The only repeat offender that needs to get locked up somewhere far away from here is the jeffrey epsteins best friend, in the white house.",
+    links: [
+      {
+        href: 'https://www.nbcnews.com/news/amp/rcna189522',
+        linkText: "Trump floats imprisonment abroad for US criminals who are 'repeat offenders'",
+      },
+    ],
+  },
+  {
+    id: '115',
+    sort_id: '115',
+    categories: ['full-stupid'],
+    faicon: 'computer',
+    datetime: '2025-01-31 19:02',
+    title: 'the forethought put into this is apropros of the entire administration',
+    image: {
+      link: 'https://bsky.app/profile/kenklippenstein.bsky.social/post/3lgyz7bij322a',
+      src: 'https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:4k6dakv7cskxttdvfpzadq7e/bafkreibmgsd3mo5s3btwjao2srfkovpguyepelbfhv2ykiavlk3x7d2j6i@jpeg',
+      alt: 'kens email',
+      caption: 'you can email tens of thousands of people in the federal government at once',
+    },
+    body:  "I just sent this email to all 13,000 federal employees of the NOAA lol. The Trump administration's changes to their communications system made it so literally anyone can blast messages out to the entire agency - Ken Klippenstein",
+    links: [
+      {
+        href: 'https://bsky.app/profile/kenklippenstein.bsky.social/post/3lgyz7bij322a',
+        linkText: "Ken  Klippenstein on Bluesky",
+      },
+    ],
+  },
+  {
+    id: '114',
+    sort_id: '114',
+    categories: ['lawlessness', 'full-stupid'],
+    faicon: 'handcuffs',
+    datetime: '2025-01-30 18:25',
+    title: 'another j6er is back in prison',
+    image: {
+      link: 'https://www.rawstory.com/trump-pardon-jan-6-2671028148/',
+      src: 'https://www.rawstory.com/media-library/emily-hernandez-holding-nancy-pelosi-sign.jpg?id=28745754&width=400&height=238',
+      alt: 'j6er with pelosi\'s sign',
+      caption: 'treasonous piece of shit carrying a stolen sign after attacking the seat of dempcracy, get fucked',
+    },
+    body:  "From storming the Capitol to a deadly DUI, Emily Hernandez’s fall from MAGA martyr to convicted felon is complete. Pardoned just last week by president mob boss for her role in the Jan. 6 insurrection, Hernandez won’t be celebrating her newfound freedom—because she was just sentenced to 17 years in prison for killing a woman in a drunken wrong-way crash. Hernandez, famous for parading around with a stolen Nancy Pelosi sign, was already set to plead guilty to her Jan. 6 charges when she drove headfirst into oncoming traffic, killing 32-year-old Victoria Wilson and severely injuring her husband. Her blood-alcohol content was a staggering .20%, more than double the legal limit. ONLY THE BEST PEOPLE Despite the president being pro violence and giving her mercy for her role in attacking the seat of democracy, the justice system wasn’t as forgiving for taking a life. A judge sentenced her to 10 years for the fatal crash and seven more for the injuries she caused—proving that, in at least one courtroom, accountability still exists for people that aren't rich white assholes.",
+    links: [
+      {
+        href: 'https://www.rawstory.com/trump-pardon-jan-6-2671028148/',
+        linkText: "Pardoned J6 rioter who carried Pelosi sign gets 17 years in prison in deadly DUI crash",
+      },
+    ],
+  },
+  {
+    id: '113',
+    sort_id: '113',
+    categories: ['awful-nominations', 'unconstitutional'],
+    faicon: 'poo',
+    datetime: '2025-01-30 18:15',
+    title: 'DoT issues orders to give preferential treament to communities with higher rates of marriage and birth rates higher than national average',
+    image: {
+      link: 'https://www.transportation.gov/sites/dot.gov/files/2025-01/Signed%20DOT%20Order%20re_Ensuring%20Reliance%20Upon%20Sound%20Economic%20Analysis%20in%20Department%20of%20Transportation%20Policies%20%20Programs%20and%20Activities.pdf',
+      src: 'https://media.istockphoto.com/id/1473094452/photo/united-states-department-of-transportation-building-in-washington-dc-usa.jpg?s=612x612&w=0&k=20&c=l3EAc16W8I5dXNZos_RxA_ntb6Qd1SQOnAwdXHCg9bA=',
+      alt: 'us dot building',
+      caption: 'us dot building',
+    },
+    body:  "see title",
+    links: [
+      {
+        href: 'https://www.transportation.gov/sites/dot.gov/files/2025-01/Signed%20DOT%20Order%20re_Ensuring%20Reliance%20Upon%20Sound%20Economic%20Analysis%20in%20Department%20of%20Transportation%20Policies%20%20Programs%20and%20Activities.pdf',
+        linkText: "us dot memo",
+      },
+    ],
+  },
+  {
+    id: '112',
+    sort_id: '112',
+    categories: ['unconstitutional', 'racism'],
+    faicon: 'toilet-paper',
+    datetime: '2025-01-30 18:08',
+    title: 'peach panther signs executive order to deport students exercising their 1st amendment rights',
+    image: {
+      link: 'https://reviewdiv.com/trump-signs-executive-order-to-deport-pro-palestinian-student-protesters/',
+      src: 'https://reviewdiv.com/wp-content/uploads/2025/01/Trump-Signs-Executive-Order-to-Deport-Pro-Palestinian-Student-Protesters-768x365.webp',
+      alt: 'frump and a protestor being arrested, 2 separate photos',
+      caption: 'protestor being arrested, and senile ham face',
+    },
+    body:  "the sultan of soiled shorts latest executive order turns student protests into deportation-worthy offenses. In his crackdown on pro-Palestinian demonstrations, Trump is targeting non-citizen students and residents, revoking visas and threatening deportation for those he deems \“Hamas sympathizers.\” I understand that hamas is a terrorist organization and they can get fucked but what about the first amendment???? Under the new order, federal agencies are tasked with investigating civil rights violations linked to campus protests and taking legal action against anyone accused of antisemitic activity. But the vagueness of the policy raises immediate concerns—who decides what counts as \“sympathizing\” with Hamas? Does chanting \“Free Palestine\” get you kicked out of the country? In this assholes version of America it does. Civil rights groups are already calling this an unconstitutional attack on free speech, likening it to the crackdowns on Vietnam War protesters. Legal experts warn that punishing students based on political speech violates the First Amendment—but Trump and his supporters claim it’s necessary to curb extremism on college campuses. With lawsuits looming and universities now under pressure to track student activism, this order could reshape protest culture in America—not just for pro-Palestinian demonstrators, but for anyone who dares to oppose government policy.",
+    links: [
+      {
+        href: 'https://reviewdiv.com/trump-signs-executive-order-to-deport-pro-palestinian-student-protesters/',
+        linkText: "Trump Signs Executive Order to Deport Pro-Palestinian Student Protesters",
+      },
+    ],
+  },
+  {
+    id: '111',
+    sort_id: '111',
+    categories: ['anti-immigration', 'racism'],
+    faicon: 'baby',
+    datetime: '2025-01-30 17:55',
+    title: 'angry grandpa takes aim at children',
+    image: {
+      link: 'https://www.washingtonpost.com/education/2025/01/29/trump-education-orders-indoctrination-school-choice-antisemitism/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ICCAQ6AFRZH76VPHL3IG6HAXQ4_size-normalized.jpg&w=916',
+      alt: 'frump',
+      caption: 'angry old man coloring in his racist coloring book',
+    },
+    body:  "cheeto kings war on \“indoctrination\” is off to a blazing start—by forcing schools to teach only what he approves. In a trio of executive orders, Trump is demanding schools drop lessons on systemic racism and gender identity, funneling public money into private schools, and cracking down on pro-Palestinian protesters by threatening deportation. In a move that would make Big Brother proud, federal funding will now hinge on whether schools toe the MAGA line. Teach \“gender ideology\” or \“discriminatory equity ideology\” (translation: acknowledge LGBTQ+ rights or systemic racism)? Kiss that funding goodbye. Meanwhile, Trump’s education secretary now has 90 days to come up with a national censorship blueprint disguised as an \“anti-indoctrination\” plan. But that’s not all—Trump’s school choice order pushes even more taxpayer dollars toward private and religious schools, draining funding from public education. And for the grand finale, student protesters who oppose Israel’s actions in Gaza could have their visas revoked under the pretense of fighting antisemitism, a move that legal experts are already calling blatantly unconstitutional. If you thought the last few years were a battleground for education, buckle up—Trump’s second term is turning the classroom into a full-fledged ideological purge. He wants to make all the kids stupid, after all he loves the poorly educated and learning things turns people into independents or democrats.",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/education/2025/01/29/trump-education-orders-indoctrination-school-choice-antisemitism/',
+        linkText: "With sweeping orders, Trump aims to control race teaching, boost school choice",
+      },
+    ],
+  },
+  {
+    id: '110',
+    sort_id: '110',
+    categories: ['anti-immigration', 'racism'],
+    faicon: 'flag-usa',
+    datetime: '2025-01-29 19:11',
+    title: 'american citizens taken to detention center for the crime of being brown and bilingual',
+    image: {
+      link: 'https://www.newsbreak.com/news/3782559388768-u-s-citizens-reportedly-detained-after-being-overheard-speaking-spanish',
+      src: 'https://img.particlenews.com/image.php?type=thumbnail_580x000&url=2aJUGT_0yVOMc7Y00',
+      alt: 'image from telemundo',
+      caption: 'a family of american citizens was detained and taking to a immigration center',
+    },
+    body:  "A toddler, his mother, and his grandmother—all American citizens—were detained and taken to an immigration detention center by U.S. officials in Milwaukee after they were overheard speaking Spanish, according to a Monday report by Telemundo Puerto Rico. My wife suggested I start carrying my passport with me, as I'm of puerto rican descent. holy fuck its going to be a long 4 years.",
+    links: [
+      {
+        href: 'https://www.newsbreak.com/news/3782559388768-u-s-citizens-reportedly-detained-after-being-overheard-speaking-spanish',
+        linkText: "U.S. Citizens Reportedly Detained After Being Overheard Speaking Spanish",
+      },
+    ],
+  },
+  {
+    id: '109',
+    sort_id: '109',
+    categories: ['full-stupid'],
+    faicon: 'poo',
+    datetime: '2025-01-29 19:07',
+    title: 'the picture is the joke, pathetic f*cking losers',
+    image: {
+      link: '',
+      src: 'https://i.imgur.com/FtDMiwx.png',
+      alt: 'house resultion',
+      caption: 'its honestly fucking pathetic',
+    },
+    body:  "",
+    links: [
+      {
+        href: '',
+        linkText: "",
+      },
+    ],
+  },
+  {
+    id: '108',
+    sort_id: '108',
+    categories: ['lawlessness', 'full-stupid'],
+    faicon: 'file-pdf',
+    datetime: '2025-01-29 19:01',
+    title: 'project 2025 fuckheads author government memo, metadata shows',
+    image: {
+      link: 'https://mashable.com/article/trump-opm-memo-metadata-project-2025',
+      src: 'https://www.404media.co/content/images/size/w2000/2025/01/opm.png',
+      alt: 'opm logo',
+      caption: 'the opm, ground zero for the tiny handed tyrants full on assault on the federal government (image from 404media link)',
+    },
+    body:  "The administration is scrubbing evidence faster than a teenager clearing their browser history. The U.S. Office of Personnel Management (OPM) was caught wiping metadata from official memos after it revealed that key documents were authored by individuals linked to Project 2025—not actual government employees. The deleted details exposed that Trump’s allies were quietly embedding themselves in the federal bureaucracy, with some of them drafting official policy despite having no formal role at OPM. The revelation comes as Trump reinstates Schedule F, his plan to replace career federal employees with loyalists who’ll \“bend or break\” to his will. Meanwhile, the newly minted Department of Government Efficiency (yes, led by worlds richest nazi sympathizer, elmo musk) is offering mass buyouts to government workers, signaling that if they don’t take the deal now, Trump’s cronies will show them the door later. For someone who claims to have “nothing to do” with Project 2025, gangrene-grimace sure seems to be using its playbook—down to the last deleted data point.",
+    links: [
+      {
+        href: 'https://mashable.com/article/trump-opm-memo-metadata-project-2025',
+        linkText: "Metadata on U.S. government memos reveals authors linked to Project 2025",
+      },
+      {
+        href: 'https://www.404media.co/opm-memos-to-federal-employees-metadata/',
+        linkText: "Memos to Federal Employees Were Written By People With Ties to Project 2025, Metadata Shows",
+      },
+    ],
+  },
+  {
+    id: '107',
+    sort_id: '107',
+    categories: ['anti-immigration', 'racism'],
+    faicon: 'skull-crossbones',
+    datetime: '2025-01-29 18:52',
+    title: 'the duke of depends is ordering the dod to build housing on gitmo',
+    image: {
+      link: 'https://www.washingtonpost.com/immigration/2025/01/29/guantanamo-cuba-el-salvador-deportations/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OYKLL2YYRLA4OITHOO2R6YXGJM_size-normalized.jpg&w=916',
+      alt: 'barbed wire',
+      caption: 'A control tower is seen through the razor wire inside the Camp VI detention facility at Guantánamo Bay Naval Base in Cuba on April 17, 2019. (Alex Brandon/AP) if anyone deserves to be in prison its that treasonous sack of shit in the oval office',
+    },
+    body:  "In a move that's sure to ignite controversy, president combover has signed an executive order directing the Pentagon and the Department of Homeland Security to prepare facilities at Guantánamo Bay to detain up to 30,000 migrants. This decision marks a significant escalation in the administration's immigration enforcement strategy, repurposing the naval base in Cuba, historically used for detaining terrorism suspects, to now house individuals entering the U.S. without authorization. The plan has already drawn sharp criticism from human rights advocates and legal experts, who argue that detaining migrants in such a facility could violate international law and further tarnish America's human rights record. As the administration moves forward, the nation watches closely, anticipating legal challenges and widespread debate over the ethical and legal implications of this unprecedented action. He gonna start gassing people next??",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/immigration/2025/01/29/guantanamo-cuba-el-salvador-deportations/',
+        linkText: "Trump plans to build mass detention camp for deportees at Guantánamo Bay",
+      },
+    ],
+  },
+  {
+    id: '106',
+    sort_id: '106',
+    categories: ['lawlessness'],
+    faicon: 'scale-unbalanced',
+    datetime: '2025-01-29 18:48',
+    title: 'accountability is dead for von shitzinpants and those close to him',
+    image: {
+      link: 'https://www.washingtonpost.com/national-security/2025/01/29/trump-classified-documents-jack-smith-appeal-cannon-dropped/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2R2RXN74FOQJ6OL2FSC7W5F23Y_size-normalized.jpg&w=916',
+      alt: 'frum and nauta',
+      caption: 'these two pieces of shit hid our nations most sensitive secrets inb a fucking bathroom',
+    },
+    body:  " The Justice Department just dropped its appeal of Judge Aileen Cannon’s ruling that Smith was unlawfully appointed, cementing a legal precedent that could haunt future federal prosecutors. The move ensures that Trump’s former co-defendants, Walt Nauta and Carlos De Oliveira, are off the hook, and the classified documents case that once threatened Trump is now nothing more than a historical footnote. The decision also means the public will definitely never fucking see Smith’s full report on tiny hand's alleged hoarding of classified documents. Merrick Garland had withheld it, citing the pending appeal, but now it's up to grumpy’s own DOJ—stacked with his former defense attorneys—to decide if it ever sees the light of day. Spoiler alert: Don’t hold your breath. With both of Smith’s prosecutions—classified documents and election interference—now effectively buried, Trump has managed to rewrite the rules of accountability. Future presidents, take note: if you don’t like the laws, just win reelection. crazy how we just give the biggest piece of shit free reign to trample our republic",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/national-security/2025/01/29/trump-classified-documents-jack-smith-appeal-cannon-dropped/',
+        linkText: "Justice Dept. seeks to drop appeal of Trump documents ruling by Cannon",
+      },
+    ],
+  },
+  {
+    id: '105',
+    sort_id: '105',
+    categories: ['money'],
+    faicon: 'egg',
+    datetime: '2025-01-29 18:45',
+    title: 'WEREN\'T YOU ELECTED TO FIX EGG PRICES?',
+    image: {
+      link: 'https://news.wttw.com/2025/01/28/egg-prices-are-soaring-they-are-predicted-increase-another-20-year',
+      src: 'https://pbs.twimg.com/media/GidnnXiW8AARiOk?format=jpg&name=medium',
+      alt: 'egg prices',
+      caption: 'that looks like the opposite of cheaper to me, YOU HAD ONE JOB FRUMPLESTILTSKIN',
+    },
+    body:  "Egg prices have been cracking through the roof lately, leaving consumers scrambling to adjust their grocery budgets. In December, the average cost for a dozen Grade A large eggs reached $4.15, a significant jump from $3.65 in November.",
+    links: [
+      {
+        href: 'https://news.wttw.com/2025/01/28/egg-prices-are-soaring-they-are-predicted-increase-another-20-year',
+        linkText: "Egg Prices Are Soaring. They Are Predicted to Increase Another 20% This Year",
+      },
+    ],
+  },
+  {
+    id: '104',
+    sort_id: '104',
+    categories: ['perverts', 'awful-nominations'],
+    faicon: 'poo',
+    datetime: '2025-01-29 18:37',
+    title: 'new OPM general counsels email leaked in escort website leak - steve monacelli',
+    image: {
+      link: 'https://bsky.app/profile/stevanzetti.bsky.social/post/3lgv6zb2lus22',
+      src: 'https://fedsoc.org/cdn-cgi/image/fit=scale-down,width=320,format=jpeg/https://fedsoc-cms-public.s3.amazonaws.com/headshots/RHXZzAWyvpzmVmGj7zB1i9iBofKFP3pmiSfksZao.jpg',
+      alt: 'andrew kloster',
+      caption: 'that creepy weirdo that stares at your underage daughter',
+    },
+    body:  "The email Andrew Kloster, the Office of Personnel Management’s new general counsel and self described \"raging misogynist,\" used to sign up for his X/Twitter account appears in a leak for an escort service website. The IP address for the escort service website account is in Washington D.C. - steven monacelli (bsky linked below) they aren't actually gonna do shit though cuz they don't really give a fuck about family values when they elected a pedophile and a rapist",
+    links: [
+      {
+        href: 'https://bsky.app/profile/stevanzetti.bsky.social/post/3lgv6zb2lus22',
+        linkText: "toot from steven monacelli, indie reporter",
+      },
+    ],
+  },
+  {
+    id: '103',
+    sort_id: '103',
+    categories: ['killing-democracy', 'racism'],
+    faicon: 'poo',
+    datetime: '2025-01-29 18:30',
+    title: 'no longer allowed to observe black history month, juneteenth, and others',
+    image: {
+      link: 'https://bsky.app/profile/did:plc:4k6dakv7cskxttdvfpzadq7e/post/3lgvbolicuc22',
+      src: 'https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:4k6dakv7cskxttdvfpzadq7e/bafkreihobz7pctb6oh2v4xp5pr4ltfbngk4i4ttv4dad6eys26k4s3yooa@jpeg',
+      alt: 'doj letter',
+      caption: 'doj letter - attribution to ken klippenstein whos bsky toot is linked below',
+    },
+    body:  "president dickhead is wasting no time in his second term, speedrunning his executive power grab by firing Democratic members of independent labor commissions—something even past Republican presidents didn’t dare to attempt. Equal employment protections? Union rights? Not if lump has anything to say about it. He’s kicking out commissioners, replacing them with GOP loyalists, and ensuring that the agencies meant to protect workers will now prioritize dismantling workplace discrimination laws, targeting DEI initiatives, and making life easier for corporate giants like Tesla and Amazon. Legal scholars say this move is blatantly illegal and could go all the way to the Supreme Court. But frump, ever the constitutional scholar, has made it clear he doesn’t believe in \"independent\" agencies—just ones that do his bidding. If this is how he starts, what’s next? Buckle up, labor rights are about to take a ride straight back to the Gilded Age.",
+    links: [
+      {
+        href: 'https://bsky.app/profile/did:plc:4k6dakv7cskxttdvfpzadq7e/post/3lgvbolicuc22',
+        linkText: "toot w/doj letter from ken klippenstein",
+      },
+      {
+        href: 'https://www.startribune.com/pentagon-agency-pauses-celebrations-for-martin-luther-king-jr-day-black-history-month-and-more/601213729',
+        linkText: "Pentagon agency pauses celebrations for Martin Luther King Jr. Day, Black History Month and more",
+      },
+    ],
+  },
+  {
+    id: '102',
+    sort_id: '102',
+    categories: ['killing-democracy','lawlessness'],
+    faicon: 'person-digging',
+    datetime: '2025-01-29 18:27',
+    title: 'frump tries more illegal firings',
+    image: {
+      link: 'https://www.washingtonpost.com/business/2025/01/28/trump-fire-eeoc-nlrb-board-members/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HNXCNTP4U3ZV5ZLVUGNAH3VEY4_size-normalized.JPG&w=916',
+      alt: 'The seal of the U.S. Equal Employment Opportunity Commission. (Andrew Kelly/Reuters)',
+      caption: 'The seal of the U.S. Equal Employment Opportunity Commission. (Andrew Kelly/Reuters) and the most recent ire of conservative tyranny',
+    },
+    body:  "president dickhead is wasting no time in his second term, speedrunning his executive power grab by firing Democratic members of independent labor commissions—something even past Republican presidents didn’t dare to attempt. Equal employment protections? Union rights? Not if lump has anything to say about it. He’s kicking out commissioners, replacing them with GOP loyalists, and ensuring that the agencies meant to protect workers will now prioritize dismantling workplace discrimination laws, targeting DEI initiatives, and making life easier for corporate giants like Tesla and Amazon. Legal scholars say this move is blatantly illegal and could go all the way to the Supreme Court. But frump, ever the constitutional scholar, has made it clear he doesn’t believe in \"independent\" agencies—just ones that do his bidding. If this is how he starts, what’s next? Buckle up, labor rights are about to take a ride straight back to the Gilded Age.",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/business/2025/01/28/trump-fire-eeoc-nlrb-board-members/',
+        linkText: "Trump moves to fire members of EEOC and NLRB, breaking with precedent (wapo)",
+      },
+    ],
+  },
+  {
+    id: '101',
+    sort_id: '101',
+    categories: ['money'],
+    faicon: 'money-bill-wave',
+    datetime: '2025-01-29 18:17',
+    title: 'rubio begins releasing funds to things they deem important - f*ck what congress has appropriated',
+    image: {
+      link: 'https://www.washingtonpost.com/national-security/2025/01/28/state-department-foreign-aid-trump-waiver/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/27RCOQ3CCYBRYNV56VIZ3JJA2Q.jpg&w=916',
+      alt: 'marco rubio',
+      caption: 'pathetic loser who got clowned on by daddy frump, and then begged him for a job cuz he is a pathetic sack of shit',
+    },
+    body:  "little marco is here to remind us that \"lifesaving\" means whatever the grump administration says it means. After last week’s chaotic foreign aid freeze—where USAID contractors were sent packing and humanitarian programs worldwide came to a screeching halt—Rubio is now doling out selective exemptions. Medicine, food, and shelter? Fine. Anything remotely touching gender, reproductive health, or diversity? Absolutely not. Aid groups, left scrambling to decipher what qualifies as \"lifesaving,\" were basically told to figure it out themselves. Meanwhile, the White House is busy inventing condom-based terror plots to justify cutting funding for international medical care. Even land mine removal programs got the axe—and now we're leaving unexploded bombs behind???? For now, a few lucky programs have been granted a temporary lifeline, but the message is clear: foreign aid is now a transactional game, and if you don’t have the right priorities (read: military support for the right countries), don’t expect U.S. dollars to keep flowing. it's contingent on pleasing el furher fuck what congress has to say",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/national-security/2025/01/28/state-department-foreign-aid-trump-waiver/',
+        linkText: "Rubio backtracks on near-total foreign aid freeze, issues humanitarian waiver (wapo)",
+      },
+    ],
+  },
+  {
+    id: '100',
+    sort_id: '100',
+    categories: ['imperialism', 'full-stupid'],
+    faicon: 'skull-crossbones',
+    datetime: '2025-01-29 18:10',
+    title: 'conservatives want greenland - except for the people who live there, those DAM LIBRULS',
+    image: {
+      link: 'https://www.washingtonpost.com/world/2025/01/29/trump-greenland-denmark-independence/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R7MWYEUTVUGLRSD6ZBXFRQ2FYQ.jpg&w=916',
+      alt: 'The statue of Hans Egede, the Dano-Norwegian Lutheran missionary who founded Nuuk, overlooks the capital city in Greenland. (Sebastien Van Malleghem for The Washington Post)',
+      caption: 'The statue of Hans Egede, the Dano-Norwegian Lutheran missionary who founded Nuuk, overlooks the capital city in Greenland. (Sebastien Van Malleghem for The Washington Post)',
+    },
+    body:  "What started as a punchline in 2019 is now a full-blown diplomatic crisis—frumpy is once again pushing for U.S. control of Greenland, calling it an “absolute necessity” for Western security. While Denmark has firmly rejected the idea, they’re not taking it lightly this time, ramping up military spending and scrambling for European support. Meanwhile, Trump allies in Congress have already introduced a \"Make Greenland Great Again\" Act to back negotiations, and right-wing think tanks are daydreaming about what kind of U.S. territory it could become—just not a state, because, as Heritage Foundation scholars warned, Greenlanders are *gasp* SOCIALISTLIBTARDS. With Greenland’s local government increasingly frustrated with Danish rule, frump may be banking on an independence movement to help him land his prize. But Denmark and the rest of Europe seem to be gearing up for a fight.",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/world/2025/01/29/trump-greenland-denmark-independence/',
+        linkText: "The curious momentum behind Trump’s quest for Greenland (wapo)",
+      },
+    ],
+  },
+  {
+    id: '99',
+    sort_id: '99',
+    categories: ['lawlessness'],
+    faicon: 'poo',
+    datetime: '2025-01-29 07:46',
+    title: 'trump kills veterans suicide assistance',
+    image: {
+      link: 'https://virginiamercury.com/2025/01/28/dc/trump-administration-memo-announces-abrupt-freeze-on-broad-swath-of-federal-payments/',
+      src: 'https://virginiamercury.com/wp-content/uploads/2025/01/trumpjan272025-1536x1021.jpg',
+      alt: 'frump',
+      caption: 'weird orange man getting ready to catch a hotdog with his mouth',
+    },
+    body:  "Trump’s abrupt federal spending freeze has already created chaos, but one of its most egregious impacts? Cutting off suicide prevention assistance for veterans. The executive order, which halts funding for a wide range of grants and programs, includes a pause on the Veterans Affairs Department’s suicide prevention and legal services grants, raising alarm among lawmakers and advocacy groups. While the White House insists the freeze is just a temporary “review,” the move directly contradicts Trump’s past rhetoric on supporting veterans. Meanwhile, Senate Republicans are downplaying concerns, with some urging people to “stay calm” and “take a deep breath.” Must be nice advice for those not wondering whether lifesaving services will still exist next week.",
+    links: [
+      {
+        href: 'https://virginiamercury.com/2025/01/28/dc/trump-administration-memo-announces-abrupt-freeze-on-broad-swath-of-federal-payments/',
+        linkText: "Judge temporarily blocks Trump administration freeze on broad swath of federal payments",
+      },
+    ],
+  },
+  {
+    id: '98',
+    sort_id: '98',
+    categories: ['awful-nominations'],
+    faicon: 'skull-crossbones',
+    datetime: '2025-01-29 07:37',
+    title: 'trumps commerce pick has a history of outsourcing jobs to mexico',
+    image: {
+      link: 'https://www.washingtonpost.com/business/2025/01/28/commerce-secretary-howard-lutnick-china-mexico/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QG42D3M3QW4XAFLPH5UHE2HSBQ_size-normalized.jpg&w=916',
+      alt: 'frump and lutnik',
+      caption: 'guy that raped kids with jeffrey epstein and his anti-american labor commerce pick, skinny stephen seagal',
+    },
+    body:  "Howard Lutnick, Trump’s nominee for Commerce Secretary, spent months on the campaign trail railing against outsourcing jobs to Mexico—while his own real estate firm was busy selling American companies on the benefits of cheap Mexican labor. Newmark Group, where Lutnick serves as executive chairman, has actively pitched industrial sites in Mexico as prime locations for manufacturers looking to dodge Chinese tariffs and cut costs. Now, as he heads for a Senate confirmation hearing, questions swirl about whether he’ll actually prioritize American jobs—or just continue serving the same corporate interests he’s profited from. Ethics experts warn his deep financial ties could lead to conflicts of interest, but hey, what’s another billionaire running the economy under Trump’s watch?",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/business/2025/01/28/commerce-secretary-howard-lutnick-china-mexico/',
+        linkText: "Lutnick wants factories here, but his firm touts manufacturing in Mexico",
+      },
+    ],
+  },
+  {
+    id: '97',
+    sort_id: '97',
+    categories: ['lawlessness'],
+    faicon: 'scale-unbalanced',
+    datetime: '2025-01-29 07:30',
+    title: 'jan 6 rioter pardoned by trump is wanted for trying to f*ck children',
+    image: {
+      link: 'https://www.newsweek.com/jan-six-rioter-pardoned-trump-wanted-solicitation-minor-charge-texas-2021917',
+      src: 'https://d.newsweek.com/en/full/2574853/andrew-taake.webp?w=790&f=2456014255ba183aa88b65b5cb20c0fe',
+      alt: 'pedophile',
+      caption: 'typial trump j6er wanted for trying to f*ck children',
+    },
+    body:  "Andrew Taake, a Texas resident recently pardoned by President Trump for his involvement in the January 6 Capitol attack, is now wanted by Texas authorities for allegedly soliciting a minor online. Prior to his pardon, Taake was serving a 74-month federal sentence for assaulting officers during the insurrection. Unbeknownst to federal authorities, Taake had an outstanding 2016 child solicitation case, leading the Harris County District Attorney's Office to label him a fugitive. This development raises questions about the thoroughness of the pardon vetting process and the potential oversight of existing state-level charges. tangerine tiny hands is releasing the dregs of the us population back into the community",
+    links: [
+      {
+        href: 'https://www.newsweek.com/jan-six-rioter-pardoned-trump-wanted-solicitation-minor-charge-texas-2021917',
+        linkText: "Pentagon revokes Milley’s security clearance and detail",
+      },
+    ],
+  },
+  {
+    id: '96',
+    sort_id: '96',
+    categories: ['retribution'],
+    faicon: 'landmark',
+    datetime: '2025-01-29 07:27',
+    title: 'trumps pentagon targets devout public servant',
+    image: {
+      link: 'https://www.politico.com/news/2025/01/29/pentagon-revokes-milleys-security-clearance-00201170',
+      src: 'https://www.politico.com/dims4/default/af1dc53/2147483647/strip/true/crop/4809x3206+0+0/resize/630x420!/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F95%2Fdd%2F8e0a75ea4c7cbf1b83a24aea3e1c%2Fbiden-pardons-67470.jpg',
+      alt: 'general milley and frump',
+      caption: 'general milley trying not to smell or see jabba the frump',
+    },
+    body:  "continuing the administration's ongoing vendetta against perceived adversaries, Defense Secretary Pete Hegseth has revoked retired General Mark Milley's security clearance and personal security detail. An investigation has also been launched to determine whether Milley should be demoted for actions allegedly undermining the chain of command during Trump's previous term. This follows the removal of Milley's portrait from the Pentagon, signaling a clear message to those who have crossed the president. agent orange doesn't want you to be loyal to the constitution or the rule of law, loyalty to the tangerine tyrant comes first.",
+    links: [
+      {
+        href: 'https://www.politico.com/news/2025/01/29/pentagon-revokes-milleys-security-clearance-00201170',
+        linkText: "Pentagon revokes Milley’s security clearance and detail",
+      },
+    ],
+  },
+  {
+    id: '95',
+    sort_id: '95',
+    categories: ['racism', 'anti-immigration'],
+    faicon: 'book-open',
+    datetime: '2025-01-28 20:02',
+    title: 'school board to require proof of citizenship for new students',
+    image: {
+      link: 'https://apnews.com/article/oklahoma-schools-illegal-immigration-ryan-walters-13fa267d1fdc2c41a90a1a54ac364ff0',
+      src: 'https://dims.apnews.com/dims4/default/f8dbef7/2147483647/strip/false/crop/3000x2000+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9b%2F7c%2F04d06bf4ac7c61777c51f8589aec%2Fb5fcbbe5ad024f1fb4c45807e2e33c64',
+      alt: 'protestors',
+      caption: 'protestors outside of the schoolboard',
+    },
+    body:  "targeting undocumented families, the Oklahoma State Board of Education has unanimously approved a proposal requiring parents to provide proof of their child's U.S. citizenship or legal immigration status during public school enrollment. While officials claim this is to better allocate resources, opponents see it as a thinly veiled attempt to intimidate immigrant communities and potentially deter them from accessing education. The policy mandates that districts report the number of students without provided documentation, raising concerns about privacy and the potential misuse of this information. As the proposal awaits legislative and gubernatorial approval, it faces significant backlash from educators, civil rights groups, and community members who fear it will sow fear and division in schools. again to reiterate THESE ARE CHILDREN WHAT THE FUCK IS WRONG WITH YOU PEOPLE",
+    links: [
+      {
+        href: 'https://apnews.com/article/oklahoma-schools-illegal-immigration-ryan-walters-13fa267d1fdc2c41a90a1a54ac364ff0',
+        linkText: "Oklahoma proposal requires parents to provide immigration status when enrolling students",
+      },
+    ],
+  },
+  {
+    id: '94',
+    sort_id: '94',
+    categories: ['full-stupid'],
+    faicon: 'gun',
+    datetime: '2025-01-28 19:55',
+    title: 'likely hundreds of millions know these assholes suck, but this guy was really mad',
+    image: {
+      link: 'https://www.nbcwashington.com/news/local/armed-man-at-capitol-threatened-to-kill-scott-bessent-pete-hegseth-mike-johnson/3827471/',
+      src: 'https://s.yimg.com/ny/api/res/1.2/jyfwiSp.9vkajHCAtqvPgg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY0Mw--/https://media.zenfs.com/en/aol_ny_post_us_news_articles_123/9a68b16884e2aba36873aac5c6cb9c0d',
+      alt: 'pete hegeth',
+      caption: 'major mcdrunky',
+    },
+    body:  "An armed individual was apprehended at the U.S. Capitol after allegedly threatening to kill Scott Bessent, Pete Hegseth, and Mike Johnson. We understand they suck, and I fucking hate them too dude, but that\'s not the way we handle our business, unless you're one of the presidents violent fascist extremists",
+    links: [
+      {
+        href: 'https://www.nbcwashington.com/news/local/armed-man-at-capitol-threatened-to-kill-scott-bessent-pete-hegseth-mike-johnson/3827471/',
+        linkText: "Armed man at Capitol threatened to kill Scott Bessent, Pete Hegseth, Mike Johnson",
+      },
+    ],
+  },
+  {
+    id: '93',
+    sort_id: '93',
+    categories: ['full-stupid'],
+    faicon: 'landmark',
+    datetime: '2025-01-28 19:49',
+    title: 'the smithsonian closes dei office',
+    image: {
+      link: 'https://www.washingtonpost.com/entertainment/art/2025/01/28/smithsonian-closes-diversity-office-hiring-freeze/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/7WNCGIYGAWBOM6DW2DMJJMWJJI.JPG&w=916',
+      alt: 'the smithsonian castle',
+      caption: 'the smithsonian castle',
+    },
+    body:  "the Smithsonian Institution has closed its diversity office and implemented a hiring freeze. This decision aligns with agolf twitlers recent executive order limiting diversity, equity, and inclusion initiatives across federal agencies. Critics argue that dismantling the diversity office undermines efforts to promote inclusivity within one of the nation's premier cultural institutions. The Smithsonian's leadership has yet to provide detailed plans on how they intend to address diversity and representation moving forward.",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/entertainment/art/2025/01/28/smithsonian-closes-diversity-office-hiring-freeze/',
+        linkText: "Smithsonian to close diversity office after Trump order",
+      },
+    ],
+  },
+  {
+    id: '92',
+    sort_id: '92',
+    categories: ['trumps-america'],
+    faicon: 'book-open',
+    datetime: '2025-01-28 19:43',
+    title: 'schools are trying to protect kids',
+    image: {
+      link: 'https://www.nbcnews.com/politics/immigration/public-schools-undocumented-students-trump-immigration-raids-rcna189466',
+      src: 'https://images.wsj.net/im-60007693?width=700&size=1.4988290398126465',
+      alt: 'ice agents',
+      caption: 'ice agents trying to ruin someones holiday',
+    },
+    body:  "As Trump’s administration removes protections barring ICE from sensitive locations, public schools across the U.S. are fighting back to shield undocumented students. Districts in cities like Chicago, Denver, and New York are introducing policies to limit ICE’s access to school grounds, refusing to cooperate without judicial warrants, and ensuring schools remain sanctuaries. While Trump claims raids on schools will be “extremely rare,” educators are preparing for the worst, with some districts even instituting lockdown procedures for uninvited government officials. It’s a bold stand for vulnerable students in an era where compassion and safety seem harder to come by.",
+    links: [
+      {
+        href: 'https://www.nbcnews.com/politics/immigration/public-schools-undocumented-students-trump-immigration-raids-rcna189466',
+        linkText: "Public schools try to protect undocumented students from Trump immigration raids",
+      },
+    ],
+  },
+  {
+    id: '92',
+    sort_id: '92',
+    categories: ['anti-immigration'],
+    faicon: 'skull-crossbones',
+    datetime: '2025-01-28 19:36',
+    title: 'yall really believed him when he said he wasn\'t coming for everyone',
+    image: {
+      link: 'https://www.wsj.com/politics/policy/trump-ramps-up-deportation-effort-after-slow-start-546d9954',
+      src: 'https://images.wsj.net/im-60007693?width=700&size=1.4988290398126465',
+      alt: 'ice agents',
+      caption: 'ice agents trying to ruin someones holiday',
+    },
+    body:  "After a sluggish beginning, president whiny victim has intensified efforts to deport undocumented immigrants, with recent data showing a significant increase in arrests. This escalation aligns with his administration's broader immigration crackdown, which includes large-scale raids and the removal of previous protections for sensitive locations like schools and churches. Critics argue that these actions not only strain international relations but also risk economic repercussions, particularly in industries reliant on immigrant labor. Nevertheless, the administration remains steadfast, emphasizing the enforcement of immigration laws as a cornerstone of its policy agenda. Americans are going to FAFO that this country runs on cheap immigrant labor.",
+    links: [
+      {
+        href: 'https://www.wsj.com/politics/policy/trump-ramps-up-deportation-effort-after-slow-start-546d9954',
+        linkText: "Trump Ramps Up Deportation Effort After Slow Start",
+      },
+    ],
+  },
+  {
+    id: '91',
+    sort_id: '91',
+    categories: ['trumps-america'],
+    faicon: 'poo',
+    datetime: '2025-01-28 19:31',
+    title: 'trump brings out the worst in ourselves - teacher calls muslim student a terrorist',
+    image: {
+      link: 'https://www.kentucky.com/news/nation-world/national/article299293139.html',
+      src: 'https://www.miamiherald.com/news/nation-world/national/p1v0rd/picture299292419/alternates/LANDSCAPE_1140/PASchool.jpg',
+      alt: 'school',
+      caption: 'photo of the school the teacher used to work for',
+    },
+    body:  "A teacher at Central Dauphin Middle School in Pennsylvania has resigned following backlash for allegedly calling a Muslim student a \"terrorist.\" The incident has sparked discussions about Islamophobia and the importance of cultural sensitivity in educational settings. What the fuck is wrong with people? that's a child",
+    links: [
+      {
+        href: 'https://www.kentucky.com/news/nation-world/national/article299293139.html',
+        linkText: "Teacher calls Muslim student a ‘terrorist’ and resigns after backlash, PA reports say",
+      },
+    ],
+  },
+  {
+    id: '90',
+    sort_id: '90',
+    categories: ['trade-war', 'money'],
+    faicon: 'money-bill-wave',
+    datetime: '2025-01-28 19:21',
+    title: 'I think he doesn\'t understand what tariffs are',
+    image: {
+      link: 'https://www.usatoday.com/story/news/politics/2025/01/27/trump-tariffs-steel-semiconductors-pharmaceuticals/77981468007/',
+      src: 'https://www.usatoday.com/gcdn/authoring/authoring-images/2025/01/28/USAT/77982149007-gty-2196277511.jpg?width=660&height=439&fit=crop&format=pjpg&auto=webp',
+      alt: 'frumpy dumpy',
+      caption: 'the president pointing at his favorite slinky',
+    },
+    body:  "President neckflap plans to slap tariffs on imported semiconductors, pharmaceuticals, and metals, aiming to force companies to manufacture these essentials within U.S. borders. Never mind that our key allies in Asia—like Taiwan, South Korea, and Japan—are the primary suppliers of these goods. Because nothing says 'thank you for your partnership' like a hefty import tax. Critics warn this could disrupt supply chains and hike prices for consumers, but hey, who needs affordable medicine and electronics when we can have trade wars instead?",
+    links: [
+      {
+        href: 'https://www.usatoday.com/story/news/politics/2025/01/27/trump-tariffs-steel-semiconductors-pharmaceuticals/77981468007/',
+        linkText: "Donald Trump pledges sweeping tariffs on steel, semiconductors and other imports",
+      },
+    ],
+  },
+  {
+    id: '89',
+    sort_id: '89',
+    categories: ['money', 'national-security'],
+    faicon: 'money-bill-wave',
+    datetime: '2025-01-28 07:41',
+    title: 'trump freezes funds: cutting off a world lifeline',
+    image: {
+      link: 'https://www.politico.com/news/2025/01/27/trump-freezes-federal-aid-omb-00200891',
+      src: 'https://www.politico.com/dims4/default/dc2e423/2147483647/strip/true/crop/8640x5760+0+0/resize/630x420!/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F77%2F0a%2F9810425b48d18b8d440a3aaae319%2Ftrump-55476.jpg',
+      alt: 'frumpy dumpy',
+      caption: 'wtf why does he paint himself this color, is he transitioning to an oompa?',
+    },
+    body:  "President ferrethead has ordered a sweeping halt to federal grants and aid, leaving global health programs in disarray. This freeze halts the supply of life-saving HIV, malaria, and tuberculosis medications to impoverished nations, potentially endangering millions who rely on U.S. assistance. While the administration claims it's reviewing aid efficiency, critics argue this is less about prudence and more about abandoning the world's most vulnerable. America first, otherwise f*ck you I guess?",
+    links: [
+      {
+        href: 'https://www.politico.com/news/2025/01/27/trump-freezes-federal-aid-omb-00200891',
+        linkText: "Trump administration orders sweeping freeze of federal aid",
+      },
+      {
+        href: 'https://www.washingtonpost.com/business/2025/01/27/white-house-pauses-federal-grants/',
+        linkText: "White House pauses all federal grants, sparking confusion (wapo)",
+      },
+    ],
+  },
+  {
+    id: '88',
+    sort_id: '88',
+    categories: ['full-stupid'],
+    faicon: 'skull-crossbones',
+    datetime: '2025-01-28 07:37',
+    title: 'throwback: oblivious nation falls for the oke-doke',
+    image: {
+      link: 'https://www.pbs.org/newshour/show/trump-names-project-2025-architect-russell-vought-to-key-white-house-role',
+      src: 'https://fedscoop.com/wp-content/uploads/sites/5/2025/01/GettyImages-2193485018.jpg',
+      alt: 'russel vought',
+      caption: 'human sludge and leading cause of vaginal dryness, ruussell vought',
+    },
+    body:  "After publicly distancing himself from the \"ridiculous and abysmal\" Project 2025, President Trump has now appointed its chief architect, Russell Vought, to lead the Office of Management and Budget. Vought, who previously served as OMB director during Trump's first term, is known for his role in crafting the conservative blueprint that Trump claimed to know nothing about. Looks like when it comes to staffing, Trump's memory is as flexible as his principles.",
+    links: [
+      {
+        href: 'https://www.pbs.org/newshour/show/trump-names-project-2025-architect-russell-vought-to-key-white-house-role',
+        linkText: "Trump names Project 2025 architect Russell Vought to key White House role",
+      },
+      {
+        href: 'https://apnews.com/article/trump-project-2025-administration-nominees-843f5ff20131ccba5f056e7ccc5baf23',
+        linkText: "After Trump’s Project 2025 denials, he is tapping its authors and influencers for key roles",
+      },
+    ],
+  },
+  {
+    id: '87',
+    sort_id: '87',
+    categories: ['full-stupid'],
+    faicon: 'skull-crossbones',
+    datetime: '2025-01-28 07:31',
+    title: 'throwback: rfk claims covid was bioengineered to spare jews',
+    image: {
+      link: 'https://nypost.com/2023/07/15/rfk-jr-says-covid-was-ethnically-targeted-to-spare-jews/',
+      src: 'https://nypost.com/wp-content/uploads/sites/2/2023/07/NYPICHPDPICT000014045968-edited.jpg?resize=1024,724&quality=75&strip=all',
+      alt: 'rfk jr',
+      caption: 'crazy old antisemite contemplating his terrible life choices',
+    },
+    body:  "Trump’s HHS pick, RFK Jr., is back with another gem, claiming COVID-19 was bioengineered to target specific groups—while somehow sparing Jewish people and the Chinese. Because apparently, the global pandemic wasn’t wild enough without adding a tinfoil hat narrative. This is the guy Trump thinks should lead the nation’s health efforts? Fiscal conservatism and science denialism—truly a match made in dystopia.",
+    links: [
+      {
+        href: 'https://nypost.com/2023/07/15/rfk-jr-says-covid-was-ethnically-targeted-to-spare-jews/',
+        linkText: "Trump signs executive order to develop American-made ‘Iron Dome’ missile shield",
+      },
+    ],
+  },
+  {
+    id: '86',
+    sort_id: '86',
+    categories: ['money', 'full-stupid'],
+    faicon: 'rocket',
+    datetime: '2025-01-28 07:27',
+    title: 'lets waste a ton of money on an iron dome, great idea',
+    image: {
+      link: 'https://www.timesofisrael.com/trump-signs-executive-order-to-develop-american-made-iron-dome-missile-shield/',
+      src: 'https://static-cdn.toi-media.com/www/uploads/2024/08/AFP__20240823__36EQ8U2__v1__HighRes__IsraelLebanonPalestinianConflictBorder-e1724443488861.jpg',
+      alt: 'israels iron dome',
+      caption: 'israels iron dme',
+    },
+    body:  "President Trump has signed an executive order to develop an American-made missile defense system akin to Israel's Iron Dome, aiming to protect the U.S. from potential threats. However, considering the U.S. is flanked by friendly neighbors and vast oceans, the necessity of such a system is questionable. Critics argue that investing in a missile defense shield designed for short-range threats is an imprudent use of resources, especially when the nation faces more pressing domestic challenges. Moreover, the effectiveness of such systems against advanced missile technologies remains a topic of debate among defense experts. In essence, while the initiative may bolster perceptions of national security, but its really just a giant waste of our money, fiscal conservatism right?",
+    links: [
+      {
+        href: 'https://www.timesofisrael.com/trump-signs-executive-order-to-develop-american-made-iron-dome-missile-shield/',
+        linkText: "Trump signs executive order to develop American-made ‘Iron Dome’ missile shield",
+      },
+      {
+        href: 'https://www.cbsnews.com/news/myths-of-missile-defense/',
+        linkText: "Myths Of Missile Defense",
+      },
+    ],
+  },
+  {
+    id: '85',
+    sort_id: '85',
+    categories: ['lawlessness'],
+    faicon: 'water',
+    datetime: '2025-01-28 07:20',
+    title: 'crazy old man makes bonkers proclamation',
+    image: {
+      link: 'https://www.nytimes.com/2025/01/27/us/politics/trump-california-wildfires-water.html',
+      src: 'https://pbs.twimg.com/media/GiXMBc5WAAAmxtx.jpg',
+      alt: 'wtf',
+      caption: 'wtf is this',
+    },
+    body:  "In a recent social media post, President Trump announced that the U.S. military had \"turned on the water\" in wildfire-stricken California, suggesting a decisive intervention to aid the state. However, state officials clarified that the action involved federal authorities reactivating a Northern California pumping station that was offline for maintenance—not a military operation. This move comes amid ongoing tensions between the Trump administration and California leaders over water management and environmental policies.",
+    links: [
+      {
+        href: 'https://www.nytimes.com/2025/01/27/us/politics/trump-california-wildfires-water.html',
+        linkText: "Trump Seeks to Assert More Control Over California’s Water",
+      },
+    ],
+  },
+  {
+    id: '84',
+    sort_id: '84',
+    categories: ['lawlessness', 'full-stupid'],
+    faicon: 'gun',
+    datetime: '2025-01-27 19:40',
+    title: 'rioter pardoned by criminal president killed by police',
+    image: {
+      link: 'https://www.theguardian.com/us-news/2025/jan/27/jan-6-pardon-police-killing-matthew-huttle',
+      src: 'https://i.guim.co.uk/img/media/5c6aa284ed48076a1faea1252b782478ca6631e1/0_0_4500_3001/master/4500.jpg?width=620&dpr=1&s=none&crop=none',
+      alt: 'the j6 riot',
+      caption: 'gullible doofuses attacking the seat of democracy',
+    },
+    body:  "Matthew Huttle, a January 6th insurrectionist who had previously been pardoned, was killed in an altercation with police today. Huttle’s second clash with law enforcement turned out to be his last—an ironic end for someone who once stormed the Capitol claiming to “back the blue.” he should have just complied",
+    links: [
+      {
+        href: 'https://www.theguardian.com/us-news/2025/jan/27/jan-6-pardon-police-killing-matthew-huttle',
+        linkText: "January 6 rioter pardoned by Trump is killed by police in traffic stop",
+      },
+    ],
+  },
+  {
+    id: '83',
+    sort_id: '83',
+    categories: ['killing-democracy'],
+    faicon: 'scale-unbalanced',
+    datetime: '2025-01-27 19:31',
+    title: 'trump fires line prosecutors that worked on his case',
+    image: {
+      link: 'https://abcnews.go.com/Politics/acting-us-attorney-dc-initiates-review-offices-jan/story?id=118155249',
+      src: 'https://dims.apnews.com/dims4/default/ea96f99/2147483647/strip/true/crop/8640x5760+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F6a%2F93%2Fd6ffbd1c1cf17c9848a2dcc5265b%2F7e997a51476f4203be3dbd1895cf63fb',
+      alt: 'doj',
+      caption: 'the department of justice is being purged by a criminal president',
+    },
+    body:  "the f3rump administration has axed over a dozen Justice Department officials involved in prosecuting the former president. Acting Attorney General James McHenry justified the purge, stating these individuals couldn't be trusted to \"faithfully implement the President's agenda.\" Because, apparently, holding someone accountable is now considered disloyalty.",
+    links: [
+      {
+        href: 'https://abcnews.go.com/Politics/acting-us-attorney-dc-initiates-review-offices-jan/story?id=118155249',
+        linkText: "Trump Justice Department says it has fired employees involved in prosecutions of the president",
+      },
+    ],
+  },
+  {
+    id: '82',
+    sort_id: '82',
+    categories: ['killing-democracy'],
+    faicon: 'scale-unbalanced',
+    datetime: '2025-01-27 19:25',
+    title: 'us attorney opens probe into january 6 prosecutions',
+    image: {
+      link: 'https://abcnews.go.com/Politics/acting-us-attorney-dc-initiates-review-offices-jan/story?id=118155249',
+      src: 'https://i.abcnewsfe.com/a/6ab67851-38a5-4250-95bd-42d2a526567d/jan6-gty-er-250127_1738013274828_hpMain_4x3.jpg?w=750',
+      alt: 'the insurrection',
+      caption: 'trumps failed ass attempt to try to overthrow a free and fair election, whiny little bitch',
+    },
+    body:  "U.S. Attorney Ed Martin is taking a hard look at the DOJ’s use of felony obstruction charges in January 6th prosecutions, calling it a “great failure” and pledging to “get to the bottom of it.” Because clearly, the real tragedy here isn’t an attempted coup—it’s accountability for the people who tried to pull it off.",
+    links: [
+      {
+        href: 'https://abcnews.go.com/Politics/acting-us-attorney-dc-initiates-review-offices-jan/story?id=118155249',
+        linkText: "Acting US Attorney for DC initiates 'review' of office's Jan. 6 investigation",
+      },
+    ],
+  },
+  {
+    id: '82',
+    sort_id: '82',
+    categories: ['not-awful'],
+    faicon: 'plane',
+    datetime: '2025-01-27 19:17',
+    title: 'air force does an about face on featuring tuskegee airmen in training videos',
+    image: {
+      link: 'https://www.reuters.com/world/us/us-air-force-says-it-will-teach-video-first-black-pilots-after-dei-review-2025-01-26/',
+      src: 'https://www.reuters.com/resizer/v2/66FPFFHDKBOGXJ7WMYAATXW2JY.jpg?auth=474aebd95773bc18ea8b2cc2c2ae6495b31b8659d9c8881cb3338f05d3a97cf8&width=1080&quality=80',
+      alt: 'gate to air force base',
+      caption: 'air force base gate',
+    },
+    body:  "see title",
+    links: [
+      {
+        href: 'https://www.reuters.com/world/us/us-air-force-says-it-will-teach-video-first-black-pilots-after-dei-review-2025-01-26/',
+        linkText: "US Air Force resumes teaching video on first Black pilots after DEI review",
+      },
+    ],
+  },
+  {
+    id: '81',
+    sort_id: '81',
+    categories: ['leopards-ate-my-face'],
+    faicon: 'music',
+    datetime: '2025-01-27 07:35',
+    title: 'carrie underwood serenades notorious rapist and adulterer',
+    image: {
+      link: 'https://www.independent.co.uk/arts-entertainment/music/news/carrie-underwood-trump-inauguration-streaming-numbers-b2686778.html',
+      src: 'https://static.independent.co.uk/2025/01/20/18/APTOPIX_Trump_Inauguration_54245.jpg?quality=75&width=640&auto=webp',
+      alt: 'carrie underwood',
+      caption: 'american idol becomes american laughing stock by performing for a room full of grifters rapists and pedohphiles',
+    },
+    body:  "Carrie Underwood’s streaming numbers took a nosedive after her Trump inauguration performance, proving that singing for a notorious adulterer and alleged rapist doesn’t exactly scream “girl power.” The irony of belting out hits like Before He Cheats while cozying up to that guy? Chef’s kiss. fucking sellout",
+    links: [
+      {
+        href: 'https://www.independent.co.uk/arts-entertainment/music/news/carrie-underwood-trump-inauguration-streaming-numbers-b2686778.html',
+        linkText: "Carrie Underwood sees streaming numbers tumble after performing at Trump inauguration",
+      },
+    ],
+  },
+  {
+    id: '80',
+    sort_id: '80',
+    categories: ['trade-war'],
+    faicon: 'earth-americas',
+    datetime: '2025-01-27 07:23',
+    title: 'trump threatens to place tariffs on Columbia, which is in South Carolina, frump and petro have a back and forth',
+    image: {
+      link: 'https://www.reuters.com/world/americas/colombias-petro-will-not-allow-us-planes-return-migrants-2025-01-26/',
+      src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/AC-130_%285872%29.jpg/800px-AC-130_%285872%29.jpg',
+      alt: 'c-130',
+      caption: 'c-130 military air craft they were using to transport migrants',
+    },
+    body:  "In a recent escalation, President blockhead announced an \"emergency 25% tariff\" on Colombian imports after Colombia, under President Gustavo Petro, refused to accept U.S. deportation flights. Petro cited concerns over the dignity of deportees, particularly regarding their transport on military aircraft. In response, Trump also imposed sanctions, including visa restrictions for Colombian officials. Facing these economic pressures, Colombia was going to retaliate with tariffs of their own. Still, in the end, Colombia agreed to accept the deportation flights, leading the U.S. to pause the tariffs and some sanctions. However, certain restrictions remain until the first deportation flight is completed successfully.  This incident underscores the complex interplay between immigration policies and international trade relations. The use of economic leverage to influence immigration cooperation highlights the delicate balance nations must maintain in their diplomatic engagements.",
+    links: [
+      {
+        href: 'https://www.reuters.com/world/americas/colombias-petro-will-not-allow-us-planes-return-migrants-2025-01-26/',
+        linkText: "US, Colombia reach deal on deportations; tariff, sanctions put on hold",
+      },
+      {
+        href: 'https://www.wsj.com/world/americas/trump-says-colombia-will-face-25-tariffs-amid-fight-over-deportation-flights-e32dc497',
+        linkText: "Trump Says Colombia Will Accept Deportees, Ending Tariff Standoff",
+      },
+    ],
+  },
+  {
+    id: '79',
+    sort_id: '79',
+    categories: ['anti-immigration'],
+    faicon: 'flag-usa',
+    datetime: '2025-01-27 07:17',
+    title: 'arrest quotas are back, I don\'t care what you did I have a quota to hit',
+    image: {
+      link: 'https://www.washingtonpost.com/immigration/2025/01/26/ice-arrests-raids-trump-quota/',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ENDMNAILVPEVN2ZARLLB4KO4Y4_size-normalized.jpg&w=916',
+      alt: 'ice agent',
+      caption: 'ice agent on his way to harass americans, probably',
+    },
+    body:  "The Trump administration's recent push to implement daily arrest quotas for Immigration and Customs Enforcement (ICE) officers—ranging from 1,200 to 1,500 arrests per day—raises significant concerns. Such quotas may incentivize officers to prioritize meeting numerical targets over assessing individual circumstances, potentially leading to unjust detentions and deportations. This approach could erode public trust in law enforcement and strain resources, diverting attention from genuine threats to public safety. Critics argue that enforcing arrest quotas undermines the principles of justice and due process, emphasizing the need for immigration policies that balance enforcement with compassion and fairness. People already aren't showing up for work in the fields to harvest our food, what could go wrong?",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/immigration/2025/01/26/ice-arrests-raids-trump-quota/',
+        linkText: "Trump officials issue quotas to ICE officers to ramp up arrests (paywall wapo link)",
+      },
+      {
+        href: 'https://www.newsnationnow.com/us-news/immigration/trump-ice-arrest-quotas-immigration/',
+        linkText: "Arrest quotas for ICE officers ‘a bad idea’: William Enyart",
+      },
+    ],
+  },
+  {
+    id: '78',
+    sort_id: '78',
+    categories: ['anti-immigration'],
+    faicon: 'tractor',
+    datetime: '2025-01-27 07:08',
+    title: 'kristi noem employs undocumented migrants to work on her farm, do as I say not as I farm',
+    image: {
+      link: 'https://apnews.com/article/kristi-noem-dhs-immigration-crackdown-trump-south-dakota-52bf133437d20f4dd6f5284bb751e264',
+      src: 'https://dims.apnews.com/dims4/default/38daa1c/2147483647/strip/true/crop/6748x4496+0+0/resize/1440x959!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F7b%2F42%2F18161ba880f54bb20fbb58171795%2Fc49fa3593b4e40988dd1bd6be312fb39',
+      alt: 'kristi noem',
+      caption: 'professional puppy and goat murderer, kristi noem',
+    },
+    body:  "As newly appointed Homeland Security Secretary Kristi Noem vows to tighten immigration policies, South Dakota farmers are left wondering if their labor force will vanish faster than a cornfield in a drought. One local farmer quipped, \"I'm not too worried; after all, Kristi's got her own farmhands to think about.\" Indeed, Noem's family ranch employs temporary farm workers, highlighting the irony of her hardline stance. It's a classic case of 'rules for thee, but not for me'—because nothing says leadership like jeopardizing your neighbors' livelihoods while safeguarding your own.",
+    links: [
+      {
+        href: 'https://apnews.com/article/kristi-noem-dhs-immigration-crackdown-trump-south-dakota-52bf133437d20f4dd6f5284bb751e264',
+        linkText: "Kristi Noem’s immigration rhetoric overlooks stark economic realities in her own state",
+      },
+      {
+        href: 'https://www.youtube.com/watch?v=dbohp3VSo84',
+        linkText: "Farmer who voted for Trump hopes he won't do what he promised",
+      },
+    ],
+  },
+  {
+    id: '77',
+    sort_id: '77',
+    categories: ['leopards-ate-my-face', 'money'],
+    faicon: 'book-open',
+    datetime: '2025-01-27 06:59',
+    title: 'he loves the poorly educated',
+    image: {
+      link: 'https://www.cnn.com/2025/01/16/politics/trump-education-funding-invs/index.html',
+      src: 'https://d3i6fh83elv35t.cloudfront.net/static/2024/11/2024-11-13T173049Z_1795962853_RC2E4BA769MA_RTRMADP_3_USA-TRUMP-CONGRESS-1024x683.jpg',
+      alt: 'frump',
+      caption: 'illiterate old man struggles to read a teleprompter, probably',
+    },
+    body:  "president ferrethead is considering slashing education funding, including dismantling the Department of Education altogether. Because who needs well-funded schools when you’ve got rallies to attend? The irony isn’t lost on critics, who note that many of Trump’s strongest supporters hail from areas already struggling with underfunded public schools. If “owning the libs” means cutting opportunities for your own kids, it seems this plan might just be a stroke of genius—or something like that.",
+    links: [
+      {
+        href: 'https://www.cnn.com/2025/01/16/politics/trump-education-funding-invs/index.html',
+        linkText: "Teacher layoffs, bigger classes: Potential federal education cuts could hit GOP’s base hardest",
+      },
+    ],
+  },
+  {
+    id: '76',
+    sort_id: '76',
+    categories: ['full-stupid'],
     faicon: 'flag-usa',
     datetime: '2025-01-26 08:32',
     title: 'trump is gonna send the folks hired to make sure the rich pay their fare share to the border',
@@ -42,12 +1696,16 @@ const entries = [
         href: 'https://nypost.com/2025/01/25/us-news/trump-mulling-fate-of-nearly-90000-newly-hired-irs-agents/',
         linkText: "Trump says he may send nearly 90,000 newly hired IRS agents to border after issuing indefinite hiring freeze",
       },
+      {
+        href: 'https://amp.cnn.com/cnn/2023/01/11/politics/republican-irs-funding-87000-agents',
+        linkText: "5 reasons why the Republican claim about 87,000 new IRS agents is an exaggeration",
+      },
     ],
   },
   {
     id: '75',
+    sort_id: '75',
     categories: ['full-stupid'],
-    color: 'grey',
     faicon: 'face-laugh-squint',
     datetime: '2025-01-26 08:32',
     title: 'the laughing stock of the world, quite literally',
@@ -67,8 +1725,8 @@ const entries = [
   },
   {
     id: '74',
+    sort_id: '74',
     categories: ['money', 'anti-immigration'],
-    color: 'green',
     faicon: 'flag-usa',
     datetime: '2025-01-26 08:28',
     title: 'fiscal conservatives my ass, this clown is spending 10x to deport people on military aircraft',
@@ -88,8 +1746,8 @@ const entries = [
   },
   {
     id: '74',
+    sort_id: '74',
     categories: ['money'],
-    color: 'red',
     faicon: 'money-bill-wave',
     datetime: '2025-01-26 08:24',
     title: 'billionaire tells americans to "get over" the higher prices hes causing',
@@ -109,8 +1767,8 @@ const entries = [
   },
   {
     id: '73',
+    sort_id: '73',
     categories: ['full-stupid', 'killing-democracy'],
-    color: 'blue',
     faicon: 'skull-crossbones',
     datetime: '2025-01-26 08:19',
     title: 'convicted seditionist stewart rhodes takes center stage at anti-american fascist\'s hate rally',
@@ -130,8 +1788,8 @@ const entries = [
   },
   {
     id: '72',
+    sort_id: '72',
     categories: ['trade-war'],
-    color: 'grey',
     faicon: 'fire',
     datetime: '2025-01-26 08:12',
     title: 'ok we just won\'t do business with you anymore whatever',
@@ -151,8 +1809,8 @@ const entries = [
   },
   {
     id: '71',
+    sort_id: '71',
     categories: ['racism', 'full-stupid'],
-    color: 'green',
     faicon: 'poop',
     datetime: '2025-01-26 08:06',
     title: 'learning about successful black people or women is dei too according to man who appoints dei cabinet members',
@@ -176,8 +1834,8 @@ const entries = [
   },
   {
     id: '70',
+    sort_id: '70',
     categories: ['leopards-ate-my-face'],
-    color: 'red',
     faicon: 'poop',
     datetime: '2025-01-26 07:58',
     title: 'trouble in paradise, already',
@@ -201,8 +1859,8 @@ const entries = [
   },
   {
     id: '69',
+    sort_id: '69',
     categories: ['full-stupid'],
-    color: 'blue',
     faicon: 'fire',
     datetime: '2025-01-25 09:41',
     title: 'incompetent old man thinks california has massive water spigots they just leave in the off position',
@@ -222,8 +1880,8 @@ const entries = [
   },
   {
     id: '68',
+    sort_id: '68',
     categories: ['corruption'],
-    color: 'red',
     faicon: 'scale-unbalanced',
     datetime: '2025-01-25 09:39',
     title: 'trump clears the way to commit crimes with impunity',
@@ -243,8 +1901,8 @@ const entries = [
   },
   {
     id: '67',
+    sort_id: '67',
     categories: ['full-stupid'],
-    color: 'grey',
     faicon: 'tv',
     datetime: '2025-01-25 09:31',
     title: 'people tune out from the clown show',
@@ -264,8 +1922,8 @@ const entries = [
   },
   {
     id: '66',
+    sort_id: '66',
     categories: ['imperialism'],
-    color: 'green',
     faicon: 'skull-crossbones',
     datetime: '2025-01-25 09:25',
     title: 'trump really really wants greenland lmfao what the f*ck',
@@ -289,8 +1947,8 @@ const entries = [
   },
   {
     id: '65',
+    sort_id: '65',
     categories: ['lawlessness'],
-    color: 'green',
     faicon: 'stethoscope',
     datetime: '2025-01-25 09:18',
     title: 'trump drops criminal charges against doctors who broke laws that he disagrees with',
@@ -314,8 +1972,8 @@ const entries = [
   },
   {
     id: '64',
+    sort_id: '64',
     categories: ['full-stupid', 'lawlessness', 'fascism'],
-    color: 'blue',
     faicon: 'skull-crossbones',
     datetime: '2025-01-25 09:12',
     title: 'trump sends goons after 11 year old child',
@@ -335,8 +1993,8 @@ const entries = [
   },
   {
     id: '63',
+    sort_id: '63',
     categories: ['full-stupid', 'lawlessness', 'fascism'],
-    color: 'blue',
     faicon: 'skull-crossbones',
     datetime: '2025-01-25 09:12',
     title: 'trump sends goons after 11 year old child',
@@ -356,8 +2014,8 @@ const entries = [
   },
   {
     id: '62',
+    sort_id: '62',
     categories: ['full-stupid'],
-    color: 'red',
     faicon: 'flag-usa',
     datetime: '2025-01-25 09:07',
     title: 'we\'ve gone full stupid',
@@ -377,8 +2035,8 @@ const entries = [
   },
   {
     id: '61',
+    sort_id: '61',
     categories: ['money', 'national-security'],
-    color: 'grey',
     faicon: 'flag-usa',
     datetime: '2025-01-25 09:02',
     title: 'when your goal is chaos and you have no idea what you\'re doing',
@@ -398,8 +2056,8 @@ const entries = [
   },
   {
     id: '60',
+    sort_id: '60',
     categories: ['money', 'national-security'],
-    color: 'green',
     faicon: 'cloud',
     datetime: '2025-01-25 08:56',
     title: 'a disaster of an idea: abolish the agency that responds to disasters',
@@ -419,8 +2077,8 @@ const entries = [
   },
   {
     id: '59',
+    sort_id: '59',
     categories: ['lawlessness', 'pro-life'],
-    color: 'blue',
     faicon: 'scale-unbalanced',
     datetime: '2025-01-25 08:48',
     title: 'harassing pregnant women is ok now',
@@ -440,8 +2098,8 @@ const entries = [
   },
   {
     id: '58',
+    sort_id: '58',
     categories: ['money', 'healthcare'],
-    color: 'red',
     faicon: 'money-bill-wave',
     datetime: '2025-01-25 08:41',
     title: 'gop says f*ck your medicaid, we have brown people to deport',
@@ -461,8 +2119,8 @@ const entries = [
   },
   {
     id: '57',
+    sort_id: '57',
     categories: ['lawlessness'],
-    color: 'grey',
     faicon: 'scale-balanced',
     datetime: '2025-01-25 08:37',
     title: 'Kentucky convicted child predator & January 6th defendant, Andrew Grisby, has been pardoned by Donald Trump.',
@@ -482,8 +2140,8 @@ const entries = [
   },
   {
     id: '56',
+    sort_id: '56',
     categories: ['pro-life'],
-    color: 'green',
     faicon: 'gun',
     datetime: '2025-01-25 08:28',
     title: 'better buy your kid a bulletproof backpack',
@@ -507,8 +2165,8 @@ const entries = [
   },
   {
     id: '55',
+    sort_id: '55',
     categories: ['retribution'],
-    color: 'blue',
     faicon: 'poo',
     datetime: '2025-01-25 08:20',
     title: 'because potus is basically a vindictive child, frump revokes dr faucis security detail',
@@ -528,8 +2186,8 @@ const entries = [
   },
   {
     id: '54',
+    sort_id: '54',
     categories: ['national-security'],
-    color: 'red',
     faicon: 'skull-crossbones',
     datetime: '2025-01-25 08:11',
     title: 'frump administration dismisses cyber safety review board members',
@@ -549,8 +2207,8 @@ const entries = [
   },
   {
     id: '53',
+    sort_id: '53',
     categories: ['anti-immigration'],
-    color: 'grey',
     faicon: 'flag-usa',
     datetime: '2025-01-24 08:47',
     title: 'detaining everyone, citizen or not bow to the king',
@@ -570,8 +2228,8 @@ const entries = [
   },
   {
     id: '52',
+    sort_id: '52',
     categories: ['money'],
-    color: 'green',
     faicon: 'money-bill-wave',
     datetime: '2025-01-24 08:41',
     title: 'trump thinks he can bully the fed',
@@ -591,8 +2249,8 @@ const entries = [
   },
   {
     id: '51',
+    sort_id: '51',
     categories: ['money','crypto'],
-    color: 'red',
     faicon: 'brand-bitcoin',
     datetime: '2025-01-24 08:38',
     title: 'investing public money in a system rife with fraud what could go wrong',
@@ -612,8 +2270,8 @@ const entries = [
   },
   {
     id: '50',
+    sort_id: '50',
     categories: ['pro-life','national-security'],
-    color: 'blue',
     faicon: 'gun',
     datetime: '2025-01-23 15:00',
     title: 'pro life gop does away with body charged with helping to protect civilians',
@@ -633,8 +2291,8 @@ const entries = [
   },
   {
     id: '49',
+    sort_id: '49',
     categories: ['healthcare'],
-    color: 'green',
     faicon: 'stethoscope',
     datetime: '2025-01-23 14:05',
     title: '300lb slob makes awful health choices for the nation',
@@ -654,8 +2312,8 @@ const entries = [
   },
   {
     id: '48',
+    sort_id: '48',
     categories: ['not-awful'],
-    color: 'grey',
     faicon: 'thumbs-up',
     datetime: '2025-01-23 12:45',
     title: 'trump to declassify documents on high profile murders mlk/jfk/etc',
@@ -675,8 +2333,8 @@ const entries = [
   },
   {
     id: '46',
+    sort_id: '46',
     categories: ['leopards-ate-my-face'],
-    color: 'red',
     faicon: 'car',
     datetime: '2025-01-23 12:40',
     title: 'trump f*cks over red states with ev manuever',
@@ -696,8 +2354,8 @@ const entries = [
   },
   {
     id: '44',
+    sort_id: '44',
     categories: ['unconstitutional'],
-    color: 'blue',
     faicon: 'scale-balanced',
     datetime: '2025-01-23 12:30',
     title: 'judge blocks clearly unconstitutional executive order',
@@ -717,8 +2375,8 @@ const entries = [
   },
   {
     id: '43',
+    sort_id: '43',
     categories: ['anti-immigration'],
-    color: 'green',
     faicon: 'poo',
     datetime: '2025-01-23 08:30',
     title: 'doj tries to strong arm local authorities into doing their bidding',
@@ -738,8 +2396,8 @@ const entries = [
   },
   {
     id: '42',
+    sort_id: '42',
     categories: ['retribution'],
-    color: 'grey',
     faicon: 'skull-crossbones',
     datetime: '2025-01-23 08:25',
     title: 'trump yanks secret service protection from yet another former trump administration official',
@@ -759,8 +2417,8 @@ const entries = [
   },
   {
     id: '41',
+    sort_id: '41',
     categories: ['perverts'],
-    color: 'blue',
     faicon: 'phone',
     datetime: '2025-01-23 08:15',
     title: 'the gop unwilling to subpoena witness because of sexual texts they sent that witness',
@@ -784,8 +2442,8 @@ const entries = [
   },
   {
     id: '40',
+    sort_id: '40',
     categories: ['lawlessness', 'pro-life'],
-    color: 'red',
     faicon: 'fire',
     datetime: '2025-01-23 08:05',
     title: 'Trumps chilling EO for palestinians',
@@ -805,8 +2463,8 @@ const entries = [
   },
   {
     id: '39',
+    sort_id: '39',
     categories: ['lawlessness'],
-    color: 'green',
     faicon: 'poo',
     datetime: '2025-01-23 08:00',
     title: 'after pardoning violent extremnists that beat up police with baseball bats, trump throws a fit about joe bidens use of pardon power',
@@ -826,8 +2484,8 @@ const entries = [
   },
   {
     id: '38',
+    sort_id: '38',
     categories: ['lawlessness'],
-    color: 'grey',
     faicon: 'poo',
     datetime: '2025-01-22 11:15',
     title: 'trumps pardons cops convicted of killing black man and covering it up',
@@ -851,8 +2509,8 @@ const entries = [
   },
   {
     id: '37',
+    sort_id: '37',
     categories: ['lawlessness'],
-    color: 'blue',
     faicon: 'scale-balanced',
     datetime: '2025-01-22 11:20',
     title: 'trumps doj halts all civil litigation',
@@ -876,8 +2534,8 @@ const entries = [
   },
   {
     id: '36',
+    sort_id: '36',
     categories: ['healthcare'],
-    color: 'red',
     faicon: 'industry',
     datetime: '2025-01-22 11:00',
     title: 'trumps epa pick would fight captain planet',
@@ -897,8 +2555,8 @@ const entries = [
   },
   {
     id: '35',
+    sort_id: '35',
     categories: ['healthcare'],
-    color: 'green',
     faicon: 'virus',
     datetime: '2025-01-22 10:50',
     title: 'covid superspreader halts virus funding',
@@ -918,8 +2576,8 @@ const entries = [
   },
   {
     id: '34',
+    sort_id: '34',
     categories: ['healthcare'],
-    color: 'grey',
     faicon: 'stethoscope',
     datetime: '2025-01-22 10:50',
     title: 'it doesn\'t exist if we don\'t count it',
@@ -939,8 +2597,8 @@ const entries = [
   },
   {
     id: '34',
+    sort_id: '34',
     categories: ['leopards-ate-my-face'],
-    color: 'blue',
     faicon: 'poo',
     datetime: '2025-01-22 10:40',
     title: 'f*ck you if you don\'t speak american',
@@ -960,8 +2618,8 @@ const entries = [
   },
   {
     id: '33',
+    sort_id: '33',
     categories: ['leopards-ate-my-face'],
-    color: 'green',
     faicon: 'cat',
     datetime: '2025-01-22 10:30',
     title: 'Police union that endorsed trump upset he followed through on promises',
@@ -981,8 +2639,8 @@ const entries = [
   },
   {
     id: '32',
+    sort_id: '32',
     categories: ['money'],
-    color: 'red',
     faicon: 'poo',
     datetime: '2025-01-22 10:20',
     title: 'Daniel Ball\'s one day freedom parade',
@@ -1006,8 +2664,8 @@ const entries = [
   },
   {
     id: '31',
+    sort_id: '31',
     categories: ['money'],
-    color: 'blue',
     faicon: 'money-bill-wave',
     datetime: '2025-01-22 10:00',
     title: 'Trump plans to do away with taxes he doesn\'t pay anyway',
@@ -1027,8 +2685,8 @@ const entries = [
   },
   {
     id: '30',
+    sort_id: '30',
     categories: ['anti-immigration'],
-    color: 'grey',
     faicon: 'tractor',
     datetime: '2025-01-22 09:30',
     title: 'Migrants are skipping shifts out of fears of ice raids - get ready for pricier produce',
@@ -1052,8 +2710,8 @@ const entries = [
   },
   {
     id: '29',
+    sort_id: '29',
     categories: ['money'],
-    color: 'green',
     faicon: 'money-bill-wave',
     datetime: '2025-01-22 09:00',
     title: 'Debt ceilings for thee not for me',
@@ -1077,8 +2735,8 @@ const entries = [
   },
   {
     id: '28',
+    sort_id: '28',
     categories: ['money', 'healthcare'],
-    color: 'red',
     faicon: 'stethoscope',
     datetime: '2025-01-22 09:00',
     title: 'Elon Musk Tweets, Congress Folds, Kids with Cancer Lose',
@@ -1102,8 +2760,8 @@ const entries = [
   },
   {
     id: '27',
+    sort_id: '27',
     categories: ['leopards-ate-my-face'],
-    color: 'blue',
     faicon: 'prescription-bottle-medical',
     datetime: '2025-01-22 08:40',
     title: 'Trump repeals executive order on lowering prescription drug costs',
@@ -1127,8 +2785,8 @@ const entries = [
   },
   {
     id: '26',
+    sort_id: '26',
     categories: ['money'],
-    color: 'green',
     faicon: 'money-bill-wave',
     datetime: '2025-01-21 08:40',
     title: 'Always looking for a way to f*ck people over for money, trump has found another way to do it',
@@ -1148,8 +2806,8 @@ const entries = [
   },
   {
     id: '25',
+    sort_id: '25',
     categories: ['pro-life'],
-    color: 'grey',
     faicon: 'skull-crossbones',
     datetime: '2025-01-21 08:35',
     title: '"pro-life" party clears the way to easier state murders',
@@ -1177,8 +2835,8 @@ const entries = [
   },
   {
     id: '24',
+    sort_id: '24',
     categories: ['killing-democracy'],
-    color: 'red',
     faicon: 'skull-crossbones',
     datetime: '2025-01-21 08:27',
     title: 'Trump ends discrimination protections after 59 years',
@@ -1198,8 +2856,8 @@ const entries = [
   },
   {
     id: '23',
+    sort_id: '23',
     categories: ['anti-immigration'],
-    color: 'green',
     faicon: 'church',
     datetime: '2025-01-21 08:17',
     title: 'Trump says ICE can arrest people at churches and schools',
@@ -1223,8 +2881,8 @@ const entries = [
   },
   {
     id: '22',
+    sort_id: '22',
     categories: ['retribution'],
-    color: 'blue',
     faicon: 'poo',
     datetime: '2025-01-21 08:12',
     title: 'Trump terminates Boltons security clearance giving Iran the nod',
@@ -1248,8 +2906,8 @@ const entries = [
   },
   {
     id: '21',
+    sort_id: '21',
     categories: ['killing-democracy'],
-    color: 'grey',
     faicon: 'skull-crossbones',
     datetime: '2025-01-21 08:07',
     title: 'Trump clears the way to fire career civil servants that are loyal to the constitution over him',
@@ -1273,8 +2931,8 @@ const entries = [
   },
   {
     id: '20',
+    sort_id: '20',
     categories: ['forever-grifting', 'lawlessness', 'money'],
-    color: 'red',
     faicon: 'brand-bitcoin',
     datetime: '2025-01-21 08:04',
     title: 'More crypto corruption runs rampant',
@@ -1302,8 +2960,8 @@ const entries = [
   },
   {
     id: '19',
+    sort_id: '19',
     categories: ['national-security'],
-    color: 'green',
     faicon: 'flag-usa',
     datetime: '2025-01-21 08:02',
     title: 'Hey China, please take our data',
@@ -1327,8 +2985,8 @@ const entries = [
   },
   {
     id: '18',
+    sort_id: '18',
     categories: ['awful-nominations'],
-    color: 'blue',
     faicon: 'lock',
     datetime: '2025-01-20 20:02',
     title: 'Security clearances for everyone!',
@@ -1356,8 +3014,8 @@ const entries = [
   },
   {
     id: '17',
+    sort_id: '17',
     categories: ['nazi'],
-    color: 'grey',
     faicon: 'flag',
     datetime: '2025-01-20 20:02',
     title: 'Did this motherf*cker really just Seig Heil live on tv????',
@@ -1385,8 +3043,8 @@ const entries = [
   },
   {
     id: '16',
+    sort_id: '16',
     categories: ['lawlessness'],
-    color: 'red',
     faicon: 'user-secret',
     datetime: '2025-01-20 20:00',
     title: 'Well, he did it from sedition to assaulting cops - EVERYONE is getting off',
@@ -1410,8 +3068,8 @@ const entries = [
   },
   {
     id: '15',
+    sort_id: '15',
     categories: ['lawlessness'],
-    color: 'green',
     faicon: 'user-secret',
     datetime: '2025-01-20 17:20',
     title: 'Trump’s Next Great Act: Pardon the Patriots (Who Beat Up Police)',
@@ -1435,8 +3093,8 @@ const entries = [
   },
   {
     id: '14',
+    sort_id: '14',
     categories: ['anti-immigration'],
-    color: 'grey',
     faicon: 'earth-americas',
     datetime: '2025-01-20 17:15',
     title: 'Trump Shuts Down CBP One App, Leaving Asylum-Seeking Families in Limbo',
@@ -1464,8 +3122,8 @@ const entries = [
   },
   {
     id: '13',
+    sort_id: '13',
     categories: ['unconstitutional'],
-    color: 'red',
     faicon: 'republican',
     datetime: '2025-01-20 17:00',
     title: 'Constiution smonstitution',
@@ -1489,8 +3147,8 @@ const entries = [
   },
   {
     id: '12',
+    sort_id: '12',
     categories: ['money'],
-    color: 'blue',
     faicon: 'money-bill-wave',
     datetime: '2025-01-20 16:18',
     title: 'For posterity',
@@ -1518,8 +3176,8 @@ const entries = [
   },
   {
     id: '11',
+    sort_id: '11',
     categories: ['forever-grifting'],
-    color: 'green',
     faicon: 'brand-bitcoin',
     datetime: '2025-01-19 20:00',
     title: 'The grift never ends',
@@ -1539,8 +3197,8 @@ const entries = [
   },
   {
     id: '10',
+    sort_id: '10',
     categories: ['forever-grifting'],
-    color: 'grey',
     faicon: 'brand-bitcoin',
     datetime: '2025-01-19 16:18',
     title: 'meme person launches memecoin',
@@ -1564,8 +3222,8 @@ const entries = [
   },
   {
     id: '9',
+    sort_id: '9',
     categories: ['imperialism'],
-    color: 'blue',
     faicon: 'brand-tiktok',
     datetime: '2025-01-19 16:18',
     title: 'Trump ignores the congress and scotus to save tiktok',
@@ -1589,8 +3247,8 @@ const entries = [
   },
   {
     id: '8',
+    sort_id: '8',
     categories: ['imperialism'],
-    color: 'red',
     faicon: 'dumpster-fire',
     datetime: '2025-01-07 16:18',
     title: 'The gulf of Mexico err America?',
@@ -1610,8 +3268,8 @@ const entries = [
   },
   {
     id: '7',
+    sort_id: '7',
     categories: ['losses'],
-    color: 'green',
     faicon: 'scale-unbalanced',
     datetime: '2025-12-30 10:03',
     title: 'Yes, the grab them by the p*ssy guy is a rapist, appeals court affirms',
@@ -1631,8 +3289,8 @@ const entries = [
   },
   {
     id: '6',
+    sort_id: '6',
     categories: ['imperialism'],
-    color: 'grey',
     faicon: 'gun',
     datetime: '2025-12-23 08:15',
     title: 'Trump threatens the Panama Canal',
@@ -1652,8 +3310,8 @@ const entries = [
   },
   {
     id: '5',
+    sort_id: '5',
     categories: ['imperialism'],
-    color: 'blue',
     faicon: 'money-bill-1',
     datetime: '2025-12-23 01:02',
     title: 'Trump Tries to Buy Greenland',
@@ -1673,8 +3331,8 @@ const entries = [
   },
   {
     id: '4',
+    sort_id: '4',
     categories: ['awful-nominations'],
-    color: 'red',
     faicon: 'poop',
     datetime: '2025-11-30 05:00',
     title: 'Kash Patel: A Terrible Choice for FBI Leadership',
@@ -1698,8 +3356,8 @@ const entries = [
   },
   {
     id: '3',
+    sort_id: '3',
     categories: ['awful-nominations'],
-    color: 'green',
     faicon: 'skull-crossbones',
     datetime: '2025-11-22 12:00',
     title: 'Trump nominates election denier Pam Bondi to be attorney general',
@@ -1723,8 +3381,8 @@ const entries = [
   },
   {
     id: '2',
+    sort_id: '2',
     categories: ['awful-nominations'],
-    color: 'grey',
     faicon: 'baby',
     datetime: '2025-11-13 23:55',
     title: 'Trump nominates pedophile to be nation\'s top cop',
@@ -1748,8 +3406,8 @@ const entries = [
   },
   {
     id: '1',
+    sort_id: '1',
     categories: ['awful-nominations'],
-    color: 'blue',
     faicon: 'wine-bottle',
     datetime: '2025-11-12 23:55',
     title: 'Trump nominates drunk woman abuser to be defense secretary',
@@ -1774,6 +3432,3 @@ const entries = [
 ];
 
 module.exports = entries;
-
-// nomiations pam bondi
-// memecoin grift

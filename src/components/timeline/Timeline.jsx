@@ -5,17 +5,21 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import CustomCard from '../CustomCard/CustomCard';
 import FilterBar from '../FilterBar/FilterBar';
+import Header from '../Header/Header';
 
 // import './Timeline.css'; // Optional: for custom styling
 
 const Timeline = ({ items }) => {
   const [filter, setFilter] = useState('');
   return <>
-    <FilterBar onCategoryChange={setFilter} />
-    <VerticalTimeline >
+    <Header 
+      onCategoryChange={setFilter} 
+      articleCount={ items.length }
+    />
+    <VerticalTimeline>
       { items
         .filter((item) => filter ? item.categories.includes(filter) : true)
-        .map((item) => <CustomCard item={ item } />)
+        .map((item) => <CustomCard key={ item.id } item={ item } />)
       }
     </VerticalTimeline>
   </>

@@ -1,5 +1,6 @@
 const categoryColors = {
   "anti-immigration": "#003366",       // Deep Blue
+  "anti-science": "#FF0000",        // Red
   "awful-nominations": "#DC143C",      // Crimson
   "corruption": "#556B2F",             // Dark Olive Green
   "crypto": "#7DF9FF",                  // Electric Blue
@@ -22,6 +23,8 @@ const categoryColors = {
   "retribution": "#B22222",              // Firebrick
   "trade-war": "#FF4500",                // Orange Red
   "unconstitutional": "#008B8B",         // Dark Cyan
+  // I need the next one to be a gay pink
+  "trumps-america": "#FFC0CB",                  // Pink
 };
 
 export default categoryColors;

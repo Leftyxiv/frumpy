@@ -1,5 +1,6 @@
 const CATEGORIES = {
   ANTI_IMMIGRATION: 'anti-immigration',
+  ANTI_SCIENCE: 'anti-science',
   AWFUL_NOMINATIONS: 'awful-nominations',
   CORRUPTION: 'corruption',
   CRYPTO: 'crypto',
@@ -22,6 +23,7 @@ const CATEGORIES = {
   RETRIBUTION: 'retribution',
   TRADE_WAR: 'trade-war',
   UNCONSTITUTIONAL: 'unconstitutional',
+  TRUMPS_AMERICA: 'trumps-america',
 };
 
 export default CATEGORIES;

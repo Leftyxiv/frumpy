@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import CATEGORIES from '../../utils/constants/categories';
+import './FilterBar.css';
 
 const FilterBar = ({ selectedCategory, onCategoryChange }) => {
   return (
     <div className="filter-dropdown">
-      <label htmlFor="category-filter">Filter by Category: </label>
+      <label htmlFor="category-filter" className='filter-label'>Filter by Category: </label>
       <select
         id="category-filter"
         value={selectedCategory}
@@ -20,11 +21,6 @@ const FilterBar = ({ selectedCategory, onCategoryChange }) => {
       </select>
     </div>
   );
-};
-
-FilterBar.propTypes = {
-  selectedCategory: PropTypes.string.isRequired,
-  onCategoryChange: PropTypes.func.isRequired,
 };
 
 export default FilterBar;

@@ -1,5 +1,6 @@
 const crypto = require(`crypto`);
 const entries = require(`./content/entries.js`);
+const entries2 = require(`./content/entries2.js`);
 
 // const entries = require('./content/entries');
 /**
@@ -23,15 +24,17 @@ exports.createPages = async ({ actions }) => {
 
 exports.sourceNodes = async ({ actions, createNodeId, reporter }) => {
   const { createNode } = actions;
+  const entriesToMap = entries.concat(entries2)
+                              .sort((a, b) => Number(b.sort_id) - Number(a.sort_id));
 
-  if (!entries || !Array.isArray(entries)) {
+  if (!entries || !Array.isArray(entriesToMap)) {
     reporter.panic(`Entries data is missing or not an array!`);
     return;
   }
 
-  reporter.info(`Starting to source ${entries.length} entries...`);
+  reporter.info(`Starting to source ${entriesToMap.length} entries...`);
 
-  for (const [index, entry] of entries.entries()) {
+  for (const [index, entry] of entriesToMap.entries()) {
     const nodeId = createNodeId(`entries-${entry.id}`);
 
     const entryNode = {
@@ -56,91 +59,9 @@ exports.sourceNodes = async ({ actions, createNodeId, reporter }) => {
     }
 
     if ((index + 1) % 500 === 0) {
-      reporter.info(`Processed ${index + 1}/${entries.length} entries...`);
+      reporter.info(`Processed ${index + 1}/${entriesToMap.length} entries...`);
     }
   }
 
-  reporter.info(`Successfully sourced ${entries.length} entries.`);
+  reporter.info(`Successfully sourced ${entriesToMap.length} entries.`);
 };
-
-// exports.sourceNodes = async ({
-//   actions,
-//   createNodeId,
-//   store,
-//   cache,
-//   reporter,
-// }) => {
-//   const { createNode } = actions;
-
-//   // Iterate over each entry and create a node
-//   for (const entry of entries) {
-//     const nodeId = createNodeId(`entries-${entry.id}`);
-
-//     // If your images are remote, you can download them using createRemoteFileNode
-//     // Otherwise, skip this part or adjust accordingly
-//     let fileNode = null;
-//     if (entry.image && entry.image.src) {
-//       try {
-//         fileNode = await createRemoteFileNode({
-//           url: entry.image.src, // The image URL
-//           parentNodeId: nodeId, // The id of the parent node
-//           createNode,
-//           createNodeId,
-//           cache,
-//           store,
-//           reporter,
-//         });
-//       } catch (error) {
-//         reporter.warn(`Failed to download image for entry ${entry.id}: ${error.message}`);
-//       }
-//     }
-
-//     // Create the entry node
-//     createNode({
-//       ...entry,
-//       id: nodeId,
-//       parent: null,
-//       children: [],
-//       internal: {
-//         type: `EntriesJson`, // Custom node type
-//         contentDigest: require(`crypto`)
-//           .createHash(`md5`)
-//           .update(JSON.stringify(entry))
-//           .digest(`hex`),
-//       },
-//     });
-//   }
-// };
-
-
-// exports.sourceNodes = async ({
-//   actions,
-//   createNodeId,
-//   store,
-//   cache,
-//   reporter,
-// }) => {
-//   const { createNode } = actions;
-
-//   // Iterate over each entry and create a node
-//   for (const entry of entries) {
-//     const nodeId = createNodeId(`entries-${entry.id}`);
-
-//     // Create the entry node without handling images for now
-//     createNode({
-//       ...entry,
-//       id: nodeId,
-//       parent: null,
-//       children: [],
-//       internal: {
-//         type: `EntriesJson`, // Custom node type
-//         contentDigest: crypto
-//           .createHash(`md5`)
-//           .update(JSON.stringify(entry))
-//           .digest(`hex`),
-//       },
-//     });
-//   }
-
-//   reporter.info(`Successfully sourced ${entries.length} entries.`);
-// };
