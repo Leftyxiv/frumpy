@@ -23,8 +23,8 @@ const categoryColors = {
   "retribution": "#B22222",              // Firebrick
   "trade-war": "#FF4500",                // Orange Red
   "unconstitutional": "#008B8B",         // Dark Cyan
-  // I need the next one to be a gay pink
   "trumps-america": "#FFC0CB",                  // Pink
+  "pro-publica-is-a-national-treasure": "#304154", // propublica blue
 };
 
 export default categoryColors;

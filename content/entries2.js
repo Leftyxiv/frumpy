@@ -23,8 +23,286 @@ const RETRIBUTION = 'retribution';
 const TRADE_WAR = 'trade-war';
 const UNCONSTITUTIONAL = 'unconstitutional';
 const TRUMPS_AMERICA = 'trumps-america';
+const PRO_PUBLICA = 'pro-publica-is-a-national-treasure';
 
 const entries = [
+  {
+    id: '230',
+    sort_id: '230',
+    categories: [NATIONAL_SECURITY, MONEY],
+    faicon: 'money-bill-wave',
+    datetime: '2025-02-10 08:12',
+    title: 'f*ck the us credit standing I guess',
+    image: {
+      link: '',
+      src: 'https://s.marketwatch.com/public/resources/images/MW-GA384_musk_ZG_20171217232830.jpg',
+      alt: 'the first lady looking like hes having a stroke',
+      caption: 'the first lady looking like hes having a stroke',
+    },
+    body:  "<p><strong>Trump is now <em>floating the idea of defaulting on U.S. payments</em></strong> after Musk’s so-called “government efficiency” team allegedly found <strong>\“irregularities\”</strong> in Treasury data. No details, no evidence—just a vague suggestion that <strong>the U.S. might decide not to pay its bills</strong> based on whatever Musk and his hand-picked tech bros think they’ve uncovered. Because why not turn <strong>the entire global financial system into a meme stock?</strong> Given that <strong>DOGE operatives were just given access to Treasury payment systems</strong>, this raises some <em>very</em> uncomfortable questions. But hey, what’s the worst that could happen? It’s only <strong>the foundation of the world economy.</strong></p>",
+    links: [
+      {
+        href: 'https://www.bloomberg.com/news/articles/2025-02-09/trump-suggests-musk-found-irregularities-in-us-treasuries',
+        linkText: "Trump Suggests Musk Found ‘Irregularities’ in US Treasuries",
+      },
+    ],
+  },
+  {
+    id: '229',
+    sort_id: '229',
+    categories: [FOREVER_GRIFTING, CRYPTO],
+    faicon: 'money-bill-wave',
+    datetime: '2025-02-10 08:12',
+    title: 'old orange grifter continues to milk his sheep... err supporters',
+    image: {
+      link: '',
+      src: 'https://www.thedailybeast.com/resizer/v2/IZ734ZJAEVH5LGVCCXQO7I2JTA.jpg?smart=true&auth=eefb01f1ae1e72f6deb038e1d3e6f2de397e8c197861e216cc31a7989fc802fe&width=1600&height=899',
+      alt: 'trump shitting in his daiper',
+      caption: 'trump shitting in his daiper',
+    },
+    body:  "<p><strong>Trump’s latest grift? <em>A meme coin that scammed investors out of $2 billion.</em></strong> The ex-reality star turned president launched <strong>$Trump</strong>, a cryptocurrency he hyped up on Truth Social, promising a \“very special Trump Community.\” And it <em>was</em> special—if you got in early. The first traders cashed out with <strong>insane profits</strong>, including one lucky degenerate who made <strong>$109 million in two days</strong>. But for the <strong>810,000+ wallets now deep in the red</strong>, it’s looking a lot like another classic Trump business model: <em>hype it up, let the suckers buy in, and walk away with the cash</em>. Meanwhile, Trump and his family <strong>pocketed over $100 million in trading fees</strong>—all while <strong>working to gut crypto regulations that could hold them accountable</strong>. But hey, if you lost your life savings on <strong>$Trump</strong>, maybe you just should’ve <em>done your own research.</em></p> ",
+    links: [
+      {
+        href: 'https://www.thedailybeast.com/more-than-800k-have-lost-2b-on-trumps-meme-coin/',
+        linkText: "More Than 800K Have Lost $2B on Trump’s Meme Coin",
+      },
+    ],
+  },
+  {
+    id: '228',
+    sort_id: '228',
+    categories: [TRADE_WAR, MONEY],
+    faicon: 'helmet-safety',
+    datetime: '2025-02-10 08:06',
+    title: 'senile old man continues useless trade war',
+    image: {
+      link: '',
+      src: 'https://www.reuters.com/resizer/v2/THLVS5ZV4BOTZDD6G4KDHIM634.jpg?auth=69bccab8384cee7b5a2bcfb5bd71b09e0283ca8f4b695f833c84126bbe056b68&width=960&quality=80',
+      alt: 'steelworker',
+      caption: 'steelworker',
+    },
+    body:  "<p><strong>Trump is back on his tariff nonsense, announcing a <em>25% tax on all steel and aluminum imports</em></strong> because, apparently, learning from past economic disasters is overrated. No word yet on whether <strong>Mexico, Canada, or other major trade partners</strong> will be exempt, but businesses are already bracing for <strong>higher costs, supply chain headaches, and inevitable retaliation</strong>. Trump insists this is about protecting American jobs, but last time he tried this in 2018, it <em>spiked costs for U.S. manufacturers and did next to nothing for domestic production</em>. But hey, what’s a little inflation and a few lost jobs if it means owning the globalists?</p>",
+    links: [
+      {
+        href: 'https://www.reuters.com/markets/commodities/trump-says-he-will-announce-25-steel-aluminum-tariffs-monday-2025-02-09/',
+        linkText: "Trump to announce 25% steel and aluminum tariffs in latest trade escalation",
+      },
+      {
+        href: 'https://thehill.com/homenews/administration/5135288-trump-says-25-percent-tariffs-on-steel-and-aluminum-coming-monday/',
+        linkText: "Trump says 25 percent tariffs on steel and aluminum coming Monday",
+      },
+    ],
+  },
+  {
+    id: '227',
+    sort_id: '227',
+    categories: [MONEY, KILLING_DEMOCRACY],
+    faicon: 'baby',
+    datetime: '2025-02-10 08:03',
+    title: 'petulant whiny baby little bitch sues cbs for 20 BILLIOn dollars (lmfao wtf) over interview with someone else',
+    image: {
+      link: '',
+      src: 'https://deadline.com/wp-content/uploads/2025/02/Donald-Trump.jpg?w=681&h=383&crop=1',
+      alt: 'president combover pointing at the scale he broke',
+      caption: 'president combover pointing at the scale he broke',
+    },
+    body:  "<p><strong>Trump is back in court, this time suing CBS for <em>$20 billion</em>—yes, billion—because <strong>a \"60 Minutes\" edit supposedly cost his social media site traffic</strong>.</strong> His lawyers argue that <strong>editing an interview with Kamala Harris was \"false advertising\"</strong> that unfairly steered attention away from Truth Social. You know, because the real reason people aren’t using Truth Social must be CBS and <em>definitely not</em> the fact that it’s a flaming dumpster fire of a platform. The lawsuit, filed in Texas (after some convenient forum shopping), is being widely dismissed as frivolous, but that’s never stopped Trump before. Meanwhile, CBS has released the <strong>unedited transcript</strong>, proving the edits were for <strong>time constraints</strong>—something <em>Fox News literally did with Trump’s own interview</em> last year. But hey, why let facts get in the way when you can shake down a media company for billions while they're in the middle of a merger?</p> ",
+    links: [
+      {
+        href: 'https://deadline.com/2025/02/trump-cbs-60-minutes-lawsuit-1236282589/',
+        linkText: "Donald Trump Amends CBS Lawsuit To Claim ‘60 Minutes’ Kamala Harris Interview Unfairly Diverted Viewers From His Truth Social Platform",
+      },
+    ],
+  },
+  {
+    id: '226',
+    sort_id: '226',
+    categories: [MONEY, KILLING_DEMOCRACY],
+    faicon: 'file',
+    datetime: '2025-02-10 08:00',
+    title: 'oligarch sides with intuits bullshit over the american people',
+    image: {
+      link: '',
+      src: 'https://www.rawstory.com/media-library/elon-musk-deemed-a-national-security-risk-by-retired-general.jpg?id=55423219&width=1200&height=823',
+      alt: 'elonia with a cup of her favorite drink, horsecum',
+      caption: 'elonia with a cup of her favorite drink, horsecum',
+    },
+    body:  "<p><strong>Ah yes, billionaire <em>and</em> unelected government official Elon Musk is at it again</strong>—this time taking an axe to the IRS team responsible for <strong>free, easy tax filing</strong>. Because \"small government\" means making sure working Americans <em>have to pay</em> for tax prep services instead of using a free online tool. Right-wing influencers convinced Musk that <strong>Direct File</strong>—a simple, optional system—was some kind of socialist plot, so he proudly announced, <em>\“That group has been deleted.\”</em> Meanwhile, the <strong>website is still running</strong>, which suggests Musk doesn’t actually understand how government infrastructure works. But hey, <em>hurting regular people</em> is the real goal here, and on that front, mission accomplished.</p> ",
+    links: [
+      {
+        href: 'https://www.rawstory.com/elon-musk-irs-easy-filing/',
+        linkText: "Musk says he 'deleted' IRS easy filing team that let Americans file taxes for free online",
+      },
+    ],
+  },
+  {
+    id: '225',
+    sort_id: '225',
+    categories: [LEOPARDS_ATE_MY_FACE, MONEY],
+    faicon: 'dumpster-fire',
+    datetime: '2025-02-10 07:54',
+    title: 'senator realizes in real time her broke ass state is a welfare queen',
+    image: {
+      link: '',
+      src: 'https://talkingpointsmemo.com/wp-content/uploads/2024/03/Image-3-11-24-at-8.31%E2%80%AFAM.jpg?resize=804,389',
+      alt: 'senator please keep giving us federal money',
+      caption: 'senator please keep giving us federal money',
+    },
+    body:  "<p><strong>Ah, the classic GOP dilemma:</strong> gut federal funding while scrambling to save their own bacon. Alabama Senator Katie Britt (R) is now frantically assuring voters that she and RFK Jr. will do <em>everything</em> they can to protect her state’s precious NIH funding—even as her party slashes it. Why? Because, shocker, Alabama’s biggest employer—the University of Alabama at Birmingham—relies on those “big government” grants to function. Britt is desperately spinning this as a fight against \“waste\” and \“Communist China,\” but the real panic is setting in as Republicans realize <em>their own</em> red-state economies depend on the very funding they want to kill. Now the question is: will Trump pivot to only defunding blue-state research institutions, or just those that fail the loyalty test? Stay tuned for more self-inflicted GOP chaos.</p> ",
+    links: [
+      {
+        href: 'https://talkingpointsmemo.com/edblog/bama-senator-howls-like-stuck-pig-after-she-sees-nih-cuts-impact-in-state',
+        linkText: "‘Bama Senator Howls Like Stuck Pig After She Sees NIH Cuts’ Impact in State",
+      },
+    ],
+  },
+  {
+    id: '224',
+    sort_id: '224',
+    categories: [PRO_PUBLICA],
+    faicon: 'fire',
+    datetime: '2025-02-09 15:31',
+    title: 'shutting down the usaid was illegal, but those of us with a shred of common sense knew that already',
+    image: {
+      link: '',
+      src: 'https://img.assets-d.propublica.org/v5/images/GettyImages-2198227980_preview_maxWidth_3000_maxHeight_3000_ppi_72_embedColorProfile_true_quality_95.jpg?crop=focalpoint&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1292&q=75&w=2000&s=4956b48497f683e65a9425fca0f0171e',
+      alt: 'worker removing the letter off of the usaid building',
+      caption: 'worker removing the letter off of the usaid building',
+    },
+    body:  "<p><em>I guess \"America First\" means gutting humanitarian aid.</em> Trump, with his new tech overlord Elon Musk, has set his sights on dismantling USAID, the agency responsible for providing critical foreign aid and disaster relief. Musk’s Department of Government Efficiency (DOGE) has already fired or furloughed over 1,000 employees, locked out workers, and frozen aid programs—because why help starving children when you can cut budgets for fun? Legal experts are calling it unconstitutional, but the administration’s strategy seems clear: break everything, drag lawsuits out for years, and by the time the courts rule, USAID will be a distant memory. But don’t worry, Trump and Musk insist this is about \“efficiency,\” not a power grab. Sure. And SpaceX only takes taxpayer money because it <em>loves</em> competition.</p> ",
+    links: [
+      {
+        href: 'https://www.propublica.org/article/usaid-trump-musk-destruction-may-have-broken-law',
+        linkText: "In Breaking USAID, the Trump Administration May Have Broken the Law",
+      },
+    ],
+  },
+  {
+    id: '223',
+    sort_id: '223',
+    categories: [FOREVER_GRIFTING],
+    faicon: 'fire',
+    datetime: '2025-02-09 15:21',
+    title: 'yam tits administration is fighting wars against words rather than wildfires',
+    image: {
+      link: '',
+      src: 'https://www.404media.co/content/images/size/w2000/2025/02/IMG_0577.jpg',
+      alt: 'fema truck',
+      caption: 'fema truck',
+    },
+    body:  "<p><em> when battling historic wildfires, the real priority is semantics.</em> FEMA workers in California have been ordered to replace terms like \"migrant\" with \"alien\" and \"gender\" with \"sex,\" following a Trump administration directive to purge so-called \"radical gender ideology\" from federal communications. One FEMA employee aptly dubbed this linguistic overhaul as \"the most 1984 email I've ever seen.\" Apparently, in the midst of disaster response, nothing says efficiency like a good old-fashioned Newspeak update. </p> ",
+    links: [
+      {
+        href: 'https://www.404media.co/for-immediate-compliance-fema-workers-responding-to-wildfires-ordered-to-say-alien-instead-of-immigrant/',
+        linkText: "'For Immediate Compliance': FEMA Workers Responding to Wildfires Ordered to Say 'Alien' Instead of 'Immigrant'",
+      },
+    ],
+  },
+  {
+    id: '223',
+    sort_id: '223',
+    categories: [FOREVER_GRIFTING],
+    faicon: 'person-military-rifle',
+    datetime: '2025-02-09 15:16',
+    title: 'the drunk wife beater in charge of the worlds leading fighting force is spending 50k to paint his home at taxpayers expense, isn\'t fiscal conservatism fun?',
+    image: {
+      link: '',
+      src: 'https://pbs.twimg.com/media/GjOWAu7XAAAoxsW?format=jpg&name=large',
+      alt: 'major mcdrunkys trying to paint military housing lol wtf',
+      caption: 'major mcdrunkys trying to paint military housing lol wtf',
+    },
+    body:  "Pete Hegseth is spending $49,900 of public funds on an “emergency” paint job he needs for the house that he needs provided for him at taxpayer expense",
+    links: [
+      {
+        href: '',
+        linkText: "tweet from matt yglesias, sorry dude I don\'t link to fascists nazis websites",
+      },
+    ],
+  },
+  {
+    id: '222',
+    sort_id: '222',
+    categories: [FASCISM, FULL_STUPID],
+    faicon: 'skull-crossbones',
+    datetime: '2025-02-09 15:11',
+    title: 'these weak ass b*tches hired an army of incel idiots',
+    image: {
+      link: '',
+      src: 'https://media.wired.com/photos/67a7db808c9508b909aa4a82/master/w_1920,c_limit/Politics_elon_recruiting_GettyImages-2194351129.jpg',
+      alt: 'incelius prime being a creepy fucking weirdo',
+      caption: 'incelius prime being a creepy fucking weirdo',
+    },
+    body:  "<p><em>Ah, the tech titans' latest masterstroke: infiltrating the government with their own disciples.</em> Elon Musk's Department of Government Efficiency (DOGE) has been busy recruiting young engineers through online chat groups and Discord servers linked to Palantir and its co-founder, Peter Thiel.  I guess \"efficient government\" means a bunch of tech bros with zero public service experience. These recruits, some as young as 19, are now embedded in federal agencies, wielding access to sensitive data. But don't worry, they're here to \"modernize\" things—by slashing budgets and gutting regulations. After all, who better to streamline democracy than the guys who brought you targeted ads and data mining? </p> ",
+    links: [
+      {
+        href: 'https://www.wired.com/story/elon-musk-doge-recruiting-palantir/',
+        linkText: "The Recruitment Effort That Helped Build Elon Musk’s DOGE Army",
+      },
+    ],
+  },
+  {
+    id: '221',
+    sort_id: '221',
+    categories: [FASCISM, LAWLESSNESS],
+    faicon: 'poo',
+    datetime: '2025-02-09 15:06',
+    title: 'wish.com fascists tear down agency responsible for protecting consumers and saving them billions in junk fees',
+    image: {
+      link: '',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JUAYV5KBDJEV7EUUGUMF2FCIFQ.jpg&w=916',
+      alt: 'the cfpb - one of the best agencies ive ever personally dealt with',
+      caption: 'the cfpb - one of the best agencies ive ever personally dealt with',
+    },
+    body:  "Elon Musk and Trump teaming up to dismantle the Consumer Financial Protection Bureau is exactly what happens when billionaires and wannabe authoritarians get together: the people get screwed. Musk, now apparently a federal \“efficiency\” czar (because why not?), has set his sights on gutting the CFPB—the agency that’s spent years protecting consumers from financial scams, predatory lenders, and corporate abuse. His big idea? Just delete it. Trump, naturally, is on board, installing loyalists to freeze investigations, block regulations, and leave Americans defenseless against the very banks and financial institutions the CFPB was designed to keep in check. But sure, tell us more about how this is all about \“deregulation\” and not just another grift to let corporations run wild while working people get fleeced. ",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/business/2025/02/07/cfpb-doge-trump-musk-chopra/',
+        linkText: "DOGE targets Consumer Financial Protection Bureau as Musk tweets ‘RIP’",
+      },
+    ],
+  },
+  {
+    id: '220',
+    sort_id: '220',
+    categories: [RETRIBUTION],
+    faicon: 'user shield',
+    datetime: '2025-02-09 15:03',
+    title: 'whiny b*tch continues temper tantrum',
+    image: {
+      link: '',
+      src: 'https://d.newsweek.com/en/full/2584290/letitia-james-alvin-bragg-trump.webp?w=790&f=9a30d4cbc99580e0334297c039f03154',
+      alt: 'leticia james and alvin bragg',
+      caption: 'leticia james and alvin bragg',
+    },
+    body:  "Nothing says \“not a dictator\” quite like stripping security clearances from political opponents and prosecutors who dared hold you accountable. Trump, ever the master of projection, is now revoking clearances for Biden, top legal officials, and anyone else who crossed him, all under the guise of… what exactly? Revenge? Petty tantrum? Hard to say, but one thing is clear—if you prosecute Trump, expect him to use government power to “punish” you. Meanwhile, his followers cheer on the spectacle like it's a reality show, blissfully ignoring that this is how authoritarian regimes consolidate control. But sure, tell us again how it’s all about \“law and order.\”",
+    links: [
+      {
+        href: 'https://www.newsweek.com/trump-revokes-security-clearance-letitia-james-alvin-bragg-2028357',
+        linkText: "Trump Revokes Security Clearance for Letitia James, Alvin Bragg and More",
+      },
+    ],
+  },
+  {
+    id: '219',
+    sort_id: '219',
+    categories: [HEALTHCARE],
+    faicon: 'prescription-bottle-medical',
+    datetime: '2025-02-09 13:04',
+    title: 'gops new push to kick people off of healthcare',
+    image: {
+      link: '',
+      src: 'https://www.alternet.org/media-library/republican-u-s-senator-john-thune-r-sd-who-was-elected-to-become-the-next-senate-majority-leader-gestures-as-he-speaks-to-t.jpg?id=55146431&width=1245&height=700&quality=85&coordinates=0%2C143%2C0%2C144',
+      alt: 'john thune telling someone "yes were kicking you off healthcare',
+      caption: 'john thune telling someone "yes were kicking you off healthcare',
+    },
+    body:  "Ah yes, the classic GOP strategy: pretend to promote \“work” while really just yanking healthcare away from millions of low-income Americans. Despite mountains of evidence showing work requirements don’t actually increase employment, Republicans are once again pushing policies that do one thing really well—strip healthcare from people who need it most. Case in point: Arkansas’ 2018 Medicaid work requirement, which booted 18,000 people off insurance before a court had to step in. And New Hampshire? Same disaster, just faster. But don’t worry, it’s not about cruelty—it’s about savings. Turns out, slashing healthcare for 36 million people is just another budget-cutting bullet point for the GOP. But hey, if you get sick, just pick yourself up by your bootstraps—oh wait, you can’t afford boots either.",
+    links: [
+      {
+        href: 'https://www.alternet.org/medicaid-requirements/',
+        linkText: "New work requirements could boot 36 million people off their health coverage: report",
+      },
+    ],
+  },
   {
     id: '218',
     sort_id: '218',
@@ -343,7 +621,7 @@ const entries = [
   {
     id: '202',
     sort_id: '202',
-    categories: [KILLING_DEMOCRACY],
+    categories: [PRO_PUBLICA, KILLING_DEMOCRACY],
     faicon: 'poo',
     datetime: '2025-02-06 19:29',
     title: 'elons tweenage wrecking crew',
@@ -754,7 +1032,7 @@ const entries = [
   {
     id: '183',
     sort_id: '183',
-    categories: [FOREVER_GRIFTING, MONEY],
+    categories: [PRO_PUBLICA, FOREVER_GRIFTING, MONEY],
     faicon: 'money-bill-wave',
     datetime: '2025-02-05 15:33',
     title: 'gop plans to f*ck everyday americans to pay for musks, trumps, and bezos\' tax cuts, open up your wallet b*tches',

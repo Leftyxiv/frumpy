@@ -23,6 +23,7 @@ const RETRIBUTION = 'retribution';
 const TRADE_WAR = 'trade-war';
 const UNCONSTITUTIONAL = 'unconstitutional';
 const TRUMPS_AMERICA = 'trumps-america';
+const PRO_PUBLICA = 'pro-publica-is-a-national-treasure';
 
 const entries = [
   {
@@ -267,7 +268,7 @@ const entries = [
   {
     id: '139',
     sort_id: '139',
-    categories: [ANTI_SCIENCE],
+    categories: [PRO_PUBLICA, ANTI_SCIENCE],
     faicon: 'flask',
     datetime: '2025-02-04 07:21',
     title: 'cancer for you! cancer for them! cancer for everyone!',
@@ -724,7 +725,7 @@ const entries = [
   {
     id: '118',
     sort_id: '118',
-    categories: ['money', 'full-stupid', 'lawlessness'],
+    categories: [PRO_PUBLICA, 'money', 'full-stupid', 'lawlessness'],
     faicon: 'skull-crossbones',
     datetime: '2025-01-31 19:26',
     title: 'the foreign aid freeze is killing children',
@@ -2535,7 +2536,7 @@ const entries = [
   {
     id: '36',
     sort_id: '36',
-    categories: ['healthcare'],
+    categories: [PRO_PUBLICA, 'healthcare'],
     faicon: 'industry',
     datetime: '2025-01-22 11:00',
     title: 'trumps epa pick would fight captain planet',

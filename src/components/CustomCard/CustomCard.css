@@ -34,6 +34,10 @@
   border-radius: 8px;
 }
 
+.card-image {
+  display: block;
+}
+
 .custom-card-caption {
   font-size: 0.9em;
   color: #7e7e7e;

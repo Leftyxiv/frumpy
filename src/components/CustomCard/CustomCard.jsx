@@ -6,8 +6,6 @@ import { VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import categoryColors from './categoryColors';
 import BlueskyEmbed from '../BskyEmbed/BluskyEmbed';
 
-import { Entry } from '../../types/Entry';
-
 const CustomCard = ({ item }) => {
   let iconValue = '';
   if (item.faicon.startsWith('brand')) {
@@ -40,9 +38,6 @@ const CustomCard = ({ item }) => {
     </a>
     <p className="custom-card-caption"><i>{ item.image.caption }</i></p>
     </div>
-    {/* <p className="custom-card-text">
-      { item.body }
-    </p> */}
     <p
       className="custom-card-text"
       dangerouslySetInnerHTML={{ __html: item.body }}
@@ -64,26 +59,3 @@ const CustomCard = ({ item }) => {
 };
 
 export default CustomCard;
-
-/*
-    <div className="custom-card">
-      <h2 className="custom-card-title">{item.title}</h2>
-      <h4 className="custom-card-subtitle">{item.date}</h4>
-      {item.image && (
-        <div className="custom-card-media">
-          <img src={item.image.url} alt={item.image.alt} />
-          {item.image.caption && <p className="custom-card-caption">{item.image.caption}</p>}
-        </div>
-      )}
-      <p className="custom-card-text">{item.body}</p>
-      {item.links && (
-        <div className="custom-card-links">
-          {item.links.map((link, index) => (
-            <a href={link.href} key={index} target="_blank" rel="noopener noreferrer">
-              {link.linkText}
-            </a>
-          ))}
-        </div>
-      )}
-    </div>
-    */
