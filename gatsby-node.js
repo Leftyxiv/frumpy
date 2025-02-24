@@ -1,6 +1,7 @@
 const crypto = require(`crypto`);
 const entries = require(`./content/entries.js`);
 const entries2 = require(`./content/entries2.js`);
+const entries3 = require(`./content/entries3.js`);
 
 // const entries = require('./content/entries');
 /**
@@ -24,7 +25,7 @@ exports.createPages = async ({ actions }) => {
 
 exports.sourceNodes = async ({ actions, createNodeId, reporter }) => {
   const { createNode } = actions;
-  const entriesToMap = [...(await entries), ...(await entries2)]
+  const entriesToMap = [...(await entries), ...(await entries2), ...(await entries3)]
                               .sort((a, b) => Number(b.sort_id) - Number(a.sort_id));
                             //   .sort((a, b) => { // Then sort by datetime
                             //     const parseDate = (str) => {

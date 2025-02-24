@@ -52,8 +52,8 @@ const Header = ({ onCategoryChange, articleCount }) => {
           The Frumpy Presidency is Going <span style={{ color: 'red' }}>Great</span>
         </h1>
           <div className="header-extra-links">
-            <p><strong>Days spent golfing:</strong> 8</p>
-            <p><strong>pardoned j6 rioters rearrested or killed by police:</strong> 5</p>
+            <p><strong>Days spent golfing:</strong> 13</p>
+            <p><strong>pardoned j6 rioters rearrested or killed by police:</strong> 6</p>
             <p id="countdown"><strong>Days left of this insanity:</strong> { daysLeft } </p>
             <p style={{ fontSize: "1em", lineHeight: "1.2", display: 'inline-block' }}>
               <span
@@ -88,7 +88,7 @@ const Header = ({ onCategoryChange, articleCount }) => {
                 </a>
               </span>
             </p>
-            <p style={{ 'font-size': '10px' }}>Know of an article that's not one of the { articleCount } listed here? email it to me admin@thetrumppresidencyisgoinggreat.com</p>
+            <p style={{ fontSize: '10px' }}>Know of an article that's not one of the { articleCount } listed here? email it to me admin@thetrumppresidencyisgoinggreat.com</p>
 
 
           </div>

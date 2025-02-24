@@ -29,6 +29,7 @@ const CustomCard = ({ item }) => {
     <h3 className="vertical-timeline-element-title">{ item.title }</h3>
     <h4 className="vertical-timeline-element-subtitle">{ item.datetime }</h4>
     <a href={ item.image.link } target="_blank" rel="noopener noreferrer">
+    {/* {`${item.image.link}`}  */}
       <img
         className='card-image'
         src={ item.image.src }
@@ -43,7 +44,7 @@ const CustomCard = ({ item }) => {
       dangerouslySetInnerHTML={{ __html: item.body }}
     />
     {item.links && (
-      <div className="custom-card-links">
+      <div key={`div-${item.id}`} className="custom-card-links">
         {item.links.map((link, index) => (
           <>
           <a key={ `link-${ index }-${ item.id }` } href={link.href} target="_blank" rel="noopener noreferrer">
