@@ -27,6 +27,258 @@ const PRO_PUBLICA = 'pro-publica-is-a-national-treasure';
 
 const entries = [
   {
+    id: '338',
+    sort_id: '338',
+    categories: [PRO_PUBLICA],
+    faicon: 'skull-crossbones',
+    datetime: '2025-02-24 07:32',
+    title: 'youll never guess what the worlds most prolific spreaders of disinformation are doing now, fucking lying you got it, theyre lying',
+    image: {
+      link: '',
+      src: 'https://img.assets-d.propublica.org/v5/images/GettyImages-523148304-cropped.jpg?crop=focalpoint&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1333&q=75&w=2000&s=15b56113fa3923ddf2f245fadde2af0d',
+      alt: 'Bill Varie/Getty Images',
+      caption: 'Bill Varie/Getty Images',
+    },
+    body: "<p><strong>Trump’s war on federal workers is built on a lie.</strong> The White House keeps pushing the debunked claim that only 6% of federal employees work in person full-time—despite overwhelming evidence proving it false. The statistic originated from a completely unscientific survey, yet it’s been parroted by Trump, Elon Musk, and top GOP officials as justification for gutting the federal workforce. Even after fact-checkers torched the claim, the administration doubled down, weaving it into its mass firings and office closures. The reality? More than half of federal employees are required to work in person daily, and remote work averages just 10%. But in Trump’s post-truth world, the facts don’t matter—only the destruction of government does.</p>",
+    links: [
+      {
+        href: 'https://www.propublica.org/article/federal-employees-work-from-home-trump-myth',
+        linkText: "The Trump Administration Keeps Citing an Untrue Stat as It Targets Federal Workers",
+      },
+    ],
+  },
+  {
+    id: '337',
+    sort_id: '337',
+    categories: [LAWLESSNESS],
+    faicon: 'scale-unbalanced',
+    datetime: '2025-02-24 07:30',
+    title: 'trump illegally dissolves congressionally created agency, congress stands by like meek little bitches',
+    image: {
+      link: '',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2CMKOIQCGC3ONJ3HYVQAM722ZA_size-normalized.jpg&w=916',
+      alt: 'usaid building',
+      caption: 'usaid building',
+    },
+    body: "<p><strong>Trump slashes USAID, putting 1,600 workers out of a job while sidelining nearly everyone else.</strong> The administration's latest move to gut the federal workforce places almost all remaining USAID employees on indefinite leave, effectively shutting down global aid programs overnight. The few exempt workers were blindsided, with one official managing food programs in three countries learning he was axed despite overseeing ‘mission-critical’ work. The cuts come as Elon Musk—Trump’s budget-slashing enforcer—brags about feeding the agency ‘into the wood chipper.’ Critics call it an unconstitutional attempt to dismantle USAID without congressional approval. <strong>Global aid isn’t just being cut—it’s being erased.</strong></p>",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/politics/2025/02/23/trump-usaid-2000-layoffs/',
+        linkText: "Trump to eliminate 1,600 USAID jobs, place most of workforce on leave",
+      },
+    ],
+  },
+  {
+    id: '336',
+    sort_id: '336',
+    categories: [PRO_PUBLICA, PRO_LIFE, TRUMPS_AMERICA],
+    faicon: 'book-skull',
+    datetime: '2025-02-24 07:27',
+    title: 'the administrations assualt on civil servants is already killing people',
+    image: {
+      link: '',
+      src: 'https://img.assets-d.propublica.org/v5/images/20250221-hhs-trump-fracture-3x2_preview_maxWidth_3000_maxHeight_3000_ppi_72_embedColorProfile_true_quality_95.jpg?crop=focalpoint&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1333&q=75&w=2000&s=01d945211b7f1e51b71fe62d5076fa5a',
+      alt: 'Former federal workers protest against policies enacted by President Donald Trump’s second administration in front of the Department of Health and Human Services’ headquarters in Washington, D.C. Credit:Photo illustration by ProPublica. Source images by Getty Images.',
+      caption: 'Former federal workers protest against policies enacted by President Donald Trump’s second administration in front of the Department of Health and Human Services’ headquarters in Washington, D.C. Credit:Photo illustration by ProPublica. Source images by Getty Images.',
+    },
+    body: "<p><strong>Trump’s purge of federal workers is putting public health on the chopping block.</strong> Hundreds of experts tackling life-or-death issues—maternal mortality, child tobacco use, and organ transplant failures—were fired in the administration’s latest gutting of the federal workforce. Scientists at the FDA’s Center for Tobacco Products, which is funded by industry fees rather than taxpayers, were let go, slowing efforts to keep nicotine-laced candy-flavored vapes out of kids' hands. A new CMS program to address America’s abysmal maternal death rate lost nearly half its team just weeks after launch. Organ transplant reform efforts, meant to prevent lifesaving organs from being lost in transit, are now indefinitely stalled. The administration claims it’s cutting ‘non-mission critical’ employees, but these firings tell a different story: <strong>it’s not about efficiency—it’s about sabotage.</strong></p>",
+    links: [
+      {
+        href: 'https://www.propublica.org/article/trump-federal-workers-public-health-hhs',
+        linkText: "They Worked to Prevent Death. The Trump Administration Fired Them.",
+      },
+    ],
+  },
+  {
+    id: '335',
+    sort_id: '335',
+    categories: [KILLING_DEMOCRACY, LAWLESSNESS],
+    faicon: 'poo',
+    datetime: '2025-02-24 07:24',
+    title: 'the only person that nededs to justify his fucking job is making civil servants do it instead',
+    image: {
+      link: '',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DTHJCUQ5HWL6PDEDGENIZBN34Q_size-normalized.jpg&w=916',
+      alt: 'ketamine kangaroo',
+      caption: 'ketamine kangaroo',
+    },
+    body: "<p><strong>Musk’s federal workforce purge just got even more absurd.</strong> Federal employees received an email Saturday demanding they justify their jobs in five bullet points—or else. Musk, taking cues from Trump’s call to “get more aggressive,” warned that failure to respond would be considered a resignation. The demand, blasted as illegal and “arson on a public asset,” has thrown agencies into chaos, with FBI Director Kash Patel instructing employees not to reply while unions vow to fight unlawful firings. Meanwhile, some federal workers are comparing the move to “burning down a house and then asking what chores you did this week.” <strong>Government by vibes and threats continues.</strong></p>",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/nation/2025/02/22/musk-email-federal-workers/',
+        linkText: "Feds must answer email on what they did last week — or lose jobs, Musk says",
+      },
+    ],
+  },
+  {
+    id: '334',
+    sort_id: '334',
+    categories: [LOSSES, MONEY],
+    faicon: 'money-bill-transfer',
+    datetime: '2025-02-24 07:21',
+    title: 'dow tanks after investors realize the president is a fucking idiot and a crazy person',
+    image: {
+      link: '',
+      src: 'https://dims.apnews.com/dims4/default/128861f/2147483647/strip/true/crop/3660x2440+0+0/resize/1440x960!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F28%2F41%2F1fa1023f873667f9f73e4296e5b6%2F2c60d3b604ed4bb6a05191f991e706f8',
+      alt: 'the new york stock exchange',
+      caption: 'the new york stock exchange',
+    },
+    body: "<p><strong>Wall Street isn’t buying Trump’s economic ‘WINNING!’</strong> U.S. stocks tanked Friday as businesses and consumers alike brace for the economic fallout of Trump and Musk’s chaotic policies. The S&P 500 saw its worst day in two months, business activity slumped to a 17-month low, and consumer inflation expectations spiked thanks to looming tariffs. Meanwhile, mortgage rates and home prices are keeping buyers away, and companies are openly worried about the instability coming out of Washington. But don’t worry—Trump’s got it all under control, just like last time. <strong>What could possibly go wrong?</strong></p>",
+    links: [
+      {
+        href: 'https://apnews.com/article/stock-markets-earnings-economy-fed-cb7171a5bb3bc3d64c9247454d753d06',
+        linkText: "Dow falls nearly 750 points and US stocks tumble as businesses and consumers worry about tariffs",
+      },
+    ],
+  },
+  {
+    id: '333',
+    sort_id: '333',
+    categories: [LAWLESSNESS, MONEY],
+    faicon: 'money-bill-trend-up',
+    datetime: '2025-02-24 07:17',
+    title: 'new ssa chief was under investigation before being tapped for this position, a cabinet full of fucking idiots and criminals',
+    image: {
+      link: '',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DTHJCUQ5HWL6PDEDGENIZBN34Q_size-normalized.jpg&w=916',
+      alt: 'space karen looking especially stupid',
+      caption: 'space karen looking especially stupid',
+    },
+    body: "<p><strong>Trump’s Social Security pick was under investigation—so he got promoted instead.</strong> Leland Dudek, a low-level data analyst suspected of improperly sharing sensitive Social Security info with Musk’s budget-cutting hit squad, was being investigated for possible privacy and tax law violations. Then, in a move straight out of a dystopian satire, Trump elevated him to acting commissioner, forcing out senior officials in the process. Now, Dudek is slashing research, fast-tracking DOGE operatives, and even floating the idea of outsourcing Social Security operations—because nothing says 'protecting American seniors' like handing their personal data to private companies. <strong>The grift isn’t even subtle anymore.</strong></p>",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/politics/2025/02/22/social-security-trump-doge-musk/',
+        linkText: "New Social Security chief was being investigated when Musk team tapped him",
+      },
+    ],
+  },
+  {
+    id: '332',
+    sort_id: '332',
+    categories: [PRO_PUBLICA, FOREVER_GRIFTING, MONEY],
+    faicon: 'money-bill-trend-up',
+    datetime: '2025-02-24 07:15',
+    title: 'elonia fuckheads tweenage minions have breached the ssa',
+    image: {
+      link: '',
+      src: 'https://img.assets-d.propublica.org/v5/images/DOGE-Social-Security.jpg?crop=focalpoint&fit=crop&fm=webp&fp-x=0.5&fp-y=0.5&h=1500&q=75&w=2000&s=07b2277ac24a252663fbfa5de52e5ce6',
+      alt: 'Alex Bandoni/ProPublica. Source image: Bettman/Getty Images.',
+      caption: 'Alex Bandoni/ProPublica. Source image: Bettman/Getty Images.',
+    },
+    body: "<p><strong>Trump swore Social Security was off-limits—so why is Musk’s team shutting down offices?</strong> The Department of Government Efficiency has arrived at the Social Security Administration, already slashing jobs and closing at least 10 local offices, making it harder for vulnerable Americans to access benefits. Musk, meanwhile, is ranting about 150-year-old 'vampires' receiving Social Security, while his hand-picked operatives push a ‘cut-first, fix-later’ agenda. The administration’s quiet assault on the program is disproportionately hitting the elderly, disabled, and children who rely on these services. <strong>Turns out ‘protecting Social Security’ meant protecting it from the people who need it most.</strong></p>",
+    links: [
+      {
+        href: 'https://www.propublica.org/article/doge-social-security-elon-musk-trump-closures-benefits',
+        linkText: "Anxiety Mounts Among Social Security Recipients as DOGE Troops Settle In",
+      },
+    ],
+  },
+  {
+    id: '331',
+    sort_id: '331',
+    categories: [LOSSES],
+    faicon: 'heart-crack',
+    datetime: '2025-02-24 07:12',
+    title: 'soon as people remember how big of a piece of shit frump is they return to hating him',
+    image: {
+      link: '',
+      src: 'https://images.newrepublic.com/ef50ddfa4a820a3214ef156b12a3cda42a5d4d5c.jpeg?auto=format&fit=crop&crop=faces&ar=3%3A2&ixlib=react-9.0.3&w=1400&q=65&dpr=1',
+      alt: 'senile old man in clown paint and a ferret toupee',
+      caption: 'senile old man in clown paint and a ferret toupee',
+    },
+    body: "<p><strong>The administration’s purge of the ‘deep state’ has reached the CIA.</strong> A wave of firings and resignations is rocking the intelligence agency, with senior officials being ousted in what looks like a political loyalty test. This follows the broader shake-up across national security agencies, as Trump’s inner circle tightens its grip on intelligence operations. Critics warn that gutting experienced leadership could cripple the agency’s ability to respond to threats, but hey, who needs spies when you have sycophants? <strong>It’s not about national security—it’s about control.</strong></p>",
+    links: [
+      {
+        href: 'https://newrepublic.com/article/191841/trump-approval-rating-pollster-bad-news-warning',
+        linkText: "Trump’s Own Pollster Just Hit Him with Very Bad News—and a Warning",
+      },
+    ],
+  },
+  {
+    id: '330',
+    sort_id: '330',
+    categories: [TRUMPS_AMERICA],
+    faicon: 'wheelchair',
+    datetime: '2025-02-24 07:10',
+    title: 'now that buttigieg is gone, airlines are trying to fuck disabled people',
+    image: {
+      link: '',
+      src: 'https://www.motherjones.com/wp-content/uploads/2025/02/GettyImages-1930028874.jpg?resize=990,556',
+      alt: 'airlines want to be able to fuck up peoples wheelchairs without any kind of recourse',
+      caption: 'airlines want to be able to fuck up peoples wheelchairs without any kind of recourse',
+    },
+    body: "<p><strong>The administration’s purge of the ‘deep state’ has reached the CIA.</strong> A wave of firings and resignations is rocking the intelligence agency, with senior officials being ousted in what looks like a political loyalty test. This follows the broader shake-up across national security agencies, as Trump’s inner circle tightens its grip on intelligence operations. Critics warn that gutting experienced leadership could cripple the agency’s ability to respond to threats, but hey, who needs spies when you have sycophants? <strong>It’s not about national security—it’s about control.</strong></p>",
+    links: [
+      {
+        href: 'https://www.motherjones.com/politics/2025/02/airline-industry-wheelchair-lawsuit-transportation-department/',
+        linkText: "Airlines Sue to Avoid Consequences for Breaking Disabled Travelers’ Wheelchairs",
+      },
+    ],
+  },
+  {
+    id: '329',
+    sort_id: '329',
+    categories: [NATIONAL_SECURITY],
+    faicon: 'user-secret',
+    datetime: '2025-02-24 07:07',
+    title: 'morons at the top move to fire tons of cia workers, the people that keep us safe',
+    image: {
+      link: '',
+      src: 'https://static01.nyt.com/images/2025/02/20/multimedia/20trump-news-cia-firings-wjlh/20trump-news-cia-firings-wjlh-superJumbo.jpg?quality=75&auto=webp',
+      alt: 'the cia logo',
+      caption: 'the cia logo',
+    },
+    body: "<p><strong>The administration’s purge of the ‘deep state’ has reached the CIA.</strong> A wave of firings and resignations is rocking the intelligence agency, with senior officials being ousted in what looks like a political loyalty test. This follows the broader shake-up across national security agencies, as Trump’s inner circle tightens its grip on intelligence operations. Critics warn that gutting experienced leadership could cripple the agency’s ability to respond to threats, but hey, who needs spies when you have sycophants? <strong>It’s not about national security—it’s about control.</strong></p>",
+    links: [
+      {
+        href: 'https://www.nytimes.com/2025/02/20/us/politics/cia-firings.html?smtyp=cur&amp;smid=bsky-nytimes',
+        linkText: "C.I.A. Plans Largest Mass Firing in Nearly 50 Years",
+      },
+    ],
+  },
+  {
+    id: '328',
+    sort_id: '328',
+    categories: [LAWLESSNESS],
+    faicon: 'handcuffs',
+    datetime: '2025-02-24 07:03',
+    title: 'fucking dump truck gets arrested again',
+    image: {
+      link: '',
+      src: 'https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:euynv325eix7glyek377orak/bafkreibthmnuvtikutcgzih62roafyhfbfibamre47xnvjtvezs5p7elqu@jpeg',
+      alt: 'cops arresting tarrio again',
+      caption: 'cops arresting tarrio again',
+    },
+    body: "<p><strong>Fresh off his Trump pardon, Enrique Tarrio wasted no time getting arrested again.</strong> The former Proud Boys leader was taken into custody for assault after smacking a counter-protester’s phone and arm—because nothing says “peaceful political activism” like immediately resorting to violence. Tarrio and fellow insurrectionists had just finished a press conference where they announced a $150 million lawsuit against the DOJ for daring to prosecute them for their failed coup attempt. Meanwhile, Trump’s Justice Department is purging prosecutors and FBI agents who worked on Jan. 6 cases, ensuring that the next batch of ‘foot soldiers’ faces even less resistance. <strong>It’s not a justice system—it’s a loyalty test.</strong></p>",
+    links: [
+      {
+        href: 'https://thehill.com/regulation/court-battles/5158030-proud-boys-enrique-tarrio-arrested/',
+        linkText: "Ex-Proud Boys leader Enrique Tarrio arrested near Capitol",
+      },
+    ],
+  },
+  {
+    id: '327',
+    sort_id: '327',
+    categories: [FULL_STUPID],
+    faicon: 'tree',
+    datetime: '2025-02-24 07:00',
+    title: 'once again these idiots are scrambling to rehire people they fired, third or fourth time???',
+    image: {
+      link: '',
+      src: 'https://ca-times.brightspotcdn.com/dims4/default/f58c1a5/2147483647/strip/true/crop/4481x2533+0+0/resize/1200x678!/format/webp/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fbe%2F4d%2Fe0c73bb346939002ea919996e56b%2Fwk-national-parks-yosemite-np-10.jpg',
+      alt: 'yosemite national park',
+      caption: 'yosemite national park',
+    },
+    body: "<p><strong>The Trump administration’s war on federal workers hit a snag—people actually fought back.</strong> After public outrage over mass firings at the National Park Service, the administration has reversed course on plans to eliminate thousands of seasonal workers. The abrupt about-face comes after a coordinated media blitz from outdoor enthusiasts, park rangers, and angry Americans who actually like their public lands. But the damage isn’t fully undone—about 1,000 full-time employees were still axed as part of Trump and Musk’s purge of career federal workers. Meanwhile, fired Yosemite maintenance worker Olek Chmura went viral after calling out the absurdity of targeting low-wage park employees as “government waste.” <strong>Apparently, scraping toilets in a national park is too much for the federal budget, but tax cuts for billionaires? No problem.</strong></p>",
+    links: [
+      {
+        href: 'https://www.latimes.com/california/story/2025-02-20/trump-administration-backtracks-eliminating-thousands-national-parks-employees',
+        linkText: "Trump administration backtracks on eliminating thousands of national parks employees",
+      },
+    ],
+  },
+  {
     id: '326',
     sort_id: '326',
     categories: [PRO_PUBLICA, PRO_LIFE, TRUMPS_AMERICA],
