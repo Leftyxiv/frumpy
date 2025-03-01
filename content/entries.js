@@ -3272,7 +3272,7 @@ const entries = [
     sort_id: '7',
     categories: ['losses'],
     faicon: 'scale-unbalanced',
-    datetime: '2025-12-30 10:03',
+    datetime: '2024-12-30 10:03',
     title: 'Yes, the grab them by the p*ssy guy is a rapist, appeals court affirms',
     image: {
       link: 'https://en.wikipedia.org/wiki/E._Jean_Carroll',
@@ -3293,7 +3293,7 @@ const entries = [
     sort_id: '6',
     categories: ['imperialism'],
     faicon: 'gun',
-    datetime: '2025-12-23 08:15',
+    datetime: '2024-12-23 08:15',
     title: 'Trump threatens the Panama Canal',
     image: {
       link: 'https://en.wikipedia.org/wiki/Panama_Canal',
@@ -3314,7 +3314,7 @@ const entries = [
     sort_id: '5',
     categories: ['imperialism'],
     faicon: 'money-bill-1',
-    datetime: '2025-12-23 01:02',
+    datetime: '2024-12-23 01:02',
     title: 'Trump Tries to Buy Greenland',
     image: {
       link: 'https://en.wikipedia.org/wiki/Greenland',
@@ -3335,7 +3335,7 @@ const entries = [
     sort_id: '4',
     categories: ['awful-nominations'],
     faicon: 'poop',
-    datetime: '2025-11-30 05:00',
+    datetime: '2024-11-30 05:00',
     title: 'Kash Patel: A Terrible Choice for FBI Leadership',
     image: {
       link: 'https://en.wikipedia.org/wiki/Kash_Patel',
@@ -3360,7 +3360,7 @@ const entries = [
     sort_id: '3',
     categories: ['awful-nominations'],
     faicon: 'skull-crossbones',
-    datetime: '2025-11-22 12:00',
+    datetime: '2024-11-22 12:00',
     title: 'Trump nominates election denier Pam Bondi to be attorney general',
     image: {
       link: 'https://en.wikipedia.org/wiki/Pam_Bondi',
@@ -3385,7 +3385,7 @@ const entries = [
     sort_id: '2',
     categories: ['awful-nominations'],
     faicon: 'baby',
-    datetime: '2025-11-13 23:55',
+    datetime: '2024-11-13 23:55',
     title: 'Trump nominates pedophile to be nation\'s top cop',
     image: {
       link: 'http://place-puppy.com',
@@ -3410,7 +3410,7 @@ const entries = [
     sort_id: '1',
     categories: ['awful-nominations'],
     faicon: 'wine-bottle',
-    datetime: '2025-11-12 23:55',
+    datetime: '2024-11-12 23:55',
     title: 'Trump nominates drunk woman abuser to be defense secretary',
     image: {
       link: 'http://place-puppy.com',

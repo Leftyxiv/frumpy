@@ -26,13 +26,13 @@ exports.createPages = async ({ actions }) => {
 exports.sourceNodes = async ({ actions, createNodeId, reporter }) => {
   const { createNode } = actions;
   const entriesToMap = [...(await entries), ...(await entries2), ...(await entries3)]
-                              .sort((a, b) => Number(b.sort_id) - Number(a.sort_id));
-                            //   .sort((a, b) => { // Then sort by datetime
-                            //     const parseDate = (str) => {
-                            //         return str.includes('Z') ? new Date(str) : new Date(str.replace(' ', 'T') + ':00Z');
-                            //     };
-                            //     return parseDate(a.datetime) - parseDate(b.datetime);
-                            // });
+    .sort((a, b) => {
+      // Parse the datetime strings into Date objects
+      const dateA = new Date(a.datetime.replace(' ', 'T'));
+      const dateB = new Date(b.datetime.replace(' ', 'T'));
+      // Sort in descending order (most recent first)
+      return dateB - dateA;
+    });
 
   if (!entries || !Array.isArray(entriesToMap)) {
     reporter.panic(`Entries data is missing or not an array!`);
