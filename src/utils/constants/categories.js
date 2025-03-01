@@ -24,6 +24,7 @@ const CATEGORIES = {
   TRADE_WAR: 'trade-war',
   UNCONSTITUTIONAL: 'unconstitutional',
   TRUMPS_AMERICA: 'trumps-america',
+  OLIGARCHY: 'oligarchy',
 };
 
 export default CATEGORIES;

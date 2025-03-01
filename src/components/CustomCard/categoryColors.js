@@ -25,6 +25,7 @@ const categoryColors = {
   "unconstitutional": "#008B8B",         // Dark Cyan
   "trumps-america": "#FFC0CB",                  // Pink
   "pro-publica-is-a-national-treasure": "#304154", // propublica blue
+  "oligarchy": "#4AFF71", // lime green
 };
 
 export default categoryColors;

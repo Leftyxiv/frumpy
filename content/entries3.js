@@ -24,8 +24,888 @@ const TRADE_WAR = 'trade-war';
 const UNCONSTITUTIONAL = 'unconstitutional';
 const TRUMPS_AMERICA = 'trumps-america';
 const PRO_PUBLICA = 'pro-publica-is-a-national-treasure';
+const OLIGARCHY = 'oligarchy';
 
 const entries = [
+  {
+    "id": "377",
+    "sort_id": "377",
+    "categories": [
+      "corruption",
+      "trumps-america"
+    ],
+    "faicon": "laugh-squint",
+    "datetime": "2025-03-01 15:20",
+    "title": "The Trump-Musk Comedy of Errors: Ripping Apart Social Security Like It's Monopoly Money",
+    "image": {
+      "src": "https://www.rollingstone.com/wp-content/uploads/2025/02/trump-social-security-offices.jpg?w=1581&h=1054&crop=1",
+      "alt": "look at this stupid mother fucker with his weak ass combover job - President whiny bitch holds a Cabinet meeting at the White House on February 26, 2025. (Photo by Jim WATSON / AFP)",
+      "caption": "look at this stupid mother fucker with his weak ass combover job - President whiny bitch holds a Cabinet meeting at the White House on February 26, 2025. (Photo by Jim WATSON / AFP)",
+      "link": ""
+    },
+    "body": "<p><strong><em>In a breathtaking display of incompetence and greed, the Trump and Musk duo have set about dismantling the Social Security Administration as if they were dismantling a dilapidated old car—who needs a steering wheel when you can drive blind, right?</em></strong> Thousands of vulnerable Americans now face the double travesty of office closures and layoffs that cater to their most essential survival needs as these two play political Pinocchio, slashing funds while swearing up and down they're protecting benefits. With Musk's so-called 'efficiency' strategy leaving the disabled stranded like forgotten toys in an attic while those skilled in safeguarding our societal safety net are tossed aside, it's ripe for a reality check: these cuts aren't about streamlining; they're about chaos and cruelty painted with a gloss of fiscal responsibility. Bravo, gentlemen. Truly a masterclass in hypocrisy!</p>",
+    "links": [
+      {
+        "href": "https://www.rollingstone.com/politics/politics-features/trump-musk-social-security-administration-lies-cuts-closures-1235283161/",
+        "linkText": "LIES, CUTS, CLOSURES: TRUMP AND MUSK RAVAGE SOCIAL SECURITY ADMINISTRATION"
+      }
+    ]
+  },
+  {
+    "id": "376",
+    "sort_id": "376",
+    "categories": [
+      "national-security",
+    ],
+    "faicon": "shield-virus",
+    "datetime": "2025-03-01 15:19",
+    "title": "Hegseth's Cyber Stand-Down: A Gift-Wrapped Invitation for Russian Hackers",
+    "image": {
+      "src": "https://cms.therecord.media/uploads/format_webp/large_hegseth_guantanamo_20240224_1b79ffddf2.jpg",
+      "alt": "the most unqualified dumbass piece of shit to ever have this office",
+      "caption": "the most unqualified dumbass piece of shit to ever have this office",
+      "link": ""
+    },
+    "body": "<p><strong><em>In a stunning display of incompetence, Defense Secretary Pete Hegseth has ordered U.S. Cyber Command to just fold its arms and watch as Russia continues its digital war on the West, proving once again that the only thing more dangerous than a Kremlin hacker is a clueless American bureaucrat.</em></strong> Meanwhile, the White House is busy bending over backwards to cozy up to a regime that invades other countries and undermines democracy, while millions of Americans are left wondering why their cyber security strategy feels like a bad sitcom. <strong><em>Bravo, Hegseth – you’ve successfully turned National Defense into a punchline!</em></strong></p>",
+    "links": [
+      {
+        "href": "https://therecord.media/hegseth-orders-cyber-command-stand-down-russia-planning",
+        "linkText": "Exclusive: Hegseth orders Cyber Command to stand down on Russia planning"
+      }
+    ]
+  },
+  {
+    "id": "375",
+    "sort_id": "375",
+    "categories": [
+      "national-security",
+      "anti-immigration"
+    ],
+    "faicon": "jet-fighter",
+    "datetime": "2025-03-01 15:17",
+    "title": "USA: The Global Police Force for Corruption and Incompetence",
+    "image": {
+      "src": "https://nypost.com/wp-content/uploads/sites/2/2025/02/mexican-secretary-foreign-affairs-juan-99376227.jpg?w=1024",
+      "alt": "a flock of invertebrate bitches",
+      "caption": "a flock of invertebrate bitches",
+      "link": ""
+    },
+    "body": "<p><strong><em>Defense Secretary Pete Hegseth's</em></strong> latest episode of ‘Let’s invade Mexico’ is a glorious reminder that our leaders are more interested in flexing military might than tackling the real issues of <strong><em>insider corruption</em></strong> and <strong><em>incompetence</em></strong> that plague our border crisis. While he struts around issuing threats like a schoolyard bully, Mexican officials must be laughing behind their hands. Sure, let’s blame the cartels for the flood of fentanyl, but let’s also ignore the glaring fact that the real drug lord here wears a suit and has a corner office! If Hegseth’s grand strategy involves strutting around like an overlord while the actual problems linger, we might as well hand the cartels a medal for <strong><u>bottling our ineptitude</u></strong>. Terrific job, Pete!</p>",
+    "links": [
+      {
+        "href": "https://nypost.com/2025/02/28/us-news/defense-secretary-pete-hegseth-privately-warned-mexican-officials-that-us-military-was-prepared-to-take-action-against-drug-cartels-report/",
+        "linkText": "Defense Secretary Pete Hegseth privately warned Mexican officials that US military was prepared to take action against drug cartels: report"
+      }
+    ]
+  },
+  {
+    "id": "374",
+    "sort_id": "374",
+    "categories": [
+      "corruption",
+    ],
+    "faicon": "exclamation-circle",
+    "datetime": "2025-03-01 15:14",
+    "title": "Musk's Starlink: Enabling Scammers and Turning a Blind Eye",
+    "image": {
+      "src": "https://media.wired.com/photos/67bf404bbf3048a307e0db7f/master/w_2560%2Cc_limit/starlink-sec.jpg",
+      "alt": "starlink device of some kind",
+      "caption": "starlink device of some kind",
+      "link": ""
+    },
+    "body": "<p><strong><em>In a sickening twist of fate, Elon Musk’s Starlink isn’t just connecting the world; it’s keeping human trafficking operations alive and thriving! While real victims of modern slavery plead for freedom, tech mogul Musk's satellites hang overhead, helping criminal masterminds scam unsuspecting victims from thousands of miles away. Is this what 'innovation' looks like? Starlink is the new darling of scam compounds, fuelling their nefarious deeds while officials scramble to get Musk's attention—just to be ignored. It’s absurd: a tech company claiming to disrupt communications while simultaneously being the backbone for online fraud and exploitation. Talk about hypocrisy on a cosmic scale!</em></strong></p>",
+    "links": [
+      {
+        "href": "https://www.wired.com/story/starlink-scam-compounds/",
+        "linkText": "Elon Musk’s Starlink Is Keeping Modern Slavery Compounds Online"
+      }
+    ]
+  },
+  {
+    "id": "373",
+    "sort_id": "373",
+    "categories": [
+      OLIGARCHY
+    ],
+    "faicon": "mask",
+    "datetime": "2025-03-01 15:11",
+    "title": "Elon Musk: Bureaucracy's New Tech-Overlord or Just a Silicon Valley Circus?",
+    "image": {
+      "src": "https://static01.nyt.com/images/2025/02/27/multimedia/doge-musk-new-top200-vtkl/doge-musk-new-top200-vtkl-superJumbo.jpg",
+      "alt": "the only immigrant we need to deport and man with worlds most punchable face",
+      "caption": "the only immigrant we need to deport and man with worlds most punchable face",
+      "link": ""
+    },
+    "body": "<p>Welcome to the surreal world where a $50,000 dinner party propels a tech billionaire into an unholy alliance with the government, exchanging federal oversight for a free pass to meddle with taxpayer dollars and dismantle democracy, all under the banner of \"efficiency.\" With the finesse of a toddler in a candy store, Elon Musk has not only wormed his way into pivotal positions within government agencies but seems to think he's running a reality show where he can fire federal workers on a whim. After all, what’s more efficient than a tech mogul treating the federal bureaucracy like his personal plaything? Seriously, should we be surprised Musk's *Department of Government Efficiency* (DOGE, because why not throw in a crypto meme) looks suspiciously like the malevolent offspring of Trump and a Silicon Valley fever dream? More than just a 'guest appearance,' Musk is now orchestrating a hostile takeover of your government, all while proclaiming it’s to “restore democracy from the dictatorship of the bureaucracy.” Irony much?</p>",
+    "links": [
+      {
+        "href": "https://www.nytimes.com/2025/02/28/us/politics/musk-federal-bureaucracy-takeover.html?unlocked_article_code=1.0U4.IxK-.Z8EgvRccOLGA&smid=nytcore-ios-share&referringSource=articleShare",
+        "linkText": "How Elon Musk Executed His Takeover of the Federal Bureaucracy"
+      }
+    ]
+  },
+  {
+    "id": "372",
+    "sort_id": "372",
+    "categories": [
+      "trade-war",
+      "trumps-america"
+    ],
+    "faicon": "money-bill-trend-up",
+    "datetime": "2025-03-01 15:09",
+    "title": "Investment Regret: CEOs Finally Realize Trump’s Policies Aren’t Just a Bad Dream",
+    "image": {
+      "src": "https://img.semafor.com/af1303abf818f41dba00a21d72cbbbdf164fed43-4422x2949.jpg?w=1920&q=75&auto=format",
+      "alt": "US President dumbshit moron holding a hat saying “Trump was right about everything.”",
+      "caption": "US President dumbshit moron holding a hat saying “Trump was right about everything.”",
+      "link": ""
+    },
+    "body": "<p>Well, well, well, look who's scrambling for a lifeboat now that the Titanic of Trump’s presidency is hitting iceberg after iceberg! We’ve got CEOs like Ken Griffin and Hassane El-Khoury suddenly regretting their high-fives and backroom deals with the guy who said he'd unleash a flood of investment but is instead drowning them in red ink. As CEOs cling to fiscal lifeboats, the stock market tanks while Trump threatens to choke the life out of trade with tariffs so ridiculous, they make SNL sketches look like documentaries. And for all those business moguls basking in the Trump glow, the bad chaos they feared is now gleefully joined by a healthy dose of 'What the hell did we do?' Can't wait to watch these so-called masters of the universe finally realize that the leopard's not just eating their faces—he's got them by the throat!</p>",
+    "links": [
+      {
+        "href": "https://www.semafor.com/article/02/27/2025/american-business-leaders-are-turning-on-trump-fast",
+        "linkText": "American business leaders are turning on Trump — fast"
+      }
+    ]
+  },
+  {
+    "id": "371",
+    "sort_id": "371",
+    "categories": [
+      PERVERTS,
+      "trumps-america"
+    ],
+    "faicon": "plane-departure",
+    "datetime": "2025-03-01 15:08",
+    "title": "Trump's Latest Private Jet Adventure: Just Another Scenic Route from Hypocrisy to Corruption",
+    "image": {
+      "src": "https://i2-prod.irishstar.com/incoming/article34040420.ece/ALTERNATES/s615/1_GettyImages-1192977790.jpg",
+      "alt": "fucking pedophile pieces of shit",
+      "caption": "fucking pedophile pieces of shit",
+      "link": ""
+    },
+    "body": "<p>Well, well, well! It seems the flight logs of Jeffrey Epstein's *delightfully* shady jet have uncovered President Trump’s *family vacation* in 1994 – right there with his then-wife Marla and baby Tiffany, blissfully unaware of the swirling allegations of extreme misconduct surrounding their then-jet-setting companion. What a *coincidence*! It’s almost like the man who’s been close to enough predators to start his own zoo couldn't see the red flags waving like mad during that scenic flight from Palm Beach to Washington D.C.! Meanwhile, Attorney General Pam Bondi, *ever the vigilant overseer*, is busy playing a game of ‘Where’s Waldo’ with Epstein’s documents, effectively confirming that nobody in law enforcement seems to give a damn about pesky things like accountability or justice. If anything screams 'America's political circus', it’s a former president dancing on the stage of scandal while the public’s left to squint at the headlines like they’re trying to read tea leaves from a mug of cold coffee. Yep, just your average Tuesday in the bizarre tale of American politics. *Cheers to that!*</p>",
+    "links": [
+      {
+        "href": "https://www.irishstar.com/news/us-news/breaking-donald-trump-named-epstein-34766895",
+        "linkText": "Donald Trump named in Epstein files after two mystery flights on private jet"
+      }
+    ]
+  },
+  {
+    "id": "370",
+    "sort_id": "370",
+    "categories": [
+      OLIGARCHY,
+      "corruption",
+      "trumps-america"
+    ],
+    "faicon": "theater-masks",
+    "datetime": "2025-03-01 15:06",
+    "title": "When Money Trumps All: The SEC's Latest Circus Act",
+    "image": {
+      "src": "https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab1532f5-35b1-4a7b-bc42-25a6fbc98319_1024x683.jpeg",
+      "alt": "all you gotta do is donate to trump to get out of some shit",
+      "caption": "all you gotta do is donate to trump to get out of some shit",
+      "link": ""
+    },
+    "body": "<p>In a breathtaking display of political theater, Chinese crypto mogul Justin Sun is treating the corruption of the SEC like a game of Monopoly, all while funneling millions into Donald Trump’s pockets. With the SEC cheerleading for Sun's mismanagement and criminal antics, their request for a stay on his fraud case smells more like a backstage pass for the corrupt elite than any real justice. Sun's *lavish* investments in World Liberty Financial, a venture fattened by Trump's family, prove that when it comes to *American democracy*, the rules are about as solid as the *worthless* tokens Sun's buying. And let's not forget the celebrities endorsing this crypto dumpster fire without disclosing payments - it’s a dystopian circus where money talks, and ethics take a backseat. Bravo, SEC! You're really nailing that *trustworthy* image!</p>",
+    "links": [
+      {
+        "href": "https://popular.info/p/breaking-sec-halts-fraud-prosecution",
+        "linkText": "Popular Information"
+      }
+    ]
+  },
+  {
+    "id": "369",
+    "sort_id": "369",
+    "categories": [
+      FASCISM,
+      "corruption",
+      "trumps-america"
+    ],
+    "faicon": "gavel",
+    "datetime": "2025-03-01 15:04",
+    "title": "Trump Administration's Firing Frenzy Hits a Legal Brick Wall",
+    "image": {
+      "src": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/OF7XKW2FOQGFE3QLP6MHRF2A7Y_size-normalized.jpg&w=916",
+      "alt": "People rally Feb. 19 in Washington near the Department of Health and Human Services headquarters to protest the polices of President Donald Trump and Elon Musk. (John McDonnell/AP)",
+      "caption": "People rally Feb. 19 in Washington near the Department of Health and Human Services headquarters to protest the polices of President Donald Trump and Elon Musk. (John McDonnell/AP)",
+      "link": ""
+    },
+    "body": "<p>In a shocking twist of what the Trump administration hoped would be a no-holds-barred massacre of federal workers, U.S. District Judge William Alsup has ruled that the mass firings initiated by the Office of Personnel Management were about as legal as a three-dollar bill. I mean, who needs legal authority when you can just **eliminate** jobs based on a whim, right? Tens of thousands of employees—some yielding top-notch performance reviews—found themselves in the unemployment line courtesy of **government incompetence** masquerading as fiscal responsibility. Meanwhile, the OPM, apparently under the delusion that they’re running a game of Monopoly, couldn’t grasp even the **most basic** regulations, prompting a judge to intervene like a parent at a playground brawl. So now, we await a hero's return for these unjustly discarded workers—assuming the administration can even be bothered to comply with the *rule of law* this time around.</p>",
+    "links": [
+      {
+        "href": "https://www.washingtonpost.com/dc-md-va/2025/02/27/judge-probationary-federal-employee-firings-lawsuit/",
+        "linkText": "Judge blocks Trump administration’s mass firings of federal workers"
+      }
+    ]
+  },
+  {
+    "id": "368",
+    "sort_id": "368",
+    "categories": [
+      "trumps-america",
+      FULL_STUPID
+    ],
+    "faicon": "fire",
+    "datetime": "2025-03-01 15:01",
+    "title": "Firing Ranges: Where Public Service Meets Public Disservice",
+    "image": {
+      "src": "https://www.levernews.com/content/images/2025/02/FireHero.jpg",
+      "alt": "Adin Kloetzel fights a wildfire in Montana. (Credit: Adin Kloetzel)",
+      "caption": "Adin Kloetzel fights a wildfire in Montana. (Credit: Adin Kloetzel)",
+      "link": ""
+    },
+    "body": "<p>In a stunning demonstration of bureaucratic mismanagement, over 3,400 dedicated Forest Service employees have been unceremoniously booted from their jobs, proving once and for all that *job security* is now just a fairy tale for those who protect our precious lands. Forget about fighting fires—this administration seems more interested in stoking the flames of incompetence and *corporate greed*. With seasoned workers out the door, national forests are set to become *kindling* in the face of climate change. And why? Simple: it’s all part of a twisted plan to privatize everything from public lands to public safety, leaving communities more at risk while lining the pockets of the Trump Mobsters with *blood money*. Talk about a *bitter pill* to swallow—how about we shove it down the throats of the self-serving bureaucrats responsible for this debacle?</p>",
+    "links": [
+      {
+        "href": "https://www.levernews.com/the-firefighting-fire-sale/",
+        "linkText": "The Firefighting Fire Sale"
+      }
+    ]
+  },
+  {
+    "id": "367",
+    "sort_id": "367",
+    "categories": [
+      "losses",
+      "money"
+    ],
+    "faicon": "chart-line",
+    "datetime": "2025-03-01 14:59",
+    "title": "Jobless Claims Jump: Just Another Day in Paradise for the Incompetent",
+    "image": {
+      "src": "https://media.cnn.com/api/v1/images/stellar/prod/ap25030060463986.jpg?c=16x9&q=h_833,w_1480,c_fill",
+      "alt": "Job seekers stand in line while waiting to talk with Walt Disney World recruiters in Orlando on January 29.",
+      "caption": "Job seekers stand in line while waiting to talk with Walt Disney World recruiters in Orlando on January 29.",
+      "link": ""
+    },
+    "body": "<p>In a shocking twist that surprises absolutely nobody, jobless claims soared by 22,000 as the US labor market shows signs of cracking like a middle-aged man’s back after too many years of sitting in a government cubicle. With a grand total of 242,000 claims filed, it’s as if the Department of Labor is throwing a party to celebrate *how badly* they’ve mismanaged things. They’d love us to believe this is due to *noisy data* and weather events, but let’s be real—when your employment strategy is as effective as a chocolate teapot, what do you expect? While economists scramble to adjust their forecasts and downplay the ramifications of **mass layoffs** under the current administration, one can't help but marvel at how maintaining the facade of a ‘solid labor market’ has become the ultimate exercise in absurdity. So, sit tight folks; this steady *drip, drip, drip* of unemployment is just a warm-up act for the financial disaster we’ve all been waiting for.</p>",
+    "links": [
+      {
+        "href": "https://edition.cnn.com/2025/02/27/economy/us-jobless-claims-layoffs/index.html",
+        "linkText": "Jobless claims spike, in worrisome sign for the US labor market"
+      }
+    ]
+  },
+  {
+    "id": "366",
+    "sort_id": "366",
+    "categories": [
+      "corruption",
+      "national-security"
+    ],
+    "faicon": "money-bill-wave",
+    "datetime": "2025-03-01 14:57",
+    "title": "GOP Senators Cry Foul While Trump Plays Hide and Seek with $2 Billion",
+    "image": {
+      "src": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R7ETHXLRPETJ6LL7II4Y5KT3DE.JPG&w=916",
+      "alt": "Spineless cuck and grindr aficionado lindsey graham",
+      "caption": "Spineless cuck and grindr aficionado lindsey graham",
+      "link": ""
+    },
+    "body": "<p>A handful of Republican senators, including the likes of Lindsey Graham, have suddenly decided to act shocked, shocked I tell you, by the Trump administration’s brazen foreign aid freeze—one that blatantly ignores Congress’s legal oversight. It’s nothing short of <strong>pathetic</strong> that these supposed champions of democracy are now scrambling to pen letters pleading for accountability after backing the very man who’s steamrolling their authority. Calling Rubio on the carpet while simultaneously waving goodbye to vital assistance for starving people abroad? That’s rich! All the while, foreign adversaries are gloating as America’s global influence crumbles under the weight of incompetence and hypocrisy. Bravo, GOP, Bravo!</p>",
+    "links": [
+      {
+        "href": "https://www.washingtonpost.com/politics/2025/02/27/usaid-senators-graham-rubio/",
+        "linkText": "Behind the scenes, GOP senators challenge legality of Trump’s aid cuts"
+      }
+    ]
+  },
+  {
+    "id": "365",
+    "sort_id": "365",
+    "categories": [
+      "perverts",
+      "trumps-america"
+    ],
+    "faicon": "frown",
+    "datetime": "2025-03-01 14:53",
+    "title": "Welcome Back, Human Traffickers: America ROLLS OUT the Red Carpet!",
+    "image": {
+      "src": "https://dims.apnews.com/dims4/default/d0e60fe/2147483647/strip/true/crop/3259x2172+0+0/resize/800x533!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F11%2F0a%2F397b2173f0752b3422fc22253699%2Ff2e96413f33949fea623e1b1f2f4568d",
+      "alt": "fuck these lame pieces of shit",
+      "caption": "fuck these lame pieces of shit",
+      "link": ""
+    },
+    "body": "<p>In an absolutely *ludicrous* display of justice, influencer parasites Andrew and Tristan Tate, freshly charged with human trafficking, are greeted like conquering heroes upon their return to the U.S. The Romanian authorities, clearly *concerned* about due process, decided to lift travel restrictions, leaving us to wonder if they consulted a magic 8-ball on the decision. Andrew insists they’re *misunderstood* – sure, and so was the Titanic when it sank, right? Meanwhile, Florida's Attorney General plans a half-hearted inquiry, because why not? Let’s just roll the dice on the *alleged* human rights violations while these clowns continue to peddle their misogynist drivel online. It's a *shameful* day for justice that sends the clear message: in America, the rich and infamous can always outpace accountability!</p>",
+    "links": [
+      {
+        "href": "https://apnews.com/article/romania-andrew-tate-us-04749679b90fad821c2b945955f5b145?taid=67c026bb7fa29800018f7d62&utm_campaign=TrueAnthem&utm_medium=AP&utm_source=Twitter",
+        "linkText": "Influencer Tate brothers, who face human trafficking charges in Romania, arrive in the US"
+      }
+    ]
+  },
+  {
+    "id": "364",
+    "sort_id": "364",
+    "categories": [
+      LEOPARDS_ATE_MY_FACE
+    ],
+    "faicon": "cat",
+    "datetime": "2025-03-01 14:50",
+    "title": "From Hope to Heartbreak: The Trump Treatment",
+    "image": {
+      "src": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BLJVL45RZTTTKR6456TMWUPQFY.JPG&w=1440&impolicy=high_res",
+      "alt": "Ryleigh Cooper, 24, lost her job with the U.S. Forest Service. (Kyle Monk/For The Washington Post)",
+      "caption": "Ryleigh Cooper, 24, lost her job with the U.S. Forest Service. (Kyle Monk/For The Washington Post)",
+      "link": ""
+    },
+    "body": "<p>Ryleigh Cooper, laboring away for the U.S. Forest Service, thought she was voting for change, not for a historic <strong><em>axe</em></strong> to her livelihood. Armed with optimism and a promise from Trump about free IVF, she found herself on the chopping block instead, betrayed by the one who lured her in with a fantasy. It’s just rich irony that after painstakingly building her career, she’s now staring down the barrel of unemployment thanks to a White House hell-bent on gutting federal jobs while swaggering around making empty promises to \"help families.\" How’s that for a reality check? She wanted a child; instead, she got a big, fat <strong><em>nothing</em></strong> wrapped in bureaucratic bullshit.</p>",
+    "links": [
+      {
+        "href": "https://www.washingtonpost.com/politics/2025/02/27/fired-federal-worker-trump-voter/",
+        "linkText": "She hoped Trump’s victory would change her life, but not like this"
+      }
+    ]
+  },
+  {
+    "id": "363",
+    "sort_id": "363",
+    "categories": [
+      "anti-science",
+      "trumps-america"
+    ],
+    "faicon": "money-bill-wave",
+    "datetime": "2025-03-01 14:48",
+    "title": "The DOGE Disaster: Freezing Science for Profit",
+    "image": {
+      "src": "https://media.wired.com/photos/67bde899feb8b09330229a7f/master/w_2560%2Cc_limit/GettyImages-453765600.jpg",
+      "alt": "Water Waterfront Animal Canine Dog Mammal Newfoundland Pet Transportation Vehicle and Watercraft",
+      "caption": "Water Waterfront Animal Canine Dog Mammal Newfoundland Pet Transportation Vehicle and Watercraft",
+      "link": ""
+    },
+    "body": "<p>Welcome to the farcical far south, where Elon Musk's charade known as the Department of Government Efficiency (DOGE) is turning scientific research into a frozen wasteland of incompetence and malevolence. In a fit of bureaucratic lunacy, our esteemed government has opted to fire crucial Antarctic program managers while financing cuts threaten to bury decades of climate science deep under the snow. With their entire workforce hanging by a thread, scientists fear not just layoffs but a catastrophic brain drain as foreign nations eagerly snatch up America’s talent. Meanwhile, the absurdity of erasing gender-inclusive language on housing forms during an existential crisis is the cherry on top of this ideological sundae of stupidity. Perhaps we should dedicate some of that 'cleanest air on Earth' to clear the heads of those in charge—the future of our planet hangs in the balance while they play petty political games. God help Antarctica, and while we’re at it, God help us all.</p>",
+    "links": [
+      {
+        "href": "https://www.wired.com/story/doge-antarctica-science-research-china-russia/",
+        "linkText": "DOGE’s Chaos Reaches Antarctica"
+      }
+    ]
+  },
+  {
+    "id": "362",
+    "sort_id": "362",
+    "categories": [
+      "corruption",
+      "trumps-america"
+    ],
+    "faicon": "frown",
+    "datetime": "2025-03-01 14:46",
+    "title": "Tesla’s $400 Million Pipe Dream: A Diplomatic Disaster",
+    "image": {
+      "src": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5892x3910+0+0/resize/1100/quality/50/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F14%2F84%2Fdedf745d4983bed66821e89667d3%2Fgettyimages-2190848839.jpg",
+      "alt": "a dumpster parked outside of a dumpster dealership",
+      "caption": "a dumpster parked outside of a dumpster dealership",
+      "link": ""
+    },
+    "body": "<p>In a spectacle that would make even the most shameless circus clowns blush, the Trump administration’s plan to funnel a staggering $400 million into buying Teslas for diplomats has been pulled faster than a rabbit from a hat—because nothing says ‘diplomatic security’ like a glorified toy truck! The State Department's secrecy is only matched by its incompetence, burying this fiscal fiasco in a spreadsheet while attempting to claim it was just a benign proposal to 'gather information.' Spoiler alert: the only information we gathered is that Trump apparently still can’t get enough of Musk’s electric magic trickery. Meanwhile, experts scratch their heads at the absurdity of using a Cybertruck to transport ambassadors safely through dangerous territories while lamenting that adding armor could turn the vehicle into a battery-destroying behemoth. Just how many fabrications can the Trump administration spin before they realize this isn’t just some electric car salesman’s dream? The surreal nature of this deal, full of ethical conflicts and political chicanery, is a farcical reminder that when it comes to government contracts, honesty is still a foreign concept.</p>",
+    "links": [
+      {
+        "href": "https://www.npr.org/2025/02/24/nx-s1-5305269/tesla-state-department-elon-musk-trump",
+        "linkText": "A new document undercuts Trump admin's denials about $400 million Tesla deal"
+      }
+    ]
+  },
+  {
+    "id": "361",
+    "sort_id": "361",
+    "categories": [
+      "corruption",
+      "trumps-america"
+    ],
+    "faicon": "gavel",
+    "datetime": "2025-03-01 14:39",
+    "title": "Supreme Court grants Trump request to pause USAID payments order",
+    "image": {
+      "src": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Q7L5L5UFXYWLM3TJJBS37JIN7Y_size-normalized.jpg&w=916",
+      "alt": "Men scuffle over a sack of donated food delivered with relief supplies in Vye Terre, Haiti, after a 7.2-magnitude earthquake struck the country in 2021. (Fernando Llano/AP)",
+      "caption": "Men scuffle over a sack of donated food delivered with relief supplies in Vye Terre, Haiti, after a 7.2-magnitude earthquake struck the country in 2021. (Fernando Llano/AP)",
+      "link": ""
+    },
+    "body": "<p>In a stunning display of bureaucratic absurdity, Chief Justice John G. Roberts Jr. has decided to grant a temporary reprieve to a Trump administration that thinks playing god with $2 billion in foreign aid is just a delightful game of legal hot potato. Oh sure, let's keep the most vulnerable around the globe in a holding pattern with a government so mired in incompetence it can't even follow a court's orders without throwing a tantrum worthy of a toddler denied candy. While starving kids and ill patients wait for their lifesaving shipments, the administration whines about “arbitrary timelines” while treating humanitarian needs as a mere footnote in their grand scheme to reshape the administrative state. And what’s next? Aid to those in desperate need is deemed a “legitimate claim” only to be met with bureaucratic stonewalling and the kind of chaos that makes one wonder if these people even remotely grasp the grave stakes involved, or if they’re simply too busy lining their own pockets and catering to the whims of their billionaire buddies to care. This isn’t just incompetence; it’s a corruption of the fundamental moral duty to help those in need, all while smugly drafting thin excuses about presidential power. Bravo, America, for electing this circus to run the show—maybe next time we can leave the lives of millions out of the puppet show. </p>",
+    "links": [
+      {
+        "href": "https://www.washingtonpost.com/politics/2025/02/26/usaid-aid-supreme-court-payment-deadline/",
+        "linkText": "Supreme Court grants Trump request to pause USAID payments order"
+      }
+    ]
+  },
+  {
+    id: "360",
+    "sort_id": "360",
+    "categories": [
+      "trumps-america",
+      "imperialism"
+    ],
+    "faicon": "signature",
+    "datetime": "2025-03-01 14:18",
+    "title": "Trump signs executive order expanding power of Elon Musk’s Doge agency",
+    "image": {
+      "src": "https://i.guim.co.uk/img/media/c403cf6e2b958d46468c3aebe2f22ccca930a4d2/0_20_5500_3300/master/5500.jpg?width=465&dpr=1&s=none&crop=none",
+      "alt": "Man sitting at table",
+      "caption": "Man sitting at table",
+      "link": ""
+    },
+    "body": "<p>Amidst the chaos and calamity of the Trump administration, the absurdity reaches new heights as the Cheeto-in-Chief signs off on expanding the power of Elon Musk’s precious Doge agency. Because who better to run the show than a billionaire playboy who names his kid after an algebra equation, right? In a move dripping with more narcissism than a reality TV star's Twitter feed, Trump’s latest executive order calls for a \"transformation\" in US spending, requiring agencies to bend the knee to Musk's merry band of misfits for all things financial. Because nothing says accountability like putting the fox in charge of the henhouse. Meanwhile, Musk, fresh off his Mars colonization daydreams, is busy playing whack-a-mole with government agencies, 'accidentally' axing Ebola-prevention efforts and leaving a trail of destruction in Doge’s path. But hey, who needs disaster relief when you’ve got Doge on the case, right?</p>",
+    "links": [
+      {
+        "href": "https://www.theguardian.com/us-news/2025/feb/26/trump-executive-order-musk-doge?CMP=oth_b-aplnews_d-1",
+        "linkText": "Trump signs executive order expanding power of Elon Musk’s Doge agency"
+      }
+    ]
+  },
+  {
+    id: '359',
+    sort_id: '359',
+    categories: [OLIGARCHY],
+    faicon: 'poo',
+    datetime: '2025-02-27 08:00',
+    title: 'dumbshit "accidentally" terminates ebola prevention programs',
+    image: {
+      link: '',
+      src: 'https://i.insider.com/67bf6516b1834fe311658a36?width=1000&format=jpeg&auto=webp',
+      alt: 'fucking moron',
+      caption: 'fucking moron',
+    },
+    body: "<p>Musk’s **government “efficiency” task force** just **accidentally defunded Ebola prevention**, because apparently **public health is just another line item to cut.** In a cabinet meeting, Musk shrugged off the mistake, saying **“We will make mistakes”**—which is great news if you **enjoy surprise pandemics.**</p>",
+    links: [
+      {
+        href: 'https://www.businessinsider.com/elon-musk-doge-ebola-prevention-trump-cabinet-meeting-2025-2',
+        linkText: "Elon Musk says DOGE 'accidentally' cut Ebola prevention",
+      },
+      {
+        href: 'https://apnews.com/article/trump-elon-musk-doge-cabinet-briefing-d7c881a79a57a9014a915d815280a790',
+        linkText: "Musk and his ‘humble tech support’ effort get star turn at Trump’s Cabinet meeting",
+      },
+    ],
+  },
+  {
+    id: '358',
+    sort_id: '358',
+    categories: [PRO_PUBLICA],
+    faicon: 'house',
+    datetime: '2025-02-27 07:55',
+    title: 'doge continues their illegal rampage through federal agencies',
+    image: {
+      link: '',
+      src: 'https://img.assets-d.propublica.org/v5/images/GettyImages-2199820484_maxWidth_3000_maxHeight_3000_ppi_72_quality_95_embedColorProfile_true.jpg?crop=focalpoint&fit=crop&fm=webp&fp-x=0.6067&fp-y=0.756&h=2000&q=75&w=2000&s=1a1207c8f69eb372b179f4f4ae345533',
+      alt: 'hud',
+      caption: 'hud',
+    },
+    body: "<p>Musk’s **Department of Government Efficiency** just gained access to **a HUD system containing confidential records on housing discrimination victims, including domestic violence survivors.** This is just the latest **data grab**, after DOGE **tried to access taxpayer records, Social Security info, and even Treasury payment systems.** Meanwhile, Trump is **slashing HUD’s workforce in half**, because  **“efficiency”** means gutting civil rights enforcement while **snooping through survivors’ private files.** I guess</p>",
+    links: [
+      {
+        href: 'https://www.propublica.org/article/doge-elon-musk-hud-housing-discrimination-privacy-domestic-violence',
+        linkText: "DOGE Gains Access to Confidential Records on Housing Discrimination, Medical Details — Even Domestic Violence",
+      },
+    ],
+  },
+  {
+    id: '357',
+    sort_id: '357',
+    categories: [ANTI_SCIENCE, HEALTHCARE, LEOPARDS_ATE_MY_FACE],
+    faicon: 'viruses',
+    datetime: '2025-02-27 07:55',
+    title: 'school age child dies from measles',
+    image: {
+      link: '',
+      src: 'https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/rockcms/2025-02/250226-measles-mb-1500-b06936.jpg',
+      alt: 'measels outbreak in areas with low vanccination rates WHO WOULD HAVE GUESSED?????',
+      caption: 'measels outbreak in areas with low vanccination rates WHO WOULD HAVE GUESSED?????',
+    },
+    body: "<p>RFK Jr., **Trump’s anti-vax Health Secretary,** just **downplayed a deadly measles outbreak in Texas,** brushing off the first U.S. child death from the disease in 22 years. Meanwhile, hospitals are **overflowing with unvaccinated kids,** and Texas counties with **sky-high vaccine exemption rates** are seeing outbreaks spread. But sure, let’s keep pretending **vaccines are the real problem.**</p>",
+    links: [
+      {
+        href: 'https://www.nbcnews.com/health/health-news/person-dies-measles-west-texas-outbreak-rcna193812',
+        linkText: "First measles death reported in Texas as Kennedy downplays the outbreak",
+      },
+    ],
+  },
+  {
+    id: '356',
+    sort_id: '356',
+    categories: [CORRUPTION, OLIGARCHY],
+    faicon: 'money-bill-trend-up',
+    datetime: '2025-02-27 07:50',
+    title: 'dumbshit african immigrant is the real welfare queen living off the government',
+    image: {
+      link: '',
+      src: 'https://img.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DO35NAPLU5A5RFKJO6XVDBHHDU.jpg&high_res=true&w=1920',
+      alt: 'fucking welfare queen',
+      caption: 'fucking welfare queen',
+    },
+    body: "<p>Musk’s **“government efficiency” crusade** conveniently ignores the **$38 billion in taxpayer money** that **made him the richest man alive.** His companies have thrived on **federal contracts, subsidies, and low-interest loans**, but now that he’s in charge of **slashing government spending,** guess which agencies he’s targeting? **The same ones that funded his empire.** Must be nice to **pull the ladder up after you’ve climbed it.**</p>",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/technology/interactive/2025/elon-musk-business-government-contracts-funding/',
+        linkText: "Elon Musk’s business empire is built on $38 billion in government funding",
+      },
+    ],
+  },
+  {
+    id: '355',
+    sort_id: '355',
+    categories: [TRUMPS_AMERICA],
+    faicon: 'wheelchair',
+    datetime: '2025-02-27 07:48',
+    title: 'republican in OK says its ok to beat handicapped children wtf is happening',
+    image: {
+      link: '',
+      src: 'https://www.rawstory.com/media-library/scientists-bust-church-for-scam-claiming-bible-secreted-miracle-inducing-oil.jpg?id=24732036&width=1200&height=645',
+      alt: 'of course hes a religious nutbag, because jesus taught to violently beat handicapped children',
+      caption: 'of course hes a religious nutbag, because jesus taught to violently beat handicapped children',
+    },
+    body: "<p>An **Oklahoma Republican senator just lost his mind** over a bill to **ban schools from beating disabled children,** raging that it **violates the Bible** and is somehow **“socialist.”** Meanwhile, this same guy **wants mandatory Trump-branded Bibles in schools** and is **really passionate about deregulating donkey milk.** Priorities. </p>",
+    links: [
+      {
+        href: 'https://www.rawstory.com/shane-jett/',
+        linkText: "Republican lawmaker says it's 'socialist' and unbiblical to ban beating disabled students",
+      },
+    ],
+  },
+  {
+    id: '354',
+    sort_id: '354',
+    categories: [CORRUPTION],
+    faicon: 'rocket',
+    datetime: '2025-02-27 07:45',
+    title: 'us agency moves to drop spacex lawsuit, big fucking surprise there',
+    image: {
+      link: '',
+      src: 'https://www.reuters.com/resizer/v2/XKWCDEI2GRM53FD3KENERFXOOQ.jpg?auth=d5b816093a9669048c987b255a0e50265e5e7a707132a04eaea8e23781545ae2&width=4000&quality=80',
+      alt: 'let the corruption run rampany!',
+      caption: 'let the corruption run rampany!',
+    },
+    body: "<p>The DOJ just **dropped its discrimination lawsuit against SpaceX**, which had accused Musk’s company of **illegally refusing to hire asylum seekers and refugees.** No reason given—just quietly swept away, right as Musk **runs Trump’s government “efficiency” program** and slashes funding for agencies that investigated him. Coincidence? **Absolutely not.**</p>",
+    links: [
+      {
+        href: 'https://www.ft.com/content/c69b7ac5-a7fd-49be-be41-2b12c8da1694',
+        linkText: "US moves to dismiss SpaceX discrimination lawsuit",
+      },
+    ],
+  },
+  {
+    id: '353',
+    sort_id: '353',
+    categories: [MONEY, TRUMPS_AMERICA],
+    faicon: 'money-bill-trend-up',
+    datetime: '2025-02-27 07:43',
+    title: 'doge quietly removes savings it once touted from its list cuz it turns out theyre actually full of shit',
+    image: {
+      link: '',
+      src: 'https://www.commondreams.org/media-library/house-speaker-mike-johnson.jpg?id=56585199&width=1200&height=400&quality=90&coordinates=0%2C96%2C0%2C246',
+      alt: 'speaker "my son knows when I masturbate"',
+      caption: 'speaker "my son knows when I masturbate"',
+    },
+    body: "<p>House Republicans just **voted to gut Medicaid and food assistance** for **millions of low-income Americans**—all to **fund massive tax breaks for the rich.** The plan? **Slash $880 billion from Medicaid**, kick **9 million people off SNAP**, and still **only cover 20% of Trump’s tax giveaways.** But don’t worry, billionaires and big corporations are getting **exactly what they paid for.**</p>",
+    links: [
+      {
+        href: 'https://www.commondreams.org/news/house-republicans-advance-budget',
+        linkText: "GOP Plows Ahead With Budget That Would Slash Medicaid, Food Benefits for Millions",
+      },
+    ],
+  },
+  {
+    id: '352',
+    sort_id: '352',
+    categories: [OLIGARCHY, FULL_STUPID],
+    faicon: 'skull-crossbones',
+    datetime: '2025-02-27 07:37',
+    title: 'doge quietly removes savings it once touted from its list cuz it turns out theyre actually full of shit',
+    image: {
+      link: '',
+      src: 'https://images.newrepublic.com/987dfdd7ec634bb1cc3923ffad9667f6975316cd.jpeg?auto=format&fit=crop&crop=faces&ar=3%3A2&ixlib=react-9.0.3&w=768&q=65&dpr=1',
+      alt: 'ketamine fueled 12 year old in an old mans body',
+      caption: 'ketamine fueled 12 year old in an old mans body',
+    },
+    body: "<p>Musk’s **Department of Government Efficiency** just **quietly deleted its biggest “savings” claims** after reporters exposed **massive math errors**—like **miscounting an $8 million ICE cut as $8 billion** and **overstating Social Security cuts by 40,000%.** But don’t worry, DOGE still insists it saved **$65 billion**—because when the numbers don’t add up, **just erase the evidence.** the internet is forever though</p>",
+    links: [
+      {
+        href: 'https://newrepublic.com/post/191973/doge-changes-website-savings-mistakes-lies',
+        linkText: "DOGE Secretly Changes Its Website After Being Caught in Huge Lies",
+      },
+    ],
+  },
+  {
+    id: '351',
+    sort_id: '351',
+    categories: [FOREVER_GRIFTING, FULL_STUPID, MONEY],
+    faicon: 'money-bill-trend-up',
+    datetime: '2025-02-27 07:35',
+    title: 'trump sells us citizenship for $5 million, because he is a fucking grifter and its not like people of means would want to do the us any harm',
+    image: {
+      link: '',
+      src: 'https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2201346830.jpg?c=16x9&q=h_653,w_1160,c_fill/f_webp',
+      alt: 'not a single brain cell or clean artery among them',
+      caption: 'not a single brain cell or clean artery among them',
+    },
+    body: "<p>Trump just **put U.S. citizenship up for sale**, launching a **“gold card”** that lets the ultra-wealthy **buy their way into America for $5 million**—because nothing says **immigration reform** like **letting Russian oligarchs and billionaires skip the line.** Meanwhile, working-class immigrants? **Still out of luck.**</p>",
+    links: [
+      {
+        href: 'https://www.cnn.com/2025/02/25/politics/us-gold-card-foreigners-trump/index.html',
+        linkText: "Trump says US will sell $5 million ‘gold card’ to wealthy foreigners",
+      },
+    ],
+  },
+  {
+    id: '350',
+    sort_id: '350',
+    categories: [MONEY],
+    faicon: 'money-bill-trend-up',
+    datetime: '2025-02-27 07:31',
+    title: 'turns out doges saving are completely fucking fabricated, tracks for the conman grifter idiots they are',
+    image: {
+      link: '',
+      src: 'https://fortune.com/img-assets/wp-content/uploads/2025/02/GettyImages-2185934057-2-e1740091405791.jpg?w=1440&q=75',
+      alt: 'idiots conmen grifters rapists and frauds',
+      caption: 'idiots conmen grifters rapists and frauds',
+    },
+    body: "<p>Trump’s **biggest cost-cutting stunt** turns out to be **a total scam**, with nearly **40% of canceled contracts saving exactly $0**—because **you can’t “cut costs” on money that’s already been spent.** Meanwhile, Musk’s **Department of Government Efficiency** is bragging about **slashing research, training, and even paid media subscriptions**, because nothing says **fiscal responsibility** like **cancelling contracts for office furniture and carpet cleaning.**</p>",
+    links: [
+      {
+        href: 'https://apnews.com/article/doge-federal-contracts-canceled-musk-trump-cuts-a65976a725412934ad686389889db0df',
+        linkText: "Nearly 40% of contracts canceled by Musk’s DOGE are expected to produce no savings",
+      },
+    ],
+  },
+  {
+    id: '349',
+    sort_id: '349',
+    categories: [TRUMPS_AMERICA, MONEY],
+    faicon: 'money-bill-trend-up',
+    datetime: '2025-02-27 07:28',
+    title: 'idiot grifter thats bankrupted 6 countries is about to bankrupt americans by causing inflation to fucking skyrocket',
+    image: {
+      link: '',
+      src: 'https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7782x5188+0+0/resize/800/quality/85/format/webp/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F10%2F4d%2F6971d11845068abfcb2e84fa58ec%2Fgettyimages-2191628340.jpg',
+      alt: 'Consumer confidence tumbled in February, as Americans wrestled with stubborn inflation and the looming threat of more import taxes. Egg prices jumped more than 15% last month, as avian flu continued to weigh on the nation\'s laying hens.',
+      caption: 'Consumer confidence tumbled in February, as Americans wrestled with stubborn inflation and the looming threat of more import taxes. Egg prices jumped more than 15% last month, as avian flu continued to weigh on the nation\'s laying hens.',
+    },
+    body: "<p>Consumer confidence just **took its biggest dive since 2021** as Americans brace for **inflation, job cuts, and Trump’s latest tariff spree.** Egg prices are soaring, **restaurants are adding surcharges for omelets,** and Trump is threatening **a 25% tax on Canada and Mexico**—because the **economic genius** is making groceries and basic goods **even more expensive.**</p>",
+    links: [
+      {
+        href: 'https://www.npr.org/2025/02/25/nx-s1-5307965/consumer-confidence-sentiment-inflation-trump-tariffs',
+        linkText: "Consumer confidence falls the most since 2021 over fears about inflation and tariffs",
+      },
+    ],
+  },
+  {
+    id: '348',
+    sort_id: '348',
+    categories: [FASCISM],
+    faicon: 'hill-rockslide',
+    datetime: '2025-02-27 07:25',
+    title: 'trump strongarms an ally into giving up natural resources',
+    image: {
+      link: '',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VKVZNKB6YY5BVP5SWOA62FHO4Y.jpg&w=916',
+      alt: 'Miners extract ilmenite, a key element used to produce titanium, at an open pit mine in the central region of Kirovohrad, Ukraine, on Feb. 12. (Efrem Lukatsky/AP)',
+      caption: 'Miners extract ilmenite, a key element used to produce titanium, at an open pit mine in the central region of Kirovohrad, Ukraine, on Feb. 12. (Efrem Lukatsky/AP)',
+    },
+    body: "<p>Trump’s **“America First” diplomacy now includes looting Ukraine’s resources** in exchange for past U.S. aid, because apparently **defending democracy isn’t free—but pillaging a war-torn country is.** After calling Zelensky a **“dictator”** and siding with **Russia and North Korea** at the U.N., Trump is now demanding **Ukraine hand over its minerals, oil, and gas**—because nothing says **support for an ally** like a 19th-century-style **imperial shakedown.**</p>",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/politics/2025/02/25/ukraine-minerals-deal-trump-zelensky/',
+        linkText: "Ukraine and U.S. agree to framework for minerals deal, Ukrainian official says",
+      },
+    ],
+  },
+  {
+    id: '347',
+    sort_id: '347',
+    categories: [ANTI_IMMIGRATION],
+    faicon: 'handcuffs',
+    datetime: '2025-02-27 07:22',
+    title: 'migrants in guantanamo describe being in hell',
+    image: {
+      link: '',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JP26PBPGX3E65DSVVMZLK4YVXQ_size-normalized.jpg&w=916',
+      alt: 'Migrants deported by the United States last week arrive at Simón Bolívar International Airport in Maiquetía, Venezuela, from the Guantánamo Bay naval station. (Pedro Mattey/AFP/Getty Images)',
+      caption: 'Migrants deported by the United States last week arrive at Simón Bolívar International Airport in Maiquetía, Venezuela, from the Guantánamo Bay naval station. (Pedro Mattey/AFP/Getty Images)',
+    },
+    body: "<p>Trump just **turned Guantánamo Bay into an immigration detention center**, shipping nearly 180 migrants to a **notorious military prison** where they were **kept in solitary confinement, stripped, shackled, and driven to suicidal despair.** DHS called them the **“worst of the worst”**—but somehow, **none of them had criminal records.** Because nothing says **“land of the free”** like throwing asylum seekers into **a black site known for torture.**</p>",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/immigration/2025/02/25/guantanamo-trump-migrants-deportations-venezuela/',
+        linkText: "Invasive frisks, suicide attempts: Three migrants describe Guantánamo detention",
+      },
+    ],
+  },
+  {
+    id: '346',
+    sort_id: '346',
+    categories: [NATIONAL_SECURITY],
+    faicon: 'computer',
+    datetime: '2025-02-27 07:18',
+    title: 'federal workers with technical expertise resign en masse rather than tear down critical public infrastructure',
+    image: {
+      link: '',
+      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMXVIyUCp5Xeau3rPhm-yEF4utMXN11LMCiw&s',
+      alt: 'thanks, patriots',
+      caption: 'thanks, patriots',
+    },
+    body: "<p>More than **20 government tech experts just quit en masse**, refusing to help Musk’s **Department of Government Efficiency** dismantle **critical public services.** Meanwhile, Musk—who once hyped DOGE as a **bureaucracy-busting revolution**—was last seen at CPAC **waving a Chinese-made chainsaw.** Because nothing says “American efficiency” like **gutting Social Security and veterans’ services while roleplaying as a dictator.**</p>",
+    links: [
+      {
+        href: 'https://apnews.com/article/doge-elon-musk-federal-government-resignations-usds-6b7e9b7022e6d89d69305e9510f2a43c',
+        linkText: "Federal technology staffers resign rather than help Musk and DOGE",
+      },
+      {
+        href: 'https://www.nbcnews.com/now/video/21-former-usds-employees-resign-in-refusal-to-work-for-doge-232883269659',
+        linkText: "21 former USDS employees resign in refusal to work for DOGE",
+      },
+    ],
+  },
+  {
+    id: '345',
+    sort_id: '345',
+    categories: [FULL_STUPID],
+    faicon: 'poo',
+    datetime: '2025-02-27 07:15',
+    title: 'let the infighting begin',
+    image: {
+      link: '',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NIEXH3DPFVCS7AYZXMQ55HB5Y4.JPG&w=916',
+      alt: 'brave americans standing up for what is right',
+      caption: 'brave americans standing up for what is right',
+    },
+    body: "<p>Musk tried to **force 2.3 million federal employees to justify their existence** via email, only for the Trump administration to **quietly tell agencies to ignore him.** The result? **Mass confusion, TSA delays, and government workers scrambling to write bullet points instead of doing their jobs.** Meanwhile, HUD offices are apparently **looping AI-generated videos of Trump sucking Musk’s toes.** Government efficiency at its finest.</p>",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/dc-md-va/2025/02/24/musk-email-government-confusion/',
+        linkText: "Trump administration tells agencies they can ignore Musk order on email reply",
+      },
+    ],
+  },
+  {
+    id: '344',
+    sort_id: '344',
+    categories: [TRUMPS_AMERICA, RACISM],
+    faicon: 'bomb',
+    datetime: '2025-02-27 07:06',
+    title: 'trump clears the way to commit war crimes with us arms',
+    image: {
+      link: '',
+      src: 'https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/I5CJWJPKCO26MYEEHY3K3WLDZU_size-normalized.jpg&w=916',
+      alt: 'corrupt pieces of shit',
+      caption: 'corrupt pieces of shit',
+    },
+    body: "<p>Trump just **scrapped a rule that stopped U.S. allies from using American weapons to commit war crimes**, because apparently **even the bare minimum of accountability was too much to ask.** Now, Israel and others can **bomb civilians with zero oversight**, all in the name of “America First.” Hope those “economic considerations” were worth it.</p>",
+    links: [
+      {
+        href: 'https://www.washingtonpost.com/national-security/2025/02/24/trump-israel-gaza-us-weapons/',
+        linkText: "Trump repeals Biden directive linking U.S. arms to human rights",
+      },
+    ],
+  },
+  {
+    id: '343',
+    sort_id: '343',
+    categories: [TRUMPS_AMERICA],
+    faicon: 'hexagon-nodes',
+    datetime: '2025-02-27 07:01',
+    title: 'even the ais know trump and musk are a pair of lying cunts',
+    image: {
+      link: '',
+      src: 'https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25732434/DCD_Trump_Elon.jpg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=750',
+      alt: 'two of the whiniest crybaby little bitches to ever walk the earth',
+      caption: 'two of the whiniest crybaby little bitches to ever walk the earth',
+    },
+    body: "<p>Grok, Musk’s **\"maximally truth-seeking\"** AI, briefly refused to deny that **Musk and Trump spread misinformation**—which, of course, was **immediately blamed on a rogue ex-OpenAI employee.** Meanwhile, Musk’s team had already **stepped in** to prevent the chatbot from suggesting that **Musk and Trump deserve the death penalty.** So much for that whole \"understanding the universe\" thing. Grok also says bernie sanders is the best candidate right now so he's no dummy</p>",
+    links: [
+      {
+        href: 'https://www.theverge.com/news/618109/grok-blocked-elon-musk-trump-misinformation',
+        linkText: "Grok blocked results saying Musk and Trump ‘spread misinformation’",
+      },
+    ],
+  },
+  {
+    id: '342',
+    sort_id: '342',
+    categories: [MONEY, FULL_STUPID, ANTI_IMMIGRATION],
+    faicon: 'person-military-rifle',
+    datetime: '2025-02-27 06:51',
+    title: 'president dumbshit sends thousands of troops to the border to cull the "invassion", but theyre just sitting around not doing shit cuz there is no invasion',
+    image: {
+      link: '',
+      src: 'https://archive.ph/aloVg/7469ac75cbca7e0e18e76611329c0fb2a6c181ca.avif',
+      alt: 'border patrol agents going fishing for donuts',
+      caption: 'border patrol agents going fishing for donuts',
+    },
+    body: "<p>Trump **deployed thousands of troops to the border** for a **crisis that doesn’t exist**, and now they’re **sitting around collecting six-figure salaries** to do **absolutely nothing**—except maybe boost the local bar economy. Meanwhile, asylum is **shut down entirely**, but sure, let’s keep paying for military helicopters to **patrol empty fields** for the sake of “tough of looking like a tough guy.” even though hes 350lbs doesnt exercise wears clown make up and destroys big macs</p>",
+    links: [
+      {
+        href: 'https://archive.ph/2025.02.23-201528/https://www.wsj.com/us-news/thousands-of-troops-guard-quiet-texas-border-towns-0d98242a',
+        linkText: "Thousands of Troops Guard Quiet Texas Border Towns",
+      },
+    ],
+  },
+  {
+    id: '341',
+    sort_id: '341',
+    categories: [AWFUL_NOMINATIONS, FULL_STUPID],
+    faicon: 'poo',
+    datetime: '2025-02-27 06:49',
+    title: 'trump boasts about conservative wins in germany, but german conservatives remember the nazis and back away from their friendship with the us',
+    image: {
+      link: '',
+      src: 'https://ichef.bbci.co.uk/news/1024/cpsprodpb/5557/live/2c354d00-f254-11ef-896e-d7e7fb1719a4.jpg.webp',
+      alt: 'dan bongino getting ready to go get his bukkake session in',
+      caption: 'dan bongino getting ready to go get his bukkake session in',
+    },
+    body: "<p>Trump just put **conspiracy-peddling podcaster Dan Bongino** in charge of FBI operations—because apparently **actual law enforcement experience** is for suckers. Bongino, best known for **losing multiple elections and “owning the libs” online**, now gets to run an agency he’s spent years attacking. Meanwhile, his boss, Kash Patel, has also **never worked for the FBI**, but who needs qualifications when you’ve got **blind loyalty to Trump?**</p>",
+    links: [
+      {
+        href: 'https://www.bbc.com/news/articles/cpwd2qrn1e2o',
+        linkText: "Trump names podcaster Dan Bongino as deputy FBI director",
+      },
+    ],
+  },
+  {
+    id: '340',
+    sort_id: '340',
+    categories: [NAZI, FASCISM, FULL_STUPID, TRUMPS_AMERICA],
+    faicon: 'poo',
+    datetime: '2025-02-27 06:40',
+    title: 'trump boasts about conservative wins in germany, but german conservatives remember the nazis and back away from their friendship with the us',
+    image: {
+      link: '',
+      src: 'https://www.politico.eu/cdn-cgi/image/width=1024,quality=80,onerror=redirect,format=auto/wp-content/uploads/2025/02/23/GettyImages-2200971827-scaled.jpg',
+      alt: 'german pm friedrich merz',
+      caption: 'german pm friedrich merz',
+    },
+    body: "<p>Germany’s likely next leader **just declared Europe’s 80-year alliance with the U.S. dead**, because apparently **cozying up to Putin and gutting NATO** was a bit of a red flag. Merz now wants to **build a European defense system**—because when Trump called Zelenskyy a dictator and **threatened to pull U.S. troops**, it became clear that **America’s foreign policy is now a Musk-endorsed dumpster fire.**</p>",
+    links: [
+      {
+        href: 'https://www.politico.eu/article/friedrich-merz-germany-election-united-states-donald-trump-nato/',
+        linkText: "Germany’s Merz vows ‘independence’ from Trump’s America, warning NATO may soon be dead",
+      },
+    ],
+  },
+  {
+    id: '339',
+    sort_id: '339',
+    categories: [FULL_STUPID, ANTI_SCIENCE],
+    faicon: 'flask',
+    datetime: '2025-02-27 06:36',
+    title: 'theyre asking people they fired to come back, AGAIN, just proving these moreons have no clue what theyre doing',
+    image: {
+      link: '',
+      src: 'https://www.reuters.com/resizer/v2/GB6P3DYEEZIA7OLTAVM66R2KUI.jpg?auth=3e595724993b41016851ccc57d1046c00e44ad2c488c5bb3cc4c18044892d5bf&width=640&quality=80',
+      alt: 'fda sign',
+      caption: 'fda sign',
+    },
+    body: "<p>After **firing over 1,000 FDA scientists**, including those reviewing **Elon Musk’s brain chip company**, the administration is now **begging them to come back**—because it turns out gutting the agency that ensures **food, drugs, and medical devices are safe** was a bad idea. But hey, at least Musk’s **$250 million donation** to Trump’s campaign wasn’t wasted on efficiency or competence.</p>",
+    links: [
+      {
+        href: 'https://www.reuters.com/world/us/us-fda-asks-fired-scientists-return-including-some-reviewing-musks-neuralink-2025-02-22/',
+        linkText: "US FDA asks fired scientists to return, including some reviewing Musk’s Neuralink",
+      },
+    ],
+  },
   {
     id: '338',
     sort_id: '338',
