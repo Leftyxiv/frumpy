@@ -1,0 +1,35 @@
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.share-icon {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1); /* Darker background */
+  color: #a0a0a0; /* Softer default color */
+  transition: all 0.2s ease;
+}
+
+.share-icon:hover {
+  background: rgba(255, 255, 255, 0.2); /* Slightly lighter on hover */
+  color: #ffffff; /* Bright white on hover */
+  transform: translateY(-2px);
+}
+
+/* Specific colors for each social platform on hover */
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-facebook:hover {
+  color: #4267B2;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.fa-link:hover {
+  color: #00ff88;
+}

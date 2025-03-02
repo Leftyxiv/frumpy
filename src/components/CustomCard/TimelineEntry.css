@@ -1,0 +1,120 @@
+.entry-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-top: 1px solid #eaeaea;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.share-icon {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: #f5f5f5;
+  transition: all 0.2s ease;
+}
+
+.share-icon:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.bookmark-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #666;
+  transition: color 0.2s ease;
+}
+
+.bookmark-btn.bookmarked {
+  color: var(--primary-color);
+}
+
+.read-more-btn {
+  background: none;
+  border: none;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 0.5rem 0;
+  font-weight: 500;
+}
+
+.entry-body {
+  max-height: 200px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.entry-body.expanded {
+  max-height: none;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.share-icon {
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1); /* Darker background */
+  color: #a0a0a0; /* Softer default color */
+  transition: all 0.2s ease;
+}
+
+.share-icon:hover {
+  background: rgba(255, 255, 255, 0.2); /* Slightly lighter on hover */
+  color: #ffffff; /* Bright white on hover */
+  transform: translateY(-2px);
+}
+
+/* Specific colors for each social platform on hover */
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-facebook:hover {
+  color: #4267B2;
+}
+
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.fa-link:hover {
+  color: #00ff88;
+} 
+
+.entry-links {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.entry-link {
+  display: block;
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.entry-link:hover {
+  text-decoration: underline;
+}
+
+.entry-link:last-child {
+  margin-bottom: 0;
+}
+
+.entry-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  /* Remove the border-top since we're using border-bottom on entry-links */
+}

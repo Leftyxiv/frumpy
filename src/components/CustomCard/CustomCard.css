@@ -81,3 +81,32 @@
   font-size: 1.5em; /* Adjust size as needed */
   /* Optional: Add additional styles if necessary */
 }
+
+.entry-title-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.entry-title-link:hover h3 {
+  color: var(--primary-color);
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.permalink {
+  color: #a0a0a0;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
+}
+
+.permalink:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  transform: translateY(-2px);
+}

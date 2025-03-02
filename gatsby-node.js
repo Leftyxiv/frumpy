@@ -14,14 +14,33 @@ const entries3 = require(`./content/entries3.js`);
  * @type {import('gatsby').GatsbyNode['createPages']}
  */
 exports.createPages = async ({ actions }) => {
-  const { createPage } = actions
-  createPage({
-    path: "/using-dsg",
-    component: require.resolve("./src/templates/using-dsg.js"),
-    context: {},
-    defer: true,
-  })
-}
+  const { createPage } = actions;
+  
+  // Using the already sorted entries from earlier in the file
+  const entriesToMap = [...(await entries), ...(await entries2), ...(await entries3)]
+    .sort((a, b) => {
+      // Parse the datetime strings into Date objects
+      const dateA = new Date(a.datetime.replace(' ', 'T'));
+      const dateB = new Date(b.datetime.replace(' ', 'T'));
+      // Sort in descending order (most recent first)
+      return dateB - dateA;
+    });
+
+  console.log('Creating pages with these entries:', entriesToMap.map(e => e.id)); // Debug log
+  
+  entriesToMap.forEach(entry => {
+    const path = `/post/${entry.id}/`;
+    console.log('Creating page at path:', path); // Debug log
+    
+    createPage({
+      path: path,
+      component: require.resolve('./src/templates/post.js'),
+      context: {
+        post: entry,
+      },
+    });
+  });
+};
 
 exports.sourceNodes = async ({ actions, createNodeId, reporter }) => {
   const { createNode } = actions;
@@ -41,12 +60,12 @@ exports.sourceNodes = async ({ actions, createNodeId, reporter }) => {
 
   reporter.info(`Starting to source ${entriesToMap.length} entries...`);
 
-  for (const [index, entry] of entriesToMap.entries()) {
-    const nodeId = createNodeId(`entries-${entry.id}`);
-
+  for (const entry of entriesToMap) {
+    // Use the original ID instead of creating a new one
     const entryNode = {
       ...entry,
-      id: nodeId,
+      // Keep the original ID
+      id: entry.id,
       parent: null,
       children: [],
       internal: {
@@ -58,15 +77,10 @@ exports.sourceNodes = async ({ actions, createNodeId, reporter }) => {
       },
     };
 
-    try {
-      createNode(entryNode);
-    } catch (error) {
-      reporter.warn(`Failed to create node for entry ${entry.id}: ${error.message}`);
-      continue;
-    }
+    createNode(entryNode);
 
-    if ((index + 1) % 500 === 0) {
-      reporter.info(`Processed ${index + 1}/${entriesToMap.length} entries...`);
+    if ((entriesToMap.indexOf(entry) + 1) % 500 === 0) {
+      reporter.info(`Processed ${entriesToMap.indexOf(entry) + 1}/${entriesToMap.length} entries...`);
     }
   }
 

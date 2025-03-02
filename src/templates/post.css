@@ -1,0 +1,96 @@
+.single-post-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Override timeline styles for single post view */
+.single-post-container .vertical-timeline-element {
+  margin: 0;
+}
+
+.timeline-container {
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.back-nav {
+  padding: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.back-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.back-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(-4px);
+}
+
+.single-post-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Make the timeline element full width in single post view */
+.single-post-wrapper .vertical-timeline.vertical-timeline--two-columns {
+  width: 100%;
+  max-width: none;
+}
+
+/* Ensure consistent dark theme */
+.vertical-timeline-element-content {
+  background: #333333;
+  color: #fff;
+}
+
+/* Make the single post larger */
+.single-post-wrapper .vertical-timeline-element-content {
+  padding: 2rem;
+}
+
+/* Override the timeline line for single post */
+.single-post-wrapper .vertical-timeline::before {
+  display: none;
+}
+
+/* Center the single post */
+.single-post-wrapper .vertical-timeline-element {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+/* Override any Gatsby default styles */
+body {
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
+
+/* Make the timeline element full width in single post view */
+.vertical-timeline.vertical-timeline--two-columns {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Ensure consistent dark theme */
+.vertical-timeline-element-content {
+  background: #333333;
+  color: #fff;
+} 
